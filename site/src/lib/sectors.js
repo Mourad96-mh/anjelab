@@ -23,11 +23,11 @@ export const SECTORS = [
   {
     slug: "cosmetique",
     name: "Cosmétique",
-    short: "Agents de pH, séquestrants et ingrédients pour la formulation cosmétique.",
+    short: "Argiles naturelles, agents de pH et ingrédients pour la formulation cosmétique.",
     icon: "cosmetique",
     intro:
-      "ANJELAB développe une offre de matières premières destinées aux fabricants de produits cosmétiques et d'hygiène : agents de pH, séquestrants, conservateurs et ingrédients fonctionnels. Chaque référence est proposée avec sa documentation technique et réglementaire afin de faciliter vos formulations et vos démarches de conformité. Cette gamme est en cours d'élargissement : contactez-nous pour connaître les disponibilités.",
-    seoTitle: "Matières premières cosmétiques au Maroc",
+      "ANJELAB fournit aux fabricants de produits cosmétiques et d'hygiène une gamme d'argiles naturelles en poudre — verte, blanche, kaolin, rouge, rose, jaune, bleu-vert, noire et beige — pour les masques et les soins du visage, du corps et des cheveux, ainsi que des agents de pH, séquestrants et ingrédients fonctionnels. Chaque référence est proposée avec sa documentation technique et réglementaire afin de faciliter vos formulations et vos démarches de conformité.",
+    seoTitle: "Argiles et matières premières cosmétiques au Maroc",
   },
 ];
 

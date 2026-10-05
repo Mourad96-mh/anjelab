@@ -2,8 +2,8 @@ import { readFile } from "node:fs/promises";
 import Category from "../models/Category.js";
 import Product from "../models/Product.js";
 
-// Loads src/data/catalogue.json (the 25 textile-line products researched from
-// the client's list) into MongoDB. Idempotent: upserts by slug, so it can be
+// Loads src/data/catalogue.json (the textile-line products researched from
+// the client's list, plus the cosmetic clays) into MongoDB. Idempotent: upserts by slug, so it can be
 // re-run without duplicating anything and without touching products the
 // client created in the dashboard.
 
@@ -27,6 +27,8 @@ const FEATURED = new Set([
   "azurant-optique-bleu",
   "fixateur-colorants",
   "percarbonate-de-sodium",
+  "argile-verte",
+  "kaolin-cosmetique",
 ]);
 
 export async function seedCatalogue({ reset = false } = {}) {

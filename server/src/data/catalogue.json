@@ -13,7 +13,7 @@
     {
       "slug": "cosmetique",
       "name": "Cosmétique",
-      "intro": "ANJELAB développe une offre de matières premières destinées aux fabricants de produits cosmétiques et d'hygiène : agents de pH, séquestrants, conservateurs et ingrédients fonctionnels. Chaque référence est proposée avec sa documentation technique et réglementaire afin de faciliter vos formulations et vos démarches de conformité. Cette gamme est en cours d'élargissement : contactez-nous pour connaître les disponibilités."
+      "intro": "ANJELAB fournit aux fabricants de produits cosmétiques et d'hygiène une gamme d'argiles naturelles en poudre — verte, blanche, kaolin, rouge, rose, jaune, bleu-vert, noire et beige — pour les masques et les soins du visage, du corps et des cheveux, ainsi que des agents de pH, séquestrants et ingrédients fonctionnels. Chaque référence est proposée avec sa documentation technique et réglementaire afin de faciliter vos formulations et vos démarches de conformité."
     }
   ],
   "categories": [
@@ -64,6 +64,12 @@
       "name": "Apprêts & protection",
       "sector": "ennoblissement-textile",
       "description": "Émulsions d'apprêt pour la finition des tissus et inhibiteurs de corrosion pour la protection des équipements."
+    },
+    {
+      "slug": "argiles-cosmetiques",
+      "name": "Argiles cosmétiques",
+      "sector": "cosmetique",
+      "description": "Argiles naturelles en poudre — verte, blanche, kaolin, rouge, rose, jaune, bleu-vert, noire et beige — pour les masques, soins du visage, du corps et des cheveux."
     }
   ],
   "products": [
@@ -641,6 +647,213 @@
       "physicalForm": "Liquide",
       "packaging": "Bidons 25 kg, fûts 200 kg (à confirmer)",
       "seoKeywords": ["inhibiteur de corrosion", "anticorrosion laverie", "protection machines blanchisserie", "inhibiteur corrosion industriel"]
+    },
+    {
+      "slug": "argile-verte",
+      "name": "Argile verte",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile verte en poudre, la plus absorbante de la gamme : purifie les peaux grasses et mixtes et régule l'excès de sébum.",
+      "description": "L'argile verte est une argile riche en illite et/ou montmorillonite, colorée par des oxydes de fer et du magnésium. Sa forte capacité d'absorption en fait l'ingrédient de référence des masques purifiants : elle capte le sébum et les impuretés, resserre visuellement les pores et matifie. On l'utilise aussi dans les soins des cheveux gras et les cataplasmes cosmétiques. Pour les peaux sensibles, on la réserve à des formules peu concentrées ou on lui préfère une argile plus douce (blanche, rose).",
+      "applications": [
+        "Masques purifiants visage",
+        "Soins des peaux grasses et à imperfections",
+        "Shampooings et masques pour cheveux gras",
+        "Enveloppements et soins corps"
+      ],
+      "benefits": [
+        "Absorbe le sébum et les impuretés",
+        "Effet matifiant et purifiant",
+        "Riche en minéraux",
+        "Ingrédient 100 % minéral"
+      ],
+      "chemicalNature": "Argile naturelle. INCI : Illite ou Montmorillonite selon le gisement (CAS 12173-60-3 / 1318-93-0) — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur verte",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile verte", "argile verte Maroc", "argile cosmétique", "matière première cosmétique", "argile verte illite", "argile verte montmorillonite"]
+    },
+    {
+      "slug": "argile-blanche",
+      "name": "Argile blanche",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile blanche douce et peu desséchante, adaptée aux peaux sèches, sensibles et réactives.",
+      "description": "L'argile blanche, à dominante de kaolinite, est la plus douce des argiles cosmétiques. Moins absorbante que l'argile verte, elle nettoie et adoucit sans dessécher, ce qui la destine aux peaux sèches, sensibles et matures. Sa couleur neutre permet de l'intégrer dans des masques, des poudres et des soins corps sans modifier la teinte du produit fini.",
+      "applications": [
+        "Masques doux pour peaux sèches et sensibles",
+        "Soins bébé et peaux réactives",
+        "Poudres et talcs corporels",
+        "Gommages et nettoyants doux"
+      ],
+      "benefits": [
+        "Nettoie en douceur sans dessécher",
+        "Apaise et adoucit la peau",
+        "Teinte neutre, facile à formuler",
+        "Convient aux peaux sensibles"
+      ],
+      "chemicalNature": "Argile naturelle à dominante de kaolinite. INCI : Kaolin (CAS 1332-58-7) — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur blanche",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile blanche", "argile blanche Maroc", "argile cosmétique", "matière première cosmétique", "argile blanche peau sensible"]
+    },
+    {
+      "slug": "kaolin-cosmetique",
+      "name": "Argile blanche kaolin (grade formulation)",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Kaolin micronisé de grade cosmétique pour la formulation : poudres, fonds de teint, déodorants, crèmes et masques.",
+      "description": "Le kaolin est une argile blanche composée essentiellement de kaolinite (silicate d'aluminium hydraté). Purifié et finement micronisé, il est utilisé par les fabricants comme charge minérale : il apporte toucher doux, opacité et effet matifiant aux poudres compactes et libres, fonds de teint, déodorants, crèmes et masques. Il absorbe l'humidité et le sébum et améliore l'adhérence des poudres sur la peau.",
+      "applications": [
+        "Poudres libres et compactes, fonds de teint",
+        "Déodorants et poudres corporelles",
+        "Crèmes et émulsions matifiantes",
+        "Masques et soins visage"
+      ],
+      "benefits": [
+        "Toucher doux et poudré",
+        "Opacifiant et matifiant",
+        "Absorbe l'humidité et le sébum",
+        "Charge minérale stable et inerte"
+      ],
+      "chemicalNature": "Silicate d'aluminium hydraté (kaolinite). INCI : Kaolin, CAS 1332-58-7 — grade et blancheur à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur blanche",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile blanche kaolin (grade formulation)", "argile blanche kaolin (grade formulation) Maroc", "argile cosmétique", "matière première cosmétique", "kaolin", "kaolin cosmétique Maroc", "Kaolin INCI"]
+    },
+    {
+      "slug": "argile-rouge",
+      "name": "Argile rouge",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile rouge riche en oxydes de fer : stimule l'éclat des peaux ternes et convient aux peaux sensibles à rougeurs.",
+      "description": "L'argile rouge doit sa couleur à sa teneur élevée en oxydes de fer. Douce et peu desséchante, elle est appréciée dans les masques « coup d'éclat » et les soins des peaux ternes, fatiguées ou sujettes aux rougeurs. Elle s'utilise aussi dans les soins des cheveux colorés aux tons chauds et dans les enveloppements corps.",
+      "applications": [
+        "Masques éclat pour peaux ternes",
+        "Soins des peaux sensibles à rougeurs",
+        "Enveloppements corps",
+        "Soins capillaires tons chauds"
+      ],
+      "benefits": [
+        "Ravive l'éclat du teint",
+        "Douce pour les peaux sensibles",
+        "Riche en oxydes de fer",
+        "Teinte naturelle chaude"
+      ],
+      "chemicalNature": "Argile naturelle riche en oxydes de fer. INCI : Illite (and) Iron Oxides ou Kaolin (and) Iron Oxides selon la référence — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur rouge brique",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile rouge", "argile rouge Maroc", "argile cosmétique", "matière première cosmétique", "argile rouge oxyde de fer"]
+    },
+    {
+      "slug": "argile-rose",
+      "name": "Argile rose",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Mélange d'argile blanche et d'argile rouge : douceur et éclat pour les peaux sensibles, sèches et délicates.",
+      "description": "L'argile rose est généralement un mélange d'argile blanche (kaolin) et d'argile rouge. Elle réunit la douceur de la première et l'effet éclat de la seconde, ce qui en fait l'argile de choix pour les peaux sensibles, fines ou sèches. Elle est très utilisée dans les masques visage, les soins bébé et les produits d'hygiène douce.",
+      "applications": [
+        "Masques visage peaux sensibles",
+        "Soins éclat et unifiants",
+        "Nettoyants doux",
+        "Soins des peaux sèches et fines"
+      ],
+      "benefits": [
+        "Très douce, peu desséchante",
+        "Unifie et illumine le teint",
+        "Adaptée aux peaux délicates",
+        "Couleur rosée naturelle"
+      ],
+      "chemicalNature": "Mélange d'argiles. INCI : Kaolin (and) Illite (and) Iron Oxides — composition et proportions à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur rose",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile rose", "argile rose Maroc", "argile cosmétique", "matière première cosmétique", "argile rose peau sensible"]
+    },
+    {
+      "slug": "argile-jaune",
+      "name": "Argile jaune",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile jaune reminéralisante et tonifiante pour les peaux ternes, fatiguées ou asphyxiées.",
+      "description": "L'argile jaune, colorée par des oxydes et hydroxydes de fer, est réputée tonifiante et reminéralisante. Assez douce, elle convient aux peaux normales à mixtes, ternes ou fatiguées, qu'elle nettoie tout en ravivant l'éclat. Elle trouve sa place dans les masques visage, les soins corps et les produits pour le cuir chevelu.",
+      "applications": [
+        "Masques tonifiants visage",
+        "Soins des peaux ternes et fatiguées",
+        "Soins corps reminéralisants",
+        "Soins du cuir chevelu"
+      ],
+      "benefits": [
+        "Tonifie et reminéralise",
+        "Nettoie en douceur",
+        "Ravive l'éclat",
+        "Convient aux peaux normales à mixtes"
+      ],
+      "chemicalNature": "Argile naturelle colorée par des oxydes de fer. INCI : Illite ou Kaolin selon le gisement — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur jaune ocre",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile jaune", "argile jaune Maroc", "argile cosmétique", "matière première cosmétique"]
+    },
+    {
+      "slug": "argile-bleu-verte",
+      "name": "Argile bleu-vert",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile bleu-vert minéralisante et purifiante pour les soins détox du visage et du corps.",
+      "description": "L'argile bleu-vert est une argile à dominante d'illite dont la teinte provient de sa composition minérale (fer réduit, magnésium). Purifiante sans être aussi absorbante que l'argile verte, elle est utilisée dans les masques « détox », les soins des peaux mixtes et les enveloppements corps.",
+      "applications": [
+        "Masques détox visage",
+        "Soins des peaux mixtes",
+        "Enveloppements et bains d'argile",
+        "Soins capillaires purifiants"
+      ],
+      "benefits": [
+        "Purifie et minéralise",
+        "Moins desséchante que l'argile verte",
+        "Teinte originale pour la formulation",
+        "Ingrédient 100 % minéral"
+      ],
+      "chemicalNature": "Argile naturelle. INCI : Illite (CAS 12173-60-3) — origine et composition à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur bleu-vert",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile bleu-vert", "argile bleu-vert Maroc", "argile cosmétique", "matière première cosmétique", "argile bleue"]
+    },
+    {
+      "slug": "argile-noire",
+      "name": "Argile noire",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile noire très purifiante, riche en minéraux, pour les masques détox des peaux grasses et urbaines.",
+      "description": "L'argile noire, d'origine volcanique ou sédimentaire riche en matière organique, est très appréciée pour les masques détox. Elle absorbe le sébum et les impuretés, affine le grain de peau et apporte une couleur noire naturelle recherchée dans les soins « charbon » et les savons.",
+      "applications": [
+        "Masques détox visage",
+        "Soins des peaux grasses et urbaines",
+        "Savons et nettoyants",
+        "Soins corps purifiants"
+      ],
+      "benefits": [
+        "Fort pouvoir purifiant",
+        "Affine le grain de peau",
+        "Couleur noire naturelle",
+        "Riche en minéraux"
+      ],
+      "chemicalNature": "Argile naturelle. INCI selon l'origine (ex. Illite, Montmorillonite, Moroccan Lava Clay) — à confirmer avec le fournisseur. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur noire à gris anthracite",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile noire", "argile noire Maroc", "argile cosmétique", "matière première cosmétique", "argile noire détox"]
+    },
+    {
+      "slug": "argile-beige",
+      "name": "Argile beige",
+      "category": "argiles-cosmetiques",
+      "shortDescription": "Argile beige douce et polyvalente pour tous types de peaux, en masque, en soin corps ou en formulation.",
+      "description": "L'argile beige est une argile douce et polyvalente, au pouvoir absorbant modéré. Elle convient à tous les types de peaux et s'intègre facilement dans les masques, les soins corps et les produits d'hygiène, sans teinter fortement le produit fini.",
+      "applications": [
+        "Masques visage tous types de peaux",
+        "Soins et enveloppements corps",
+        "Savons et nettoyants",
+        "Soins capillaires"
+      ],
+      "benefits": [
+        "Douce et polyvalente",
+        "Absorbance modérée",
+        "Teinte neutre chaude",
+        "Ingrédient 100 % minéral"
+      ],
+      "chemicalNature": "Argile naturelle. INCI : Kaolin ou Illite selon le gisement — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer",
+      "physicalForm": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur beige",
+      "packaging": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)",
+      "seoKeywords": ["argile beige", "argile beige Maroc", "argile cosmétique", "matière première cosmétique"]
     }
   ]
 }

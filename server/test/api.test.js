@@ -60,11 +60,11 @@ describe("seed", () => {
   test("is idempotent", async () => {
     const first = await seedCatalogue();
     const second = await seedCatalogue();
-    assert.equal(first.created, 25);
+    assert.equal(first.created, 34);
     assert.equal(second.created, 0);
     const res = await request(app).get("/api/catalogue");
-    assert.equal(res.body.products.length, 25);
-    assert.equal(res.body.categories.length, 8);
+    assert.equal(res.body.products.length, 34);
+    assert.equal(res.body.categories.length, 9);
   });
 
   test("base chemicals are listed in several sectors", async () => {
@@ -231,6 +231,6 @@ describe("quote requests (leads)", () => {
 test("stats summarise the dashboard", async () => {
   const res = await authed(request(app).get("/api/stats"));
   assert.equal(res.status, 200);
-  assert.equal(res.body.products, 25);
+  assert.equal(res.body.products, 34);
   assert.equal(res.body.leads, 1);
 });

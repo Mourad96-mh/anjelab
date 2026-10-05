@@ -1,0 +1,35 @@
+// Mirror of server/src/config/sectors.js (slugs MUST match), plus the
+// marketing copy shown on the site.
+
+export const SECTORS = [
+  {
+    slug: "ennoblissement-textile",
+    name: "Ennoblissement textile",
+    short: "Laverie industrielle, délavage denim, blanchisserie et pressing.",
+    icon: "textile",
+    intro:
+      "Pour les laveries industrielles, les ateliers de délavage denim, les blanchisseries et les pressings, ANJELAB fournit les matières premières qui accompagnent chaque étape du traitement : enzymes de délavage et de biopolissage, colorants et auxiliaires de teinture, adoucissants et silicones, azurants optiques, produits d'impression et produits chimiques de base. Notre objectif : des bains maîtrisés, un rendu régulier d'un lot à l'autre et un toucher qui valorise le vêtement fini.",
+    seoTitle: "Produits chimiques pour laverie, blanchisserie et pressing au Maroc",
+  },
+  {
+    slug: "detergence",
+    name: "Détergence",
+    short: "Alcalis, oxydants, séquestrants et acides pour lessives et détergents.",
+    icon: "detergence",
+    intro:
+      "La formulation de lessives, de détergents industriels et de produits d'entretien repose sur des matières premières fiables : alcalis, agents de blanchiment oxygénés, séquestrants, acides et tensioactifs. ANJELAB approvisionne les fabricants et les utilisateurs professionnels marocains en produits de base de qualité constante, avec un accompagnement technique pour choisir la référence adaptée à chaque procédé.",
+    seoTitle: "Matières premières pour la détergence au Maroc",
+  },
+  {
+    slug: "cosmetique",
+    name: "Cosmétique",
+    short: "Agents de pH, séquestrants et ingrédients pour la formulation cosmétique.",
+    icon: "cosmetique",
+    intro:
+      "ANJELAB développe une offre de matières premières destinées aux fabricants de produits cosmétiques et d'hygiène : agents de pH, séquestrants, conservateurs et ingrédients fonctionnels. Chaque référence est proposée avec sa documentation technique et réglementaire afin de faciliter vos formulations et vos démarches de conformité. Cette gamme est en cours d'élargissement : contactez-nous pour connaître les disponibilités.",
+    seoTitle: "Matières premières cosmétiques au Maroc",
+  },
+];
+
+export const sectorBySlug = (slug) => SECTORS.find((s) => s.slug === slug);
+export const sectorName = (slug) => sectorBySlug(slug)?.name || slug;

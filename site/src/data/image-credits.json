@@ -1,0 +1,303 @@
+{
+ "site": {
+  "hero": {
+   "title": "Industrial laundry linen press, exit",
+   "artist": "Required attribution: Samuli Lintula with Turun Tekstiilihuolto Oy",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Industrial_laundry_linen_press,_exit.jpg",
+   "width": 2000,
+   "height": 1000,
+   "modified": true
+  },
+  "laundry": {
+   "title": "Industrial laundry sorting",
+   "artist": "Required attribution: Samuli Lintula with Turun Tekstiilihuolto Oy",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Industrial_laundry_sorting.jpg",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  },
+  "logistics": {
+   "title": "Intermediate bulk containers",
+   "artist": "Cjp24",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Intermediate_bulk_containers.jpg",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  },
+  "cosmetics": {
+   "title": "Close opened used tin DIY",
+   "artist": "",
+   "license": "CC0 1.0",
+   "page": "https://www.rawpixel.com/image/11524197/photo-image-texture-public-domain-products",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  },
+  "lab": {
+   "title": "Laboratory Glassware (Medilab Exports Consortium)",
+   "artist": "PhotoCave",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Laboratory_Glassware_(Medilab_Exports_Consortium).jpg",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  },
+  "dyeing": {
+   "title": "Dyeing machines",
+   "artist": "RAJIVVASUDEV",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dyeing_machines.jpg",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  },
+  "textile": {
+   "title": "Charvet Place Vendôme third floor 04 (cropped)",
+   "artist": "Photo Claude TRUONG-NGOC",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Charvet_Place_Vend%C3%B4me_third_floor_04_(cropped).jpg",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  },
+  "denim": {
+   "title": "Denim jeans wrinkled",
+   "artist": "Deb Tremper",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Denim_jeans_wrinkled.jpg",
+   "width": 1600,
+   "height": 1000,
+   "modified": true
+  }
+ },
+ "products": {
+  "antipilling": {
+   "title": "Cashmere Cable Knit",
+   "artist": "stolte-sawa",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/8420299@N07/4743135028",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "enzyme-acide": {
+   "title": "Denim Texture 20",
+   "artist": "SixRevisions",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/31288116@N02/3319700585",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "enzyme-neutre-stone-wash": {
+   "title": "Short Denim",
+   "artist": "Bruno Nascimento",
+   "license": "CC0 1.0",
+   "page": "https://stocksnap.io/photo/short-denim-OTB7CWM64K",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "colorants-noirs": {
+   "title": "IHSH-27bk",
+   "artist": "section215",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/25646902@N00/5699568568",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "colorants-marron": {
+   "title": "Textile Dyes - Museo de Artes Populares - Patzcuaro - Michoacan - Mexico",
+   "artist": "Adam Jones, Ph.D. - Global Photo Archive",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/41000732@N04/19931659333",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "colorants-bleus": {
+   "title": "Pigment Berliner Blau",
+   "artist": "Saalebaer",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Pigment_Berliner_Blau.JPG",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "mouillant-non-ionique": {
+   "title": "Dyeing machine",
+   "artist": "RAJIVVASUDEV",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dyeing_machine.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "agent-unisson": {
+   "title": "Sjöllingstad IMG 3188 dyeing machine",
+   "artist": "Bjoertvedt",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sj%C3%B6llingstad_IMG_3188_dyeing_machine.JPG",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "fixateur-colorants": {
+   "title": "Rolls of fabric of multiple colors (181099191)",
+   "artist": "Daniel Aufgang",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Rolls_of_fabric_of_multiple_colors_(181099191).jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "adoucissant-cationique": {
+   "title": "Guest Room Towel (2283704709)",
+   "artist": "Marcus Quigmire from Florida, USA",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Guest_Room_Towel_(2283704709).jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "microemulsion-silicone": {
+   "title": "Chemical Reaction",
+   "artist": "katerha",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/8489692@N03/5703151566",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "azurant-optique-jaune": {
+   "title": "Stacks-of-gym-towels-on-wood-bench",
+   "artist": "Brandon.wiggins",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Stacks-of-gym-towels-on-wood-bench.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "azurant-optique-bleu": {
+   "title": "white shirts",
+   "artist": "ichigonotsukikage",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/27902937@N00/2460566811",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "adoucissant-hydrophile": {
+   "title": "Colorful Towels (Closeup)",
+   "artist": "Dmitri Popov",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Colorful_Towels_(Closeup).jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "edta": {
+   "title": "Lühuagong(II)",
+   "artist": "Leiem",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:L%C3%BChuagong(II).JPG",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "percarbonate-de-sodium": {
+   "title": "BeO sample",
+   "artist": "Leiem",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:BeO_sample.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "acide-citrique": {
+   "title": "Citronensäure",
+   "artist": "Renate90",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Citronens%C3%A4ure.JPG",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "acide-acetique": {
+   "title": "Science Class",
+   "artist": "Lokesh_Dhakar",
+   "license": "BY 2.0",
+   "page": "https://www.flickr.com/photos/52727389@N00/6767422267",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "fixateur-serigraphie-impression": {
+   "title": "Screen Printing machine",
+   "artist": "Romain Salomon",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Screen_Printing_machine.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "liant-serigraphie-impression": {
+   "title": "Fabric printing, Bikaner",
+   "artist": "Rick Bradley from Nashville, USA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Fabric_printing,_Bikaner.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "emulsion-apprets-textile": {
+   "title": "Water drop on fabric",
+   "artist": "Juan Francisco Jiménez Ortega",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Water_drop_on_fabric.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "inhibiteur-de-corrosion": {
+   "title": "Dry Pipe Supply Main",
+   "artist": "Mr pantswearer",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Dry_Pipe_Supply_Main.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "emulsion-silicone": {
+   "title": "Cream texture background",
+   "artist": "",
+   "license": "CC0 1.0",
+   "page": "https://www.rawpixel.com/image/5915411/image-background-texture-public-domain",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "carbonate-de-sodium": {
+   "title": "Siřičitan sodný vzorek",
+   "artist": "Milda 444",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Si%C5%99i%C4%8Ditan_sodn%C3%BD_vzorek.jpg",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  },
+  "metabisulfite-de-sodium": {
+   "title": "Sea Salt",
+   "artist": "Kirt Edblom",
+   "license": "BY-SA 2.0",
+   "page": "https://www.flickr.com/photos/27190564@N02/36244284575",
+   "width": 1200,
+   "height": 900,
+   "modified": true
+  }
+ }
+}

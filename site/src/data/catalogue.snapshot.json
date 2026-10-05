@@ -1,0 +1,1684 @@
+{
+ "sectors": [
+  {
+   "slug": "ennoblissement-textile",
+   "name": "Ennoblissement textile"
+  },
+  {
+   "slug": "detergence",
+   "name": "Détergence"
+  },
+  {
+   "slug": "cosmetique",
+   "name": "Cosmétique"
+  }
+ ],
+ "categories": [
+  {
+   "_id": "6abe5fb0a737a5e07259c79d",
+   "slug": "produits-chimiques-base",
+   "createdAt": "2026-10-01T13:27:12.458Z",
+   "description": "Alcalis, acides, agents de blanchiment oxygénés, réducteurs et séquestrants pour le textile, la blanchisserie et la formulation de détergents.",
+   "name": "Produits chimiques de base",
+   "order": 5,
+   "sector": "detergence",
+   "updatedAt": "2026-10-01T13:27:12.458Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c790",
+   "slug": "enzymes-delavage",
+   "createdAt": "2026-10-01T13:27:12.287Z",
+   "description": "Cellulases acides et neutres pour le stone wash, le délavage du denim et le biopolissage anti-boulochage des articles en coton.",
+   "name": "Enzymes & délavage",
+   "order": 0,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.287Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c795",
+   "slug": "colorants",
+   "createdAt": "2026-10-01T13:27:12.424Z",
+   "description": "Colorants noirs, marron et bleus pour la teinture et la reteinture de vêtements, du denim et des articles en fibres cellulosiques.",
+   "name": "Colorants",
+   "order": 1,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.424Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c797",
+   "slug": "auxiliaires-teinture",
+   "createdAt": "2026-10-01T13:27:12.448Z",
+   "description": "Mouillants, agents d'unisson et fixateurs qui sécurisent la pénétration, l'égalisation et la solidité des teintures.",
+   "name": "Auxiliaires de teinture",
+   "order": 2,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.448Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c799",
+   "slug": "adoucissants-silicones",
+   "createdAt": "2026-10-01T13:27:12.452Z",
+   "description": "Adoucissants cationiques et hydrophiles, émulsions et microémulsions de silicone pour un toucher doux, lisse ou gonflant.",
+   "name": "Adoucissants & silicones",
+   "order": 3,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.452Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c79b",
+   "slug": "azurants-optiques",
+   "createdAt": "2026-10-01T13:27:12.455Z",
+   "description": "Agents de blanchiment optique fluorescents qui ravivent les blancs et les teintes claires du linge et des textiles.",
+   "name": "Azurants optiques",
+   "order": 4,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.455Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c79f",
+   "slug": "impression-serigraphie",
+   "createdAt": "2026-10-01T13:27:12.461Z",
+   "description": "Liants et fixateurs pour l'impression pigmentaire et la sérigraphie textile.",
+   "name": "Impression & sérigraphie",
+   "order": 6,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.461Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7a1",
+   "slug": "appretes-protection",
+   "createdAt": "2026-10-01T13:27:12.463Z",
+   "description": "Émulsions d'apprêt pour la finition des tissus et inhibiteurs de corrosion pour la protection des équipements.",
+   "name": "Apprêts & protection",
+   "order": 7,
+   "sector": "ennoblissement-textile",
+   "updatedAt": "2026-10-01T13:27:12.463Z"
+  }
+ ],
+ "products": [
+  {
+   "_id": "6abe5fb0a737a5e07259c7a4",
+   "slug": "antipilling",
+   "applications": [
+    "Finition des tricots et articles en coton (t-shirts, sweats, molletons)",
+    "Biopolissage en laverie de confection (garment wash)",
+    "Traitement des mélanges coton/polyester sujets au boulochage",
+    "Préparation des articles avant teinture ou après lavage"
+   ],
+   "benefits": [
+    "Surface du tissu plus nette et plus lisse",
+    "Meilleure tenue de l'aspect au fil des lavages",
+    "Couleurs plus éclatantes par réduction du duvet",
+    "Toucher plus doux"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c790",
+    "slug": "enzymes-delavage",
+    "name": "Enzymes & délavage",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.468Z",
+   "description": "L'agent antipilling réduit la formation de bouloches (pilling) et de duvet à la surface des textiles. Selon la formulation, il agit par biopolissage enzymatique, qui élimine les microfibrilles en surface des fibres cellulosiques, ou par un apprêt qui renforce la cohésion des fibres. Le tissu garde une surface plus lisse et un aspect neuf plus longtemps.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/antipilling.webp",
+     "alt": "Agent anti-boulochage (antipilling) — photo d'illustration"
+    }
+   ],
+   "name": "Agent anti-boulochage (antipilling)",
+   "order": 0,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Agent antipilling pour limiter le boulochage et le duvet des articles en coton et mélanges, pour un aspect net et durable.",
+    "keywords": [
+     "antipilling textile",
+     "anti-boulochage",
+     "biopolissage coton",
+     "agent antipilling Maroc"
+    ]
+   },
+   "shortDescription": "Agent antipilling pour limiter le boulochage et le duvet des articles en coton et mélanges, pour un aspect net et durable.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Selon formulation : préparation enzymatique (cellulase) ou apprêt polymère — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide (typique)"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.484Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7a7",
+   "slug": "enzyme-acide",
+   "applications": [
+    "Délavage enzymatique du denim (effet stone wash)",
+    "Biopolissage des tissus et tricots en coton",
+    "Remplacement total ou partiel des pierres ponces",
+    "Traitement des articles en lin et viscose"
+   ],
+   "benefits": [
+    "Délavage rapide et fort contraste",
+    "Réduction ou suppression des pierres ponces et de l'usure des machines",
+    "Surface du tissu plus nette et toucher plus doux",
+    "Procédé plus propre (moins de boues abrasives)"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c790",
+    "slug": "enzymes-delavage",
+    "name": "Enzymes & délavage",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.488Z",
+   "description": "L'enzyme acide est une cellulase qui travaille en milieu acide (pH généralement ajusté avec un acide organique). Elle attaque superficiellement la cellulose du coton et décroche l'indigo de surface, ce qui produit un délavage marqué en un temps court. Elle est aussi utilisée en biopolissage pour éliminer le duvet des tissus cellulosiques.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/enzyme-acide.webp",
+     "alt": "Enzyme cellulase acide — photo d'illustration"
+    }
+   ],
+   "name": "Enzyme cellulase acide",
+   "order": 1,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Cellulase acide pour le délavage du denim et le biopolissage : effet stone wash rapide et contrasté, sans pierres ponces.",
+    "keywords": [
+     "enzyme acide denim",
+     "cellulase acide",
+     "délavage enzymatique",
+     "stone wash sans pierre"
+    ]
+   },
+   "shortDescription": "Cellulase acide pour le délavage du denim et le biopolissage : effet stone wash rapide et contrasté, sans pierres ponces.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Préparation enzymatique (cellulase), active en milieu acide"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide ou poudre selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.492Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7aa",
+   "slug": "enzyme-neutre-stone-wash",
+   "applications": [
+    "Stone wash et délavage du denim",
+    "Finitions vintage et effets usés contrôlés",
+    "Traitement en complément ou à la place des pierres ponces",
+    "Délavage d'articles en coton teints"
+   ],
+   "benefits": [
+    "Faible redéposition de l'indigo, blancs plus propres",
+    "Délavage régulier et facile à reproduire",
+    "Moindre perte de résistance du tissu",
+    "Moins de pierres ponces, moins d'usure des machines"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c790",
+    "slug": "enzymes-delavage",
+    "name": "Enzymes & délavage",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.494Z",
+   "description": "L'enzyme neutre est une cellulase active en milieu proche de la neutralité. Son action plus douce que celle des enzymes acides donne un délavage progressif et régulier, avec une faible redéposition de l'indigo (back-staining) sur les fils blancs de trame et les poches. Elle convient aux finitions où l'on recherche des contrastes propres et un aspect vintage maîtrisé.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/enzyme-neutre-stone-wash.webp",
+     "alt": "Enzyme cellulase neutre pour stone wash — photo d'illustration"
+    }
+   ],
+   "name": "Enzyme cellulase neutre pour stone wash",
+   "order": 2,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Cellulase neutre pour stone wash : délavage contrôlé du denim avec faible redéposition de l'indigo et contrastes nets.",
+    "keywords": [
+     "enzyme neutre stone wash",
+     "cellulase neutre",
+     "délavage denim",
+     "anti back-staining"
+    ]
+   },
+   "shortDescription": "Cellulase neutre pour stone wash : délavage contrôlé du denim avec faible redéposition de l'indigo et contrastes nets.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Préparation enzymatique (cellulase), active en milieu neutre"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide ou poudre selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.499Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7ad",
+   "slug": "colorants-noirs",
+   "applications": [
+    "Teinture et reteinture de vêtements confectionnés",
+    "Surteinture et effets sur denim",
+    "Teinture des fibres cellulosiques (coton, viscose, lin)",
+    "Ravivage de la couleur en laverie industrielle"
+   ],
+   "benefits": [
+    "Noirs profonds et homogènes",
+    "Bonne reproductibilité d'un lot à l'autre",
+    "Choix de la famille selon la solidité recherchée",
+    "Conseil technique pour la mise au point des recettes"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c795",
+    "slug": "colorants",
+    "name": "Colorants",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.501Z",
+   "description": "Gamme de colorants noirs destinés à la teinture des articles textiles, notamment en confection (garment dyeing) et en laverie denim. Ils permettent d'obtenir des noirs intenses, de raviver des articles délavés ou de réaliser des effets de surteinture. La famille de colorant (direct, réactif, soufre…) est choisie selon la fibre, le procédé et la solidité recherchée.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/colorants-noirs.webp",
+     "alt": "Colorants noirs — photo d'illustration"
+    }
+   ],
+   "name": "Colorants noirs",
+   "order": 3,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Colorants noirs pour la teinture et la reteinture de vêtements, du denim et des fibres cellulosiques : noirs profonds et réguliers.",
+    "keywords": [
+     "colorant noir textile",
+     "teinture vêtement noir",
+     "colorant denim",
+     "colorant textile Maroc"
+    ]
+   },
+   "shortDescription": "Colorants noirs pour la teinture et la reteinture de vêtements, du denim et des fibres cellulosiques : noirs profonds et réguliers.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Colorants de synthèse — famille (direct, réactif, soufre…) à confirmer selon référence"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou liquide selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Cartons ou fûts 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.505Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7b0",
+   "slug": "colorants-marron",
+   "applications": [
+    "Teinture de vêtements confectionnés",
+    "Effets tinting et surteinture sur denim",
+    "Teinture des fibres cellulosiques",
+    "Réalisation de nuances sur mesure en mélange"
+   ],
+   "benefits": [
+    "Large palette de nuances brunes",
+    "Bonne combinabilité avec les autres colorants de la gamme",
+    "Rendu régulier et reproductible",
+    "Accompagnement pour la mise au point des recettes"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c795",
+    "slug": "colorants",
+    "name": "Colorants",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.507Z",
+   "description": "Gamme de colorants marron pour la teinture des articles textiles, utilisés seuls ou en mélange pour réaliser des nuances allant du camel au chocolat. Ils servent aussi aux effets de teinture et de surteinture en laverie denim (tons tabac, vintage). La famille de colorant est sélectionnée selon la fibre et les solidités demandées.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/colorants-marron.webp",
+     "alt": "Colorants marron — photo d'illustration"
+    }
+   ],
+   "name": "Colorants marron",
+   "order": 4,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Colorants marron pour la teinture de vêtements et de fibres cellulosiques, du beige soutenu au chocolat, et les effets sur denim.",
+    "keywords": [
+     "colorant marron textile",
+     "teinture marron vêtement",
+     "tinting denim",
+     "colorant textile"
+    ]
+   },
+   "shortDescription": "Colorants marron pour la teinture de vêtements et de fibres cellulosiques, du beige soutenu au chocolat, et les effets sur denim.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Colorants de synthèse — famille (direct, réactif, soufre…) à confirmer selon référence"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou liquide selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Cartons ou fûts 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.510Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7b3",
+   "slug": "colorants-bleus",
+   "applications": [
+    "Teinture de vêtements confectionnés",
+    "Retouche et rehaussement de nuance sur denim",
+    "Surteinture et effets tinting",
+    "Teinture des fibres cellulosiques"
+   ],
+   "benefits": [
+    "Nuances du bleu ciel au marine",
+    "Correction rapide de la nuance après délavage",
+    "Bonne reproductibilité",
+    "Combinables avec les autres colorants de la gamme"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c795",
+    "slug": "colorants",
+    "name": "Colorants",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.513Z",
+   "description": "Gamme de colorants bleus pour la teinture des textiles, du bleu clair au marine. En laverie denim, ils servent à rehausser ou à corriger la nuance après délavage, ou à créer des effets de surteinture. Le choix de la famille de colorant dépend de la fibre, du procédé et du niveau de solidité recherché.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/colorants-bleus.webp",
+     "alt": "Colorants bleus — photo d'illustration"
+    }
+   ],
+   "name": "Colorants bleus",
+   "order": 5,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Colorants bleus pour la teinture de vêtements, la retouche et la surteinture du denim, et les fibres cellulosiques.",
+    "keywords": [
+     "colorant bleu textile",
+     "teinture denim bleu",
+     "surteinture jean",
+     "colorant vêtement"
+    ]
+   },
+   "shortDescription": "Colorants bleus pour la teinture de vêtements, la retouche et la surteinture du denim, et les fibres cellulosiques.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Colorants de synthèse — famille (direct, réactif, soufre…) à confirmer selon référence"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou liquide selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Cartons ou fûts 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.516Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7b6",
+   "slug": "mouillant-non-ionique",
+   "applications": [
+    "Prélavage et désencollage du denim",
+    "Mouillage avant teinture et délavage enzymatique",
+    "Lavage en blanchisserie et en pressing",
+    "Formulation de détergents"
+   ],
+   "benefits": [
+    "Mouillage rapide et homogène des articles",
+    "Compatible avec la plupart des auxiliaires",
+    "Favorise des teintures et des délavages plus réguliers",
+    "Contribue à l'élimination des salissures et des huiles"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c797",
+    "slug": "auxiliaires-teinture",
+    "name": "Auxiliaires de teinture",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.518Z",
+   "description": "Le mouillant non ionique est un tensioactif qui abaisse la tension superficielle de l'eau et permet aux bains de pénétrer rapidement et uniformément dans les fibres. Son caractère non ionique le rend compatible avec la plupart des auxiliaires anioniques et cationiques. Il possède aussi un pouvoir détergent utile en prélavage et en désencollage.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/mouillant-non-ionique.webp",
+     "alt": "Mouillant non ionique — photo d'illustration"
+    }
+   ],
+   "name": "Mouillant non ionique",
+   "order": 6,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Agent mouillant non ionique pour accélérer le mouillage des fibres et améliorer la pénétration des bains de lavage et de teinture.",
+    "keywords": [
+     "mouillant non ionique",
+     "agent mouillant textile",
+     "tensioactif non ionique",
+     "auxiliaire de teinture"
+    ]
+   },
+   "shortDescription": "Agent mouillant non ionique pour accélérer le mouillage des fibres et améliorer la pénétration des bains de lavage et de teinture.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Tensioactif non ionique"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg, IBC 1000 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.521Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7b9",
+   "slug": "agent-unisson",
+   "applications": [
+    "Teinture de vêtements confectionnés (garment dyeing)",
+    "Teinture de fibres cellulosiques et de leurs mélanges",
+    "Correction et réunissage de teintures irrégulières",
+    "Surteinture en laverie denim"
+   ],
+   "benefits": [
+    "Teintures unies et régulières",
+    "Moins de reprises et de déclassements",
+    "Meilleure reproductibilité d'un lot à l'autre",
+    "Procédé plus tolérant aux variations de conditions"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c797",
+    "slug": "auxiliaires-teinture",
+    "name": "Auxiliaires de teinture",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.523Z",
+   "description": "L'agent d'unisson, ou égalisant, régule la vitesse de montée du colorant sur la fibre et favorise sa migration pendant la teinture. Il limite ainsi les différences de nuance, les rayures et les taches, en particulier sur les articles confectionnés. Son action peut aussi aider à corriger une teinture irrégulière.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/agent-unisson.webp",
+     "alt": "Agent d'unisson (égalisant) — photo d'illustration"
+    }
+   ],
+   "name": "Agent d'unisson (égalisant)",
+   "order": 7,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Agent d'unisson pour une montée régulière du colorant sur la fibre : teintures homogènes, sans nuançage ni taches.",
+    "keywords": [
+     "agent d'unisson",
+     "égalisant teinture",
+     "agent égalisant textile",
+     "teinture homogène"
+    ]
+   },
+   "shortDescription": "Agent d'unisson pour une montée régulière du colorant sur la fibre : teintures homogènes, sans nuançage ni taches.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Tensioactif ou mélange de tensioactifs — caractère ionique à confirmer selon la famille de colorants"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.526Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7bc",
+   "slug": "fixateur-colorants",
+   "applications": [
+    "Après-traitement des teintures en colorants directs et réactifs",
+    "Fixation des nuances foncées sur vêtements confectionnés",
+    "Limitation du dégorgement sur denim surteint",
+    "Réduction du transfert de couleur en blanchisserie"
+   ],
+   "benefits": [
+    "Meilleure solidité au lavage et à l'eau",
+    "Moins de dégorgement et de transfert de couleur",
+    "Couleurs plus durables",
+    "Application simple en fin de procédé"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c797",
+    "slug": "auxiliaires-teinture",
+    "name": "Auxiliaires de teinture",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.529Z",
+   "description": "Le fixateur est appliqué après la teinture pour améliorer les solidités au mouillé. Généralement de nature cationique, il forme avec les colorants anioniques (directs, réactifs) un complexe moins soluble, ce qui réduit le dégorgement et le transfert de couleur au lavage. Il est particulièrement utile sur les nuances foncées.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/fixateur-colorants.webp",
+     "alt": "Fixateur de colorants — photo d'illustration"
+    }
+   ],
+   "name": "Fixateur de colorants",
+   "order": 8,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Fixateur de colorants pour améliorer la solidité au lavage et à l'eau des teintures et limiter le dégorgement.",
+    "keywords": [
+     "fixateur de colorant",
+     "fixateur textile",
+     "solidité au lavage",
+     "anti-dégorgement"
+    ]
+   },
+   "shortDescription": "Fixateur de colorants pour améliorer la solidité au lavage et à l'eau des teintures et limiter le dégorgement.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Généralement cationique — à confirmer selon référence"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.532Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7bf",
+   "slug": "adoucissant-cationique",
+   "applications": [
+    "Finition des vêtements en laverie industrielle et denim",
+    "Linge hôtelier et linge plat en blanchisserie",
+    "Pressing et entretien des textiles",
+    "Formulation d'assouplissants textiles"
+   ],
+   "benefits": [
+    "Toucher doux et gonflant",
+    "Bonne affinité pour les fibres, épuisement efficace",
+    "Effet antistatique et repassage facilité",
+    "Rapport efficacité/coût intéressant"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c799",
+    "slug": "adoucissants-silicones",
+    "name": "Adoucissants & silicones",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.534Z",
+   "description": "L'adoucissant cationique porte une charge positive qui lui permet de se fixer sur les fibres, chargées négativement dans l'eau. Il forme un film lubrifiant qui donne un toucher doux et gonflant, facilite le repassage et réduit l'électricité statique. Il s'applique en dernier rinçage ou en bain d'apprêt.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/adoucissant-cationique.webp",
+     "alt": "Adoucissant cationique — photo d'illustration"
+    }
+   ],
+   "name": "Adoucissant cationique",
+   "order": 9,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Adoucissant cationique pour un toucher doux et gonflant du linge et des textiles, en laverie, blanchisserie et pressing.",
+    "keywords": [
+     "adoucissant cationique",
+     "adoucissant textile",
+     "assouplissant blanchisserie",
+     "adoucissant denim"
+    ]
+   },
+   "shortDescription": "Adoucissant cationique pour un toucher doux et gonflant du linge et des textiles, en laverie, blanchisserie et pressing.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Cationique"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide ou pâte / flocons selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg, IBC 1000 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.537Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7c2",
+   "slug": "microemulsion-silicone",
+   "applications": [
+    "Finition premium des articles denim et coton",
+    "Tricots et maille recherchant un toucher soyeux",
+    "Linge et textiles en blanchisserie haut de gamme",
+    "Combinaison avec les adoucissants dans les bains d'apprêt"
+   ],
+   "benefits": [
+    "Toucher soyeux et doux en profondeur",
+    "Bonne stabilité des bains",
+    "Améliore le tombé et la souplesse",
+    "Faibles risques de taches de silicone"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c799",
+    "slug": "adoucissants-silicones",
+    "name": "Adoucissants & silicones",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.540Z",
+   "description": "La microémulsion de silicone contient des gouttelettes de silicone, souvent aminofonctionnelle, de très petite taille, ce qui lui donne un aspect limpide à translucide. Ces particules pénètrent à l'intérieur de la fibre et procurent un toucher doux, soyeux et souple en profondeur. Elle présente généralement une bonne stabilité dans les bains de traitement.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/microemulsion-silicone.webp",
+     "alt": "Microémulsion de silicone — photo d'illustration"
+    }
+   ],
+   "name": "Microémulsion de silicone",
+   "order": 10,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Microémulsion de silicone pour un toucher soyeux en profondeur : très fines particules qui pénètrent la fibre, bains stables.",
+    "keywords": [
+     "microémulsion silicone",
+     "silicone textile",
+     "aminosilicone",
+     "toucher soyeux"
+    ]
+   },
+   "shortDescription": "Microémulsion de silicone pour un toucher soyeux en profondeur : très fines particules qui pénètrent la fibre, bains stables.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Microémulsion de silicone (généralement aminosilicone) — caractère ionique à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide limpide à translucide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.543Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7c5",
+   "slug": "emulsion-silicone",
+   "applications": [
+    "Finition des vêtements en laverie industrielle",
+    "Amélioration du toucher du linge en blanchisserie",
+    "Apprêt lissant des tissus",
+    "Facilitation de la couture et du repassage"
+   ],
+   "benefits": [
+    "Toucher lisse et glissant",
+    "Solution économique",
+    "Améliore la couturabilité et le repassage",
+    "Compatible avec de nombreux bains d'apprêt"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c799",
+    "slug": "adoucissants-silicones",
+    "name": "Adoucissants & silicones",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.545Z",
+   "description": "L'émulsion de silicone (macroémulsion) se présente sous forme de liquide laiteux aux particules plus grosses que celles d'une microémulsion. La silicone se dépose principalement en surface des fibres et apporte un toucher lisse, glissant et une meilleure coupe-couture. C'est une solution économique pour améliorer la main des articles.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/emulsion-silicone.webp",
+     "alt": "Émulsion de silicone — photo d'illustration"
+    }
+   ],
+   "name": "Émulsion de silicone",
+   "order": 11,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Émulsion de silicone pour un toucher lisse et glissant en surface, idéale pour la finition des vêtements et du linge.",
+    "keywords": [
+     "émulsion silicone",
+     "silicone textile",
+     "adoucissant silicone",
+     "apprêt lissant"
+    ]
+   },
+   "shortDescription": "Émulsion de silicone pour un toucher lisse et glissant en surface, idéale pour la finition des vêtements et du linge.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Émulsion de silicone (macroémulsion) — caractère ionique à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide laiteux"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.548Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7c8",
+   "slug": "azurant-optique-jaune",
+   "applications": [
+    "Blanchiment optique des articles en coton après blanchiment",
+    "Ravivage du linge hôtelier et du linge plat",
+    "Traitement des blancs en laverie denim (poches, trame)",
+    "Formulation de lessives et détergents"
+   ],
+   "benefits": [
+    "Blancs plus éclatants",
+    "Masque le jaunissement des fibres",
+    "Ravive les teintes pastel",
+    "Efficace à faible dose"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79b",
+    "slug": "azurants-optiques",
+    "name": "Azurants optiques",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.550Z",
+   "description": "L'azurant optique est un agent fluorescent qui absorbe les rayons ultraviolets et réémet une lumière visible bleu-violet, compensant le jaunissement naturel des fibres. Le blanc paraît ainsi plus éclatant. La mention « jaune » désigne en général l'aspect de la poudre ou la nuance de blanc obtenue (plus verdâtre que bleutée) selon la référence — à confirmer avec la fiche technique.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/azurant-optique-jaune.webp",
+     "alt": "Azurant optique (nuance jaune) — photo d'illustration"
+    }
+   ],
+   "name": "Azurant optique (nuance jaune)",
+   "order": 12,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Azurant optique fluorescent pour raviver les blancs et les teintes claires des textiles et du linge, en laverie et blanchisserie.",
+    "keywords": [
+     "azurant optique",
+     "blanchiment optique",
+     "azurant textile",
+     "agent fluorescent lessive"
+    ]
+   },
+   "shortDescription": "Azurant optique fluorescent pour raviver les blancs et les teintes claires des textiles et du linge, en laverie et blanchisserie.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Agent de blanchiment optique fluorescent — famille chimique et fibre cible (cellulosique ou polyester) à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou liquide selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs ou fûts 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.553Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7cb",
+   "slug": "azurant-optique-bleu",
+   "applications": [
+    "Linge hôtelier, hospitalier et linge plat",
+    "Blanchiment optique des articles en coton",
+    "Pressing et entretien du linge blanc",
+    "Formulation de lessives"
+   ],
+   "benefits": [
+    "Blanc froid et éclatant",
+    "Neutralise le jaunissement",
+    "Effet visible à faible dose",
+    "Valorise le linge traité"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79b",
+    "slug": "azurants-optiques",
+    "name": "Azurants optiques",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.556Z",
+   "description": "Cet azurant optique convertit les ultraviolets en lumière bleue visible et donne au blanc une nuance froide, bleutée, très appréciée en blanchisserie. Il compense le reflet jaune des fibres naturelles ou vieillies. Il s'applique après le blanchiment ou dans le bain de lavage.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/azurant-optique-bleu.webp",
+     "alt": "Azurant optique (nuance bleue) — photo d'illustration"
+    }
+   ],
+   "name": "Azurant optique (nuance bleue)",
+   "order": 13,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Azurant optique à nuance bleutée pour un blanc froid et éclatant sur le linge et les textiles en coton.",
+    "keywords": [
+     "azurant optique bleu",
+     "azurant blanchisserie",
+     "blanchiment optique linge",
+     "blanc éclatant"
+    ]
+   },
+   "shortDescription": "Azurant optique à nuance bleutée pour un blanc froid et éclatant sur le linge et les textiles en coton.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Agent de blanchiment optique fluorescent — famille chimique à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou liquide selon référence"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs ou fûts 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.559Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7ce",
+   "slug": "adoucissant-hydrophile",
+   "applications": [
+    "Serviettes et linge éponge en blanchisserie",
+    "Vêtements de sport et sous-vêtements",
+    "Tricots en coton et en mélanges",
+    "Linge hôtelier et hospitalier"
+   ],
+   "benefits": [
+    "Douceur sans perte d'absorption",
+    "Confort au porter amélioré",
+    "Bonne tenue de l'effet",
+    "Réduit l'électricité statique"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c799",
+    "slug": "adoucissants-silicones",
+    "name": "Adoucissants & silicones",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.561Z",
+   "description": "L'adoucissant hydrophile apporte de la douceur tout en préservant, voire en améliorant, la capacité d'absorption de l'eau et de la transpiration. Il est formulé pour éviter l'effet hydrophobe des adoucissants classiques. Il convient aux articles qui doivent rester absorbants et confortables au porter.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/adoucissant-hydrophile.webp",
+     "alt": "Adoucissant hydrophile — photo d'illustration"
+    }
+   ],
+   "name": "Adoucissant hydrophile",
+   "order": 14,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Adoucissant hydrophile : toucher doux sans perte d'absorption, idéal pour les serviettes, le linge éponge et les vêtements.",
+    "keywords": [
+     "adoucissant hydrophile",
+     "adoucissant serviettes",
+     "adoucissant absorbant",
+     "linge éponge"
+    ]
+   },
+   "shortDescription": "Adoucissant hydrophile : toucher doux sans perte d'absorption, idéal pour les serviettes, le linge éponge et les vêtements.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Adoucissant hydrophile — composition et caractère ionique à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.564Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7d1",
+   "slug": "edta",
+   "applications": [
+    "Séquestration de la dureté de l'eau en blanchisserie",
+    "Stabilisation des bains de blanchiment au peroxyde",
+    "Teinture et lavage textile",
+    "Formulation de détergents et de cosmétiques"
+   ],
+   "benefits": [
+    "Neutralise la dureté et les ions métalliques",
+    "Évite dépôts, taches et grisaillement",
+    "Améliore l'efficacité des détergents",
+    "Protège les fibres lors du blanchiment"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79d",
+    "slug": "produits-chimiques-base",
+    "name": "Produits chimiques de base",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-01T13:27:12.566Z",
+   "description": "L'EDTA (acide éthylènediaminetétraacétique) et ses sels sodiques sont des agents chélatants : ils forment des complexes stables avec les ions calcium, magnésium, fer ou cuivre. Ils neutralisent ainsi la dureté de l'eau et les métaux qui perturbent le blanchiment au peroxyde, les teintures et l'efficacité des détergents.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/edta.webp",
+     "alt": "EDTA (agent séquestrant) — photo d'illustration"
+    }
+   ],
+   "name": "EDTA (agent séquestrant)",
+   "order": 15,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile",
+    "detergence",
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "EDTA, agent séquestrant qui piège le calcium, le magnésium et les métaux de l'eau pour fiabiliser lavage, blanchiment et teinture.",
+    "keywords": [
+     "EDTA",
+     "agent séquestrant",
+     "chélatant",
+     "EDTA tétrasodique Maroc"
+    ]
+   },
+   "shortDescription": "EDTA, agent séquestrant qui piège le calcium, le magnésium et les métaux de l'eau pour fiabiliser lavage, blanchiment et teinture.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Agent chélatant. Acide EDTA : C10H16N2O8, CAS 60-00-4. Le produit commercial est souvent un sel sodique (EDTA tétrasodique, CAS 64-02-8 ; EDTA disodique, CAS 139-33-3) — forme à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre (acide ou sel disodique) ou liquide (sel tétrasodique en solution)"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs 25 kg ou fûts (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.569Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7d4",
+   "slug": "percarbonate-de-sodium",
+   "applications": [
+    "Blanchiment et détachage du linge en blanchisserie",
+    "Formulation de lessives et de détachants oxygénés",
+    "Blanchiment textile à l'oxygène",
+    "Nettoyage et entretien en pressing"
+   ],
+   "benefits": [
+    "Blanchiment oxygéné sans chlore",
+    "Respect des fibres et des couleurs",
+    "Apporte aussi de l'alcalinité au bain",
+    "Forme solide facile à stocker et à doser"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79d",
+    "slug": "produits-chimiques-base",
+    "name": "Produits chimiques de base",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-01T13:27:12.571Z",
+   "description": "Le percarbonate de sodium est un composé solide de carbonate de sodium et de peroxyde d'hydrogène. Dissous dans l'eau, il libère de l'oxygène actif qui blanchit et détache, tout en apportant de l'alcalinité. Il constitue une alternative au chlore, moins agressive pour les fibres et les couleurs.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/percarbonate-de-sodium.webp",
+     "alt": "Percarbonate de sodium — photo d'illustration"
+    }
+   ],
+   "name": "Percarbonate de sodium",
+   "order": 16,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile",
+    "detergence"
+   ],
+   "seo": {
+    "description": "Percarbonate de sodium, agent de blanchiment oxygéné qui libère du peroxyde d'hydrogène dans l'eau, pour le linge et les lessives.",
+    "keywords": [
+     "percarbonate de sodium",
+     "blanchiment oxygéné",
+     "oxygène actif",
+     "percarbonate Maroc"
+    ]
+   },
+   "shortDescription": "Percarbonate de sodium, agent de blanchiment oxygéné qui libère du peroxyde d'hydrogène dans l'eau, pour le linge et les lessives.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "2Na2CO3·3H2O2, CAS 15630-89-4"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou granulés blancs"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.575Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7d7",
+   "slug": "carbonate-de-sodium",
+   "applications": [
+    "Fixation des colorants réactifs sur coton",
+    "Lavage et débouillissage des textiles",
+    "Formulation de lessives et de détergents",
+    "Réglage du pH des bains alcalins"
+   ],
+   "benefits": [
+    "Alcali efficace et économique",
+    "Renforce l'action des détergents",
+    "Réduit les effets de la dureté de l'eau",
+    "Produit polyvalent et facile à doser"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79d",
+    "slug": "produits-chimiques-base",
+    "name": "Produits chimiques de base",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-01T13:27:12.577Z",
+   "description": "Le carbonate de sodium, aussi appelé soude Solvay ou cristaux de soude sous forme hydratée, est un alcali courant. En textile, il sert à élever le pH des bains, notamment pour fixer les colorants réactifs sur le coton. En détergence, il renforce le pouvoir nettoyant et adoucit l'eau en précipitant les ions calcium et magnésium.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/carbonate-de-sodium.webp",
+     "alt": "Carbonate de sodium — photo d'illustration"
+    }
+   ],
+   "name": "Carbonate de sodium",
+   "order": 17,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile",
+    "detergence"
+   ],
+   "seo": {
+    "description": "Carbonate de sodium (soude Solvay), alcali pour le lavage, la teinture réactive et la formulation de détergents.",
+    "keywords": [
+     "carbonate de sodium",
+     "soude Solvay",
+     "carbonate de soude",
+     "alcali teinture réactive"
+    ]
+   },
+   "shortDescription": "Carbonate de sodium (soude Solvay), alcali pour le lavage, la teinture réactive et la formulation de détergents.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Na2CO3, CAS 497-19-8 (forme anhydre)"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre blanche (léger ou dense)"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs 25 kg ou 50 kg, big bags (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.581Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7da",
+   "slug": "acide-citrique",
+   "applications": [
+    "Réglage du pH des bains d'enzyme acide",
+    "Neutralisation après lavage ou blanchiment alcalin",
+    "Formulation de détergents et détartrants",
+    "Ajustement du pH en cosmétique"
+   ],
+   "benefits": [
+    "Acide faible, sûr d'emploi",
+    "Biodégradable",
+    "Action séquestrante complémentaire",
+    "Polyvalent : textile, détergence, cosmétique"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79d",
+    "slug": "produits-chimiques-base",
+    "name": "Produits chimiques de base",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-01T13:27:12.583Z",
+   "description": "L'acide citrique est un acide organique faible, biodégradable, qui possède aussi un pouvoir séquestrant vis-à-vis du calcium. En laverie denim, il sert à ajuster le pH des bains d'enzyme acide et à neutraliser les articles après un traitement alcalin. Il est également très utilisé en détergence et en cosmétique.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/acide-citrique.webp",
+     "alt": "Acide citrique — photo d'illustration"
+    }
+   ],
+   "name": "Acide citrique",
+   "order": 18,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile",
+    "detergence",
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Acide citrique pour ajuster le pH des bains enzymatiques, neutraliser après lavage alcalin et formuler détergents et cosmétiques.",
+    "keywords": [
+     "acide citrique",
+     "acide citrique anhydre",
+     "neutralisation textile",
+     "réglage pH enzyme"
+    ]
+   },
+   "shortDescription": "Acide citrique pour ajuster le pH des bains enzymatiques, neutraliser après lavage alcalin et formuler détergents et cosmétiques.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "C6H8O7, CAS 77-92-9 (anhydre) ; monohydrate CAS 5949-29-1"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre ou cristaux blancs"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.586Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7dd",
+   "slug": "acide-acetique",
+   "applications": [
+    "Réglage du pH des bains de teinture et d'apprêt",
+    "Neutralisation après traitement alcalin",
+    "Acidification avant adoucissage",
+    "Usages en blanchisserie (dernier rinçage)"
+   ],
+   "benefits": [
+    "Contrôle précis du pH",
+    "Neutralisation efficace de l'alcalinité résiduelle",
+    "Ne laisse pas de résidu salin",
+    "Produit standard de l'industrie textile"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79d",
+    "slug": "produits-chimiques-base",
+    "name": "Produits chimiques de base",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-01T13:27:12.588Z",
+   "description": "L'acide acétique est un acide organique largement utilisé en ennoblissement textile pour ajuster le pH des bains de teinture, d'apprêt ou d'adoucissage. Il neutralise l'alcalinité résiduelle des articles après lavage, blanchiment ou teinture réactive. Il est le plus souvent fourni sous forme concentrée (acide acétique glacial) ou diluée.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/acide-acetique.webp",
+     "alt": "Acide acétique — photo d'illustration"
+    }
+   ],
+   "name": "Acide acétique",
+   "order": 19,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile",
+    "detergence"
+   ],
+   "seo": {
+    "description": "Acide acétique pour régler le pH des bains de teinture et neutraliser les textiles après traitement alcalin.",
+    "keywords": [
+     "acide acétique",
+     "acide acétique glacial",
+     "neutralisation textile",
+     "réglage pH teinture"
+    ]
+   },
+   "shortDescription": "Acide acétique pour régler le pH des bains de teinture et neutraliser les textiles après traitement alcalin.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "CH3COOH, CAS 64-19-7"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide incolore (concentration à confirmer)"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg, IBC 1000 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.591Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7e0",
+   "slug": "metabisulfite-de-sodium",
+   "applications": [
+    "Neutralisation après blanchiment au chlore",
+    "Neutralisation du permanganate (effets PP spray) sur denim",
+    "Antichlore en blanchisserie",
+    "Agent réducteur dans divers procédés textiles"
+   ],
+   "benefits": [
+    "Arrête net l'action des oxydants",
+    "Protège les fibres et limite le jaunissement",
+    "Élimine les odeurs de chlore résiduel",
+    "Action rapide"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79d",
+    "slug": "produits-chimiques-base",
+    "name": "Produits chimiques de base",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-01T13:27:12.593Z",
+   "description": "Le métabisulfite de sodium est un agent réducteur. En laverie denim, il neutralise les résidus d'oxydants (hypochlorite de sodium, permanganate de potassium) après les opérations de blanchiment ou d'effets localisés, ce qui stoppe la réaction et protège les fibres. Il sert aussi d'antichlore dans les bains de lavage.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/metabisulfite-de-sodium.webp",
+     "alt": "Métabisulfite de sodium — photo d'illustration"
+    }
+   ],
+   "name": "Métabisulfite de sodium",
+   "order": 20,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile",
+    "detergence"
+   ],
+   "seo": {
+    "description": "Métabisulfite de sodium, réducteur pour neutraliser le chlore et le permanganate après blanchiment en laverie denim.",
+    "keywords": [
+     "métabisulfite de sodium",
+     "neutralisant chlore",
+     "antichlore textile",
+     "neutralisation permanganate"
+    ]
+   },
+   "shortDescription": "Métabisulfite de sodium, réducteur pour neutraliser le chlore et le permanganate après blanchiment en laverie denim.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Na2S2O5, CAS 7681-57-4"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre cristalline blanche"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.596Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7e3",
+   "slug": "fixateur-serigraphie-impression",
+   "applications": [
+    "Sérigraphie sur t-shirts et vêtements",
+    "Impression pigmentaire sur tissus",
+    "Amélioration des solidités des motifs existants",
+    "Ateliers d'impression textile et de marquage"
+   ],
+   "benefits": [
+    "Meilleure solidité au lavage",
+    "Meilleure résistance au frottement",
+    "Motifs plus durables",
+    "S'intègre facilement à la pâte d'impression"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79f",
+    "slug": "impression-serigraphie",
+    "name": "Impression & sérigraphie",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.598Z",
+   "description": "Le fixateur est ajouté aux pâtes d'impression pigmentaire pour renforcer la réticulation du liant lors de la polymérisation. Il améliore l'accrochage des pigments sur la fibre et donc les solidités au lavage et au frottement des motifs imprimés. Il est employé en sérigraphie comme en impression au cadre ou au rouleau.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/fixateur-serigraphie-impression.webp",
+     "alt": "Fixateur pour sérigraphie et impression — photo d'illustration"
+    }
+   ],
+   "name": "Fixateur pour sérigraphie et impression",
+   "order": 21,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Fixateur pour l'impression pigmentaire et la sérigraphie textile : meilleure solidité au lavage et au frottement des motifs.",
+    "keywords": [
+     "fixateur sérigraphie",
+     "fixateur impression textile",
+     "impression pigmentaire",
+     "sérigraphie textile Maroc"
+    ]
+   },
+   "shortDescription": "Fixateur pour l'impression pigmentaire et la sérigraphie textile : meilleure solidité au lavage et au frottement des motifs.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Agent de réticulation pour impression pigmentaire — composition à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.601Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7e6",
+   "slug": "liant-serigraphie-impression",
+   "applications": [
+    "Sérigraphie sur vêtements et articles promotionnels",
+    "Impression pigmentaire sur coton et mélanges",
+    "Préparation de pâtes d'impression",
+    "Ateliers de marquage textile"
+   ],
+   "benefits": [
+    "Fixation durable des pigments",
+    "Toucher souple de l'impression",
+    "Bonne solidité au lavage et au frottement",
+    "Compatible avec les pigments courants"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c79f",
+    "slug": "impression-serigraphie",
+    "name": "Impression & sérigraphie",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.603Z",
+   "description": "Le liant est la base des pâtes d'impression pigmentaire : les pigments n'ayant pas d'affinité pour la fibre, c'est ce polymère filmogène, généralement acrylique, qui les fixe sur le tissu après séchage et polymérisation. La qualité du liant conditionne le toucher, l'élasticité et les solidités de l'impression.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/liant-serigraphie-impression.webp",
+     "alt": "Liant pour sérigraphie et impression — photo d'illustration"
+    }
+   ],
+   "name": "Liant pour sérigraphie et impression",
+   "order": 22,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Liant pour impression pigmentaire et sérigraphie textile : fixe les pigments sur la fibre avec un toucher souple.",
+    "keywords": [
+     "liant sérigraphie",
+     "liant impression pigmentaire",
+     "liant acrylique textile",
+     "pâte d'impression"
+    ]
+   },
+   "shortDescription": "Liant pour impression pigmentaire et sérigraphie textile : fixe les pigments sur la fibre avec un toucher souple.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Polymère filmogène en dispersion (généralement acrylique) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide laiteux"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.606Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7e9",
+   "slug": "emulsion-apprets-textile",
+   "applications": [
+    "Finition des tissus et des vêtements",
+    "Apprêt de tenue ou de main en laverie",
+    "Apprêt du linge en blanchisserie et pressing",
+    "Finition après teinture ou délavage"
+   ],
+   "benefits": [
+    "Améliore le toucher et l'aspect",
+    "Apporte tenue ou souplesse selon l'effet visé",
+    "Application simple en fin de procédé",
+    "Valorise l'article fini"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c7a1",
+    "slug": "appretes-protection",
+    "name": "Apprêts & protection",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.609Z",
+   "description": "L'émulsion d'apprêt s'applique en fin de traitement pour conférer au tissu les propriétés recherchées : toucher, tenue, rigidité ou souplesse, glissant. Elle est appliquée par foulardage, en bain ou par pulvérisation, puis fixée au séchage. Sa composition est choisie selon l'effet de finition désiré.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/emulsion-apprets-textile.webp",
+     "alt": "Émulsion d'apprêt textile — photo d'illustration"
+    }
+   ],
+   "name": "Émulsion d'apprêt textile",
+   "order": 23,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Émulsion d'apprêt pour la finition des tissus : améliore le toucher, la tenue et l'aspect des articles textiles.",
+    "keywords": [
+     "émulsion d'apprêt",
+     "apprêt textile",
+     "finition textile",
+     "apprêt tissu"
+    ]
+   },
+   "shortDescription": "Émulsion d'apprêt pour la finition des tissus : améliore le toucher, la tenue et l'aspect des articles textiles.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Émulsion polymère d'apprêt — composition à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide (émulsion)"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.612Z"
+  },
+  {
+   "_id": "6abe5fb0a737a5e07259c7ec",
+   "slug": "inhibiteur-de-corrosion",
+   "applications": [
+    "Protection des machines à laver et des cuves en laverie",
+    "Circuits d'eau et chaudières de blanchisserie",
+    "Formulation de détergents et de nettoyants industriels",
+    "Protection des équipements en pressing"
+   ],
+   "benefits": [
+    "Prolonge la durée de vie des équipements",
+    "Réduit les coûts de maintenance",
+    "Limite les taches de rouille sur le linge",
+    "Compatible avec les procédés de lavage courants"
+   ],
+   "category": {
+    "_id": "6abe5fb0a737a5e07259c7a1",
+    "slug": "appretes-protection",
+    "name": "Apprêts & protection",
+    "sector": "ennoblissement-textile"
+   },
+   "createdAt": "2026-10-01T13:27:12.614Z",
+   "description": "L'inhibiteur de corrosion forme une couche protectrice sur les surfaces métalliques et ralentit leur dégradation au contact de l'eau, des bains alcalins, acides ou chlorés. Il prolonge la durée de vie des équipements et limite les arrêts de maintenance. Il est aussi utilisé comme composant dans la formulation de détergents industriels.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/inhibiteur-de-corrosion.webp",
+     "alt": "Inhibiteur de corrosion — photo d'illustration"
+    }
+   ],
+   "name": "Inhibiteur de corrosion",
+   "order": 24,
+   "published": true,
+   "sectors": [
+    "ennoblissement-textile"
+   ],
+   "seo": {
+    "description": "Inhibiteur de corrosion pour protéger les machines, cuves et circuits d'eau des laveries et blanchisseries industrielles.",
+    "keywords": [
+     "inhibiteur de corrosion",
+     "anticorrosion laverie",
+     "protection machines blanchisserie",
+     "inhibiteur corrosion industriel"
+    ]
+   },
+   "shortDescription": "Inhibiteur de corrosion pour protéger les machines, cuves et circuits d'eau des laveries et blanchisseries industrielles.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Formulation inhibitrice — composition à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-01T13:27:12.617Z"
+  }
+ ],
+ "generatedAt": "2026-10-01T13:27:20.453Z"
+}

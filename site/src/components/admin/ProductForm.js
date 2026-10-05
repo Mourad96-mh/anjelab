@@ -184,8 +184,8 @@ export default function ProductForm({ productId }) {
       const saved = productId
         ? await api(`/api/products/${productId}`, { method: "PUT", body })
         : await api("/api/products", { method: "POST", body });
-      show(productId ? "Modifications enregistrées — le site est mis à jour." : "Produit créé.");
-      if (!productId) router.replace(`/admin/produits/${saved._id}/`);
+      show(productId ? "Modifications enregistrées — visibles sur le site à la prochaine mise en ligne." : "Produit créé.");
+      if (!productId) router.replace(`/admin/produits/modifier/?id=${saved._id}`);
       else setForm((f) => ({ ...f, slug: saved.slug }));
     } catch (err) {
       setErrors(err.errors || {});

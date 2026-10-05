@@ -58,7 +58,17 @@ second site; it is the agency's proven pattern (BIM Leaders, Para d'or) so
 middleware (auth, rate-limit, uploads) is reused; it is testable in isolation.
 *Cost:* two deployments, cross-origin calls → JWT in a header (no cookies).
 
-### ADR-2 — Next.js in server mode with ISR + on-demand revalidation (not a static export)
+### ADR-2b (2026-10-05, supersedes ADR-2) — static export on Hostinger shared hosting
+*Problem:* the client pays for the domain and a Hostinger shared plan only — no
+Node.js runtime for the site, no Vercel.
+*Decision:* `output: "export"`; every page is built from `/api/catalogue` at
+`next build` (`dynamicParams = false`), `/api/revalidate` is removed, the
+product editor moves to `/admin/produits/modifier/?id=`. Production URLs live
+in `site/.env.production`; headers/404/HTTPS in `public/.htaccess`.
+*Cost:* a catalogue change goes online at the next build + upload. The API's
+`revalidateSite()` stays as a no-op (env unset), ready for an automated rebuild.
+
+### ADR-2 (superseded) — Next.js in server mode with ISR + on-demand revalidation (not a static export)
 *Problem:* with `output: "export"` (BIM Leaders), a product added in the
 dashboard has no page until someone rebuilds and re-uploads the site. Here
 adding products IS the main feature (F5/F7).

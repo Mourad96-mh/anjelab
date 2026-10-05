@@ -9,7 +9,7 @@ export default function Footer({ categories = [] }) {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <Logo />
+          <Logo id="logo-grad-footer" />
           <p style={{ maxWidth: 320 }}>
             Importation, négoce et distribution de matières premières pour la cosmétique, la détergence et
             l&apos;ennoblissement textile.

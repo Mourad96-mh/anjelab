@@ -6,13 +6,7 @@ import { getCatalogue, productsOfSector } from "@/lib/catalogue";
 import { SECTORS, sectorBySlug } from "@/lib/sectors";
 import { SECTOR_MEDIA } from "@/lib/media";
 
-export const revalidate = 300;
-// ⚠ Must stay `true` even though the three sectors are fixed: after an
-// on-demand revalidation (any product change in /admin), Next 15 drops the
-// prerendered entries, and with `dynamicParams = false` it then answers 404
-// (NoFallbackError) instead of re-rendering. Unknown slugs still 404 through
-// notFound() below.
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return SECTORS.map((s) => ({ sector: s.slug }));

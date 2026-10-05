@@ -5,9 +5,8 @@ import ProductCard from "@/components/ProductCard";
 import { getCatalogue, getCategory, productsOfCategory } from "@/lib/catalogue";
 import { sectorBySlug } from "@/lib/sectors";
 
-export const revalidate = 300;
-// Categories created in /admin after the build are rendered on first visit.
-export const dynamicParams = true;
+// Static export: categories created in /admin appear at the next build.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const { categories } = await getCatalogue();

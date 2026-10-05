@@ -7,19 +7,27 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const out = new URL("../src/data/catalogue.snapshot.json", import.meta.url);
 
-async function readEnvLocal() {
-  try {
-    const txt = await readFile(new URL("../.env.local", import.meta.url), "utf8");
-    for (const line of txt.split(/\r?\n/)) {
-      const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*)\s*$/);
-      if (m && !process.env[m[1]]) process.env[m[1]] = m[2];
+// Same files Next.js reads: production ones when run as `prebuild`, dev ones
+// for `npm run sync`. Earlier files win, like Next's own precedence.
+async function readEnv() {
+  const files =
+    process.env.npm_lifecycle_event === "prebuild"
+      ? [".env.production.local", ".env.production"]
+      : [".env.development.local", ".env.local"];
+  for (const file of files) {
+    try {
+      const txt = await readFile(new URL(`../${file}`, import.meta.url), "utf8");
+      for (const line of txt.split(/\r?\n/)) {
+        const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*)\s*$/);
+        if (m && !process.env[m[1]]) process.env[m[1]] = m[2];
+      }
+    } catch {
+      /* file absent: fine */
     }
-  } catch {
-    /* no .env.local: fine on Vercel */
   }
 }
 
-await readEnvLocal();
+await readEnv();
 const api = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/$/, "");
 
 try {

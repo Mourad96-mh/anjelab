@@ -10,10 +10,9 @@ import { getCatalogue, getProduct, relatedProducts } from "@/lib/catalogue";
 import { sectorBySlug } from "@/lib/sectors";
 import { COMPANY, telHref, whatsappHref } from "@/lib/company";
 
-export const revalidate = 300;
-// Products added in /admin after the build are rendered on first request,
-// then cached — and the API purges the cache on every change.
-export const dynamicParams = true;
+// Static export: one page per product known at build time. A product added
+// in /admin gets its page at the next build + upload.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const { products } = await getCatalogue();

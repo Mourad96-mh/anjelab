@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MobileCta from "@/components/MobileCta";
+import FloatingContact from "@/components/FloatingContact";
 import QuoteProvider from "@/components/QuoteProvider";
 import JsonLd from "@/components/JsonLd";
 import { getCatalogue } from "@/lib/catalogue";
@@ -16,7 +16,7 @@ export default async function SiteLayout({ children }) {
       <Header categories={categories} />
       <main id="contenu">{children}</main>
       <Footer categories={categories} />
-      <MobileCta />
+      <FloatingContact />
       <JsonLd
         data={{
           "@context": "https://schema.org",

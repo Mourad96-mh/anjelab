@@ -3,5 +3,11 @@ node_modules/
 out/
 .env
 .env.local
+.env.*.local
 server/uploads/
 *.log
+*.zip
+
+# Hostinger upload copies of site/out
+hostinger-upload/
+anjelab-hostinger.zip

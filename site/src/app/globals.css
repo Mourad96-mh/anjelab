@@ -110,7 +110,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .header-inner { display: flex; align-items: center; gap: 28px; height: var(--header-h); }
 .logo { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); font-weight: 700; font-size: 1.32rem; letter-spacing: 0.06em; line-height: 1; }
 .logo:hover { color: var(--ink); text-decoration: none; }
-.logo-mark { width: 36px; height: 36px; flex: none; }
+.logo-mark { width: 40px; height: 40px; flex: none; }
+.logo-accent { color: var(--green); }
 .logo small { display: block; font-size: 0.6rem; font-weight: 500; letter-spacing: 0.12em; color: var(--muted); text-transform: uppercase; margin-top: 5px; }
 .main-nav { margin-left: auto; height: 100%; }
 .main-nav > ul { list-style: none; display: flex; gap: 2px; margin: 0; padding: 0; height: 100%; }
@@ -420,23 +421,31 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .footer-grid h2 { color: #fff; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; font-weight: 600; }
 .footer-grid ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
 .site-footer .logo { color: #fff; margin-bottom: 18px; }
+.site-footer .logo-accent { color: #5cc285; }
 .site-footer .logo small { color: rgba(255, 255, 255, 0.55); }
 .footer-bottom { border-top: 1px solid rgba(255, 255, 255, 0.12); margin-top: 52px; padding-top: 20px; padding-bottom: 20px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 0.84rem; }
 .footer-bottom nav { display: flex; gap: 18px; flex-wrap: wrap; }
 @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; } }
 
-/* ---------- Sticky mobile CTA bar ---------- */
-.mobile-cta { display: none; }
+/* ---------- Floating contact buttons (bottom-right) ---------- */
+.float-cta { position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom)); z-index: 45; display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+.float-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; color: #fff; box-shadow: 0 6px 18px rgba(13, 42, 61, 0.28); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.float-btn:hover { text-decoration: none; color: #fff; transform: translateY(-2px); box-shadow: 0 10px 24px rgba(13, 42, 61, 0.34); }
+.float-btn:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
+.float-btn svg { width: 28px; height: 28px; }
+.float-btn.wa { background: #25d366; }
+.float-btn.wa::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 2px solid #25d366; animation: float-pulse 2.4s ease-out infinite; pointer-events: none; }
+.float-btn.tel { background: var(--navy); border: 2px solid #fff; }
+.float-btn.tel svg { width: 24px; height: 24px; }
+.float-label { position: absolute; right: calc(100% + 12px); top: 50%; transform: translateY(-50%); background: var(--ink); color: #fff; font-size: 0.82rem; font-weight: 600; padding: 6px 10px; border-radius: var(--radius); white-space: nowrap; opacity: 0; visibility: hidden; transition: opacity 0.15s; pointer-events: none; }
+.float-btn:hover .float-label, .float-btn:focus-visible .float-label { opacity: 1; visibility: visible; }
+@keyframes float-pulse { 0% { transform: scale(1); opacity: 0.7; } 70%, 100% { transform: scale(1.45); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .float-btn.wa::after { animation: none; display: none; } .float-btn { transition: none; } }
 @media (max-width: 760px) {
-  .mobile-cta { display: grid; grid-template-columns: repeat(3, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 45; background: #fff; border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom); }
-  .mobile-cta a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 9px 4px; font-size: 0.75rem; font-weight: 600; color: var(--ink); position: relative; border-left: 1px solid var(--line); }
-  .mobile-cta a:first-child { border-left: 0; }
-  .mobile-cta a:hover { text-decoration: none; }
-  .mobile-cta svg { width: 21px; height: 21px; }
-  .mobile-cta .wa { color: #1f8f4e; }
-  .mobile-cta .badge { position: absolute; top: 4px; left: calc(50% + 6px); background: var(--amber); color: var(--ink); border-radius: 9px; font-size: 0.68rem; padding: 0 6px; }
-  body.has-mobile-cta { padding-bottom: 62px; }
+  .float-cta { right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); gap: 10px; }
+  .float-btn { width: 52px; height: 52px; }
+  .float-label { display: none; }
 }
 
 /* ---------- Touch targets (coarse pointers) ---------- */
@@ -450,3 +459,4 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* ---------- Toast ---------- */
 .toast { position: fixed; left: 50%; bottom: 84px; transform: translateX(-50%); z-index: 60; background: var(--ink); color: #fff; padding: 12px 18px; border-radius: var(--radius); box-shadow: var(--shadow-lg); font-size: 0.92rem; display: flex; gap: 14px; align-items: center; max-width: calc(100vw - 32px); }
 .toast a { color: #9fd5b4; font-weight: 600; white-space: nowrap; }
+@media (max-width: 760px) { .toast { left: 16px; right: 84px; bottom: 20px; transform: none; max-width: none; } }

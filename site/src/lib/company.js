@@ -8,9 +8,9 @@ export const COMPANY = {
   tagline: "Importation, négoce et distribution de matières premières",
   description:
     "ANJELAB est une société marocaine spécialisée dans l'importation, le négoce et la distribution de matières premières dédiées aux secteurs cosmétique, détergence et ennoblissement textile (laverie industrielle, blanchisserie et pressing).",
-  phone: "+212 6 00 00 00 00", // TODO(client)
-  whatsapp: "212600000000", // TODO(client): format international sans +
-  email: "contact@anjelab.ma", // TODO(client)
+  phone: "+212 7 00 13 03 15",
+  whatsapp: "212700130315", // format international sans +
+  email: "contact@anjelab.com", // TODO(client)
   address: "Casablanca, Maroc", // TODO(client): adresse complète
   city: "Casablanca", // TODO(client)
   hours: "Lundi – vendredi, 8h30 – 18h00 ; samedi 9h00 – 13h00", // TODO(client)

@@ -1,19 +1,25 @@
 import snapshot from "@/data/catalogue.snapshot.json";
 
-// Server-side catalogue access. Every public page reads the catalogue through
-// ONE cached request tagged "catalogue": the API purges that tag after each
-// change made in /admin (POST /api/revalidate), and the 5-minute ISR timer is
-// the fallback. If the API is unreachable (Render asleep, outage), pages render
-// from the build-time snapshot instead of erroring. See ARCHITECTURE.md ADR-2.
+// Build-time catalogue access (static export): every page reads the catalogue
+// from the API while `next build` runs, deduplicated into one request. If the
+// API is unreachable (Render asleep, outage), pages are built from the
+// snapshot written by the prebuild sync instead of failing the build.
 
 export const API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/$/, "");
-export const REVALIDATE_SECONDS = 300;
 
-export async function getCatalogue() {
+// One request per build worker, even when the API is down (no 90 s wait per page).
+let pending;
+export function getCatalogue() {
+  pending ??= loadCatalogue();
+  return pending;
+}
+
+async function loadCatalogue() {
   try {
     const res = await fetch(`${API_URL}/api/catalogue`, {
-      next: { revalidate: REVALIDATE_SECONDS, tags: ["catalogue"] },
-      signal: AbortSignal.timeout(10000),
+      cache: "force-cache",
+      // Render's free plan can take ~50 s to wake up.
+      signal: AbortSignal.timeout(90000),
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();

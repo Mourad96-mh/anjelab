@@ -3,12 +3,11 @@ import CatalogueBrowser from "@/components/CatalogueBrowser";
 import { getCatalogue } from "@/lib/catalogue";
 import { SECTORS } from "@/lib/sectors";
 
-export const revalidate = 300;
 
 export const metadata = {
   title: "Catalogue des matières premières",
   description:
-    "Catalogue ANJELAB : enzymes, colorants, auxiliaires de teinture, adoucissants, silicones, azurants optiques et produits chimiques de base pour le textile, la détergence et la cosmétique au Maroc.",
+    "Catalogue ANJELAB : enzymes, colorants, auxiliaires de teinture, adoucissants, silicones, azurants optiques, argiles cosmétiques et produits chimiques de base pour le textile, la détergence et la cosmétique au Maroc.",
   alternates: { canonical: "/produits/" },
 };
 

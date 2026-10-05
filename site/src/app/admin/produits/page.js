@@ -123,7 +123,7 @@ export default function AdminProducts() {
                     </div>
                   </td>
                   <td>
-                    <Link href={`/admin/produits/${p._id}/`} style={{ fontWeight: 700, color: "var(--ink)" }}>
+                    <Link href={`/admin/produits/modifier/?id=${p._id}`} style={{ fontWeight: 700, color: "var(--ink)" }}>
                       {p.name}
                     </Link>
                     {p.featured ? <span className="muted"> ★</span> : null}
@@ -145,7 +145,7 @@ export default function AdminProducts() {
                           <Icon name="eye" />
                         </a>
                       ) : null}
-                      <Link href={`/admin/produits/${p._id}/`} className="icon-btn" aria-label={`Modifier ${p.name}`}>
+                      <Link href={`/admin/produits/modifier/?id=${p._id}`} className="icon-btn" aria-label={`Modifier ${p.name}`}>
                         <Icon name="edit" />
                       </Link>
                       <button type="button" className="icon-btn" aria-label={`Supprimer ${p.name}`} onClick={() => remove(p)}>

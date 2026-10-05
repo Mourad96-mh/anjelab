@@ -7,7 +7,6 @@ import { SECTORS } from "@/lib/sectors";
 import { SECTOR_MEDIA } from "@/lib/media";
 import { whatsappHref } from "@/lib/company";
 
-export const revalidate = 300;
 export const metadata = { alternates: { canonical: "/" } };
 
 // Only claims taken from the client's own brief (file.txt) — no invented

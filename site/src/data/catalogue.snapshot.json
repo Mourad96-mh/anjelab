@@ -15,6 +15,16 @@
  ],
  "categories": [
   {
+   "_id": "6ac405a7d4f4a95cc4e18aad",
+   "slug": "argiles-cosmetiques",
+   "createdAt": "2026-10-05T20:16:37.081Z",
+   "description": "Argiles naturelles en poudre — verte, blanche, kaolin, rouge, rose, jaune, bleu-vert, noire et beige — pour les masques, soins du visage, du corps et des cheveux.",
+   "name": "Argiles cosmétiques",
+   "order": 8,
+   "sector": "cosmetique",
+   "updatedAt": "2026-10-05T20:16:37.081Z"
+  },
+  {
    "_id": "6ac2edb9d4f4a95cc4e1896b",
    "slug": "produits-chimiques-base",
    "createdAt": "2026-10-05T00:22:17.626Z",
@@ -22,7 +32,7 @@
    "name": "Produits chimiques de base",
    "order": 5,
    "sector": "detergence",
-   "updatedAt": "2026-10-05T00:22:17.626Z"
+   "updatedAt": "2026-10-05T20:16:36.772Z"
   },
   {
    "_id": "6ac2edb9d4f4a95cc4e18966",
@@ -32,7 +42,7 @@
    "name": "Enzymes & délavage",
    "order": 0,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:16.575Z"
+   "updatedAt": "2026-10-05T20:16:35.601Z"
   },
   {
    "_id": "6ac2edb9d4f4a95cc4e18967",
@@ -42,7 +52,7 @@
    "name": "Colorants",
    "order": 1,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:17.221Z"
+   "updatedAt": "2026-10-05T20:16:36.203Z"
   },
   {
    "_id": "6ac2edb9d4f4a95cc4e18968",
@@ -52,7 +62,7 @@
    "name": "Auxiliaires de teinture",
    "order": 2,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:17.316Z"
+   "updatedAt": "2026-10-05T20:16:36.411Z"
   },
   {
    "_id": "6ac2edb9d4f4a95cc4e18969",
@@ -62,7 +72,7 @@
    "name": "Adoucissants & silicones",
    "order": 3,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:17.406Z"
+   "updatedAt": "2026-10-05T20:16:36.509Z"
   },
   {
    "_id": "6ac2edb9d4f4a95cc4e1896a",
@@ -72,7 +82,7 @@
    "name": "Azurants optiques",
    "order": 4,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:17.523Z"
+   "updatedAt": "2026-10-05T20:16:36.685Z"
   },
   {
    "_id": "6ac2edb9d4f4a95cc4e1896c",
@@ -82,7 +92,7 @@
    "name": "Impression & sérigraphie",
    "order": 6,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:17.715Z"
+   "updatedAt": "2026-10-05T20:16:36.884Z"
   },
   {
    "_id": "6ac2edbad4f4a95cc4e1896d",
@@ -92,7 +102,7 @@
    "name": "Apprêts & protection",
    "order": 7,
    "sector": "ennoblissement-textile",
-   "updatedAt": "2026-10-05T00:22:17.806Z"
+   "updatedAt": "2026-10-05T20:16:36.986Z"
   }
  ],
  "products": [
@@ -157,7 +167,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:18.011Z"
+   "updatedAt": "2026-10-05T20:16:37.165Z"
   },
   {
    "_id": "6ac2edbad4f4a95cc4e1896f",
@@ -220,7 +230,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:18.196Z"
+   "updatedAt": "2026-10-05T20:16:37.353Z"
   },
   {
    "_id": "6ac2edbad4f4a95cc4e18970",
@@ -283,7 +293,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:18.378Z"
+   "updatedAt": "2026-10-05T20:16:37.546Z"
   },
   {
    "_id": "6ac2edbad4f4a95cc4e18971",
@@ -346,7 +356,7 @@
      "value": "Cartons ou fûts 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:18.569Z"
+   "updatedAt": "2026-10-05T20:16:37.742Z"
   },
   {
    "_id": "6ac2edbad4f4a95cc4e18972",
@@ -409,7 +419,7 @@
      "value": "Cartons ou fûts 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:18.749Z"
+   "updatedAt": "2026-10-05T20:16:38.074Z"
   },
   {
    "_id": "6ac2edbbd4f4a95cc4e18973",
@@ -472,7 +482,7 @@
      "value": "Cartons ou fûts 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:18.924Z"
+   "updatedAt": "2026-10-05T20:16:38.236Z"
   },
   {
    "_id": "6ac2edbbd4f4a95cc4e18974",
@@ -535,7 +545,7 @@
      "value": "Bidons 25 kg, fûts 200 kg, IBC 1000 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:19.130Z"
+   "updatedAt": "2026-10-05T20:16:38.473Z"
   },
   {
    "_id": "6ac2edbbd4f4a95cc4e18975",
@@ -598,7 +608,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:19.319Z"
+   "updatedAt": "2026-10-05T20:16:38.637Z"
   },
   {
    "_id": "6ac2edbbd4f4a95cc4e18976",
@@ -661,7 +671,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:19.496Z"
+   "updatedAt": "2026-10-05T20:16:38.803Z"
   },
   {
    "_id": "6ac2edbbd4f4a95cc4e18977",
@@ -724,7 +734,7 @@
      "value": "Bidons 25 kg, fûts 200 kg, IBC 1000 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:19.678Z"
+   "updatedAt": "2026-10-05T20:16:38.926Z"
   },
   {
    "_id": "6ac2edbcd4f4a95cc4e18978",
@@ -787,7 +797,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:19.867Z"
+   "updatedAt": "2026-10-05T20:16:39.122Z"
   },
   {
    "_id": "6ac2edbcd4f4a95cc4e18979",
@@ -850,7 +860,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:20.050Z"
+   "updatedAt": "2026-10-05T20:16:39.314Z"
   },
   {
    "_id": "6ac2edbcd4f4a95cc4e1897a",
@@ -913,7 +923,7 @@
      "value": "Sacs ou fûts 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:20.218Z"
+   "updatedAt": "2026-10-05T20:16:39.485Z"
   },
   {
    "_id": "6ac2edbcd4f4a95cc4e1897b",
@@ -976,7 +986,7 @@
      "value": "Sacs ou fûts 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:20.399Z"
+   "updatedAt": "2026-10-05T20:16:39.655Z"
   },
   {
    "_id": "6ac2edbcd4f4a95cc4e1897c",
@@ -1039,7 +1049,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:20.592Z"
+   "updatedAt": "2026-10-05T20:16:39.867Z"
   },
   {
    "_id": "6ac2edbcd4f4a95cc4e1897d",
@@ -1104,7 +1114,7 @@
      "value": "Sacs 25 kg ou fûts (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:20.765Z"
+   "updatedAt": "2026-10-05T20:16:40.197Z"
   },
   {
    "_id": "6ac2edbdd4f4a95cc4e1897e",
@@ -1168,7 +1178,7 @@
      "value": "Sacs 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:20.934Z"
+   "updatedAt": "2026-10-05T20:16:40.467Z"
   },
   {
    "_id": "6ac2edbdd4f4a95cc4e1897f",
@@ -1232,7 +1242,7 @@
      "value": "Sacs 25 kg ou 50 kg, big bags (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:21.133Z"
+   "updatedAt": "2026-10-05T20:16:40.640Z"
   },
   {
    "_id": "6ac2edbdd4f4a95cc4e18980",
@@ -1297,7 +1307,7 @@
      "value": "Sacs 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:21.326Z"
+   "updatedAt": "2026-10-05T20:16:40.882Z"
   },
   {
    "_id": "6ac2edbdd4f4a95cc4e18981",
@@ -1361,7 +1371,7 @@
      "value": "Bidons 25 kg, fûts 200 kg, IBC 1000 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:21.509Z"
+   "updatedAt": "2026-10-05T20:16:41.080Z"
   },
   {
    "_id": "6ac2edbdd4f4a95cc4e18982",
@@ -1425,7 +1435,7 @@
      "value": "Sacs 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:21.696Z"
+   "updatedAt": "2026-10-05T20:16:41.252Z"
   },
   {
    "_id": "6ac2edbed4f4a95cc4e18983",
@@ -1488,7 +1498,7 @@
      "value": "Bidons 25 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:21.890Z"
+   "updatedAt": "2026-10-05T20:16:41.409Z"
   },
   {
    "_id": "6ac2edbed4f4a95cc4e18984",
@@ -1551,7 +1561,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:22.107Z"
+   "updatedAt": "2026-10-05T20:16:41.634Z"
   },
   {
    "_id": "6ac2edbed4f4a95cc4e18985",
@@ -1614,7 +1624,7 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:22.289Z"
+   "updatedAt": "2026-10-05T20:16:41.838Z"
   },
   {
    "_id": "6ac2edbed4f4a95cc4e18986",
@@ -1677,8 +1687,585 @@
      "value": "Bidons 25 kg, fûts 200 kg (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-05T00:22:22.476Z"
+   "updatedAt": "2026-10-05T20:16:42.080Z"
+  },
+  {
+   "_id": "6ac405acd4f4a95cc4e18aae",
+   "slug": "argile-verte",
+   "applications": [
+    "Masques purifiants visage",
+    "Soins des peaux grasses et à imperfections",
+    "Shampooings et masques pour cheveux gras",
+    "Enveloppements et soins corps"
+   ],
+   "benefits": [
+    "Absorbe le sébum et les impuretés",
+    "Effet matifiant et purifiant",
+    "Riche en minéraux",
+    "Ingrédient 100 % minéral"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:42.290Z",
+   "description": "L'argile verte est une argile riche en illite et/ou montmorillonite, colorée par des oxydes de fer et du magnésium. Sa forte capacité d'absorption en fait l'ingrédient de référence des masques purifiants : elle capte le sébum et les impuretés, resserre visuellement les pores et matifie. On l'utilise aussi dans les soins des cheveux gras et les cataplasmes cosmétiques. Pour les peaux sensibles, on la réserve à des formules peu concentrées ou on lui préfère une argile plus douce (blanche, rose).",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/argile-verte.webp",
+     "alt": "Argile verte — photo d'illustration"
+    }
+   ],
+   "name": "Argile verte",
+   "order": 25,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile verte en poudre, la plus absorbante de la gamme : purifie les peaux grasses et mixtes et régule l'excès de sébum.",
+    "keywords": [
+     "argile verte",
+     "argile verte Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "argile verte illite",
+     "argile verte montmorillonite"
+    ]
+   },
+   "shortDescription": "Argile verte en poudre, la plus absorbante de la gamme : purifie les peaux grasses et mixtes et régule l'excès de sébum.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle. INCI : Illite ou Montmorillonite selon le gisement (CAS 12173-60-3 / 1318-93-0) — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur verte"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:42.386Z"
+  },
+  {
+   "_id": "6ac405acd4f4a95cc4e18aaf",
+   "slug": "argile-blanche",
+   "applications": [
+    "Masques doux pour peaux sèches et sensibles",
+    "Soins bébé et peaux réactives",
+    "Poudres et talcs corporels",
+    "Gommages et nettoyants doux"
+   ],
+   "benefits": [
+    "Nettoie en douceur sans dessécher",
+    "Apaise et adoucit la peau",
+    "Teinte neutre, facile à formuler",
+    "Convient aux peaux sensibles"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:42.518Z",
+   "description": "L'argile blanche, à dominante de kaolinite, est la plus douce des argiles cosmétiques. Moins absorbante que l'argile verte, elle nettoie et adoucit sans dessécher, ce qui la destine aux peaux sèches, sensibles et matures. Sa couleur neutre permet de l'intégrer dans des masques, des poudres et des soins corps sans modifier la teinte du produit fini.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-blanche.webp",
+     "alt": "Argile blanche — photo d'illustration"
+    }
+   ],
+   "name": "Argile blanche",
+   "order": 26,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile blanche douce et peu desséchante, adaptée aux peaux sèches, sensibles et réactives.",
+    "keywords": [
+     "argile blanche",
+     "argile blanche Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "argile blanche peau sensible"
+    ]
+   },
+   "shortDescription": "Argile blanche douce et peu desséchante, adaptée aux peaux sèches, sensibles et réactives.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle à dominante de kaolinite. INCI : Kaolin (CAS 1332-58-7) — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur blanche"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:42.599Z"
+  },
+  {
+   "_id": "6ac405acd4f4a95cc4e18ab0",
+   "slug": "kaolin-cosmetique",
+   "applications": [
+    "Poudres libres et compactes, fonds de teint",
+    "Déodorants et poudres corporelles",
+    "Crèmes et émulsions matifiantes",
+    "Masques et soins visage"
+   ],
+   "benefits": [
+    "Toucher doux et poudré",
+    "Opacifiant et matifiant",
+    "Absorbe l'humidité et le sébum",
+    "Charge minérale stable et inerte"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:42.683Z",
+   "description": "Le kaolin est une argile blanche composée essentiellement de kaolinite (silicate d'aluminium hydraté). Purifié et finement micronisé, il est utilisé par les fabricants comme charge minérale : il apporte toucher doux, opacité et effet matifiant aux poudres compactes et libres, fonds de teint, déodorants, crèmes et masques. Il absorbe l'humidité et le sébum et améliore l'adhérence des poudres sur la peau.",
+   "documents": [],
+   "featured": true,
+   "images": [
+    {
+     "url": "/images/products/kaolin-cosmetique.webp",
+     "alt": "Argile blanche kaolin (grade formulation) — photo d'illustration"
+    }
+   ],
+   "name": "Argile blanche kaolin (grade formulation)",
+   "order": 27,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Kaolin micronisé de grade cosmétique pour la formulation : poudres, fonds de teint, déodorants, crèmes et masques.",
+    "keywords": [
+     "argile blanche kaolin (grade formulation)",
+     "argile blanche kaolin (grade formulation) Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "kaolin",
+     "kaolin cosmétique Maroc",
+     "Kaolin INCI"
+    ]
+   },
+   "shortDescription": "Kaolin micronisé de grade cosmétique pour la formulation : poudres, fonds de teint, déodorants, crèmes et masques.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Silicate d'aluminium hydraté (kaolinite). INCI : Kaolin, CAS 1332-58-7 — grade et blancheur à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur blanche"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:42.764Z"
+  },
+  {
+   "_id": "6ac405acd4f4a95cc4e18ab1",
+   "slug": "argile-rouge",
+   "applications": [
+    "Masques éclat pour peaux ternes",
+    "Soins des peaux sensibles à rougeurs",
+    "Enveloppements corps",
+    "Soins capillaires tons chauds"
+   ],
+   "benefits": [
+    "Ravive l'éclat du teint",
+    "Douce pour les peaux sensibles",
+    "Riche en oxydes de fer",
+    "Teinte naturelle chaude"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:42.858Z",
+   "description": "L'argile rouge doit sa couleur à sa teneur élevée en oxydes de fer. Douce et peu desséchante, elle est appréciée dans les masques « coup d'éclat » et les soins des peaux ternes, fatiguées ou sujettes aux rougeurs. Elle s'utilise aussi dans les soins des cheveux colorés aux tons chauds et dans les enveloppements corps.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-rouge.webp",
+     "alt": "Argile rouge — photo d'illustration"
+    }
+   ],
+   "name": "Argile rouge",
+   "order": 28,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile rouge riche en oxydes de fer : stimule l'éclat des peaux ternes et convient aux peaux sensibles à rougeurs.",
+    "keywords": [
+     "argile rouge",
+     "argile rouge Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "argile rouge oxyde de fer"
+    ]
+   },
+   "shortDescription": "Argile rouge riche en oxydes de fer : stimule l'éclat des peaux ternes et convient aux peaux sensibles à rougeurs.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle riche en oxydes de fer. INCI : Illite (and) Iron Oxides ou Kaolin (and) Iron Oxides selon la référence — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur rouge brique"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:42.952Z"
+  },
+  {
+   "_id": "6ac405add4f4a95cc4e18ab2",
+   "slug": "argile-rose",
+   "applications": [
+    "Masques visage peaux sensibles",
+    "Soins éclat et unifiants",
+    "Nettoyants doux",
+    "Soins des peaux sèches et fines"
+   ],
+   "benefits": [
+    "Très douce, peu desséchante",
+    "Unifie et illumine le teint",
+    "Adaptée aux peaux délicates",
+    "Couleur rosée naturelle"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:43.063Z",
+   "description": "L'argile rose est généralement un mélange d'argile blanche (kaolin) et d'argile rouge. Elle réunit la douceur de la première et l'effet éclat de la seconde, ce qui en fait l'argile de choix pour les peaux sensibles, fines ou sèches. Elle est très utilisée dans les masques visage, les soins bébé et les produits d'hygiène douce.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-rose.webp",
+     "alt": "Argile rose — photo d'illustration"
+    }
+   ],
+   "name": "Argile rose",
+   "order": 29,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Mélange d'argile blanche et d'argile rouge : douceur et éclat pour les peaux sensibles, sèches et délicates.",
+    "keywords": [
+     "argile rose",
+     "argile rose Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "argile rose peau sensible"
+    ]
+   },
+   "shortDescription": "Mélange d'argile blanche et d'argile rouge : douceur et éclat pour les peaux sensibles, sèches et délicates.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Mélange d'argiles. INCI : Kaolin (and) Illite (and) Iron Oxides — composition et proportions à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur rose"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:43.161Z"
+  },
+  {
+   "_id": "6ac405add4f4a95cc4e18ab3",
+   "slug": "argile-jaune",
+   "applications": [
+    "Masques tonifiants visage",
+    "Soins des peaux ternes et fatiguées",
+    "Soins corps reminéralisants",
+    "Soins du cuir chevelu"
+   ],
+   "benefits": [
+    "Tonifie et reminéralise",
+    "Nettoie en douceur",
+    "Ravive l'éclat",
+    "Convient aux peaux normales à mixtes"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:43.229Z",
+   "description": "L'argile jaune, colorée par des oxydes et hydroxydes de fer, est réputée tonifiante et reminéralisante. Assez douce, elle convient aux peaux normales à mixtes, ternes ou fatiguées, qu'elle nettoie tout en ravivant l'éclat. Elle trouve sa place dans les masques visage, les soins corps et les produits pour le cuir chevelu.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-jaune.webp",
+     "alt": "Argile jaune — photo d'illustration"
+    }
+   ],
+   "name": "Argile jaune",
+   "order": 30,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile jaune reminéralisante et tonifiante pour les peaux ternes, fatiguées ou asphyxiées.",
+    "keywords": [
+     "argile jaune",
+     "argile jaune Maroc",
+     "argile cosmétique",
+     "matière première cosmétique"
+    ]
+   },
+   "shortDescription": "Argile jaune reminéralisante et tonifiante pour les peaux ternes, fatiguées ou asphyxiées.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle colorée par des oxydes de fer. INCI : Illite ou Kaolin selon le gisement — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur jaune ocre"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:43.339Z"
+  },
+  {
+   "_id": "6ac405add4f4a95cc4e18ab4",
+   "slug": "argile-bleu-verte",
+   "applications": [
+    "Masques détox visage",
+    "Soins des peaux mixtes",
+    "Enveloppements et bains d'argile",
+    "Soins capillaires purifiants"
+   ],
+   "benefits": [
+    "Purifie et minéralise",
+    "Moins desséchante que l'argile verte",
+    "Teinte originale pour la formulation",
+    "Ingrédient 100 % minéral"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:43.401Z",
+   "description": "L'argile bleu-vert est une argile à dominante d'illite dont la teinte provient de sa composition minérale (fer réduit, magnésium). Purifiante sans être aussi absorbante que l'argile verte, elle est utilisée dans les masques « détox », les soins des peaux mixtes et les enveloppements corps.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-bleu-verte.webp",
+     "alt": "Argile bleu-vert — photo d'illustration"
+    }
+   ],
+   "name": "Argile bleu-vert",
+   "order": 31,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile bleu-vert minéralisante et purifiante pour les soins détox du visage et du corps.",
+    "keywords": [
+     "argile bleu-vert",
+     "argile bleu-vert Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "argile bleue"
+    ]
+   },
+   "shortDescription": "Argile bleu-vert minéralisante et purifiante pour les soins détox du visage et du corps.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle. INCI : Illite (CAS 12173-60-3) — origine et composition à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur bleu-vert"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:43.485Z"
+  },
+  {
+   "_id": "6ac405add4f4a95cc4e18ab5",
+   "slug": "argile-noire",
+   "applications": [
+    "Masques détox visage",
+    "Soins des peaux grasses et urbaines",
+    "Savons et nettoyants",
+    "Soins corps purifiants"
+   ],
+   "benefits": [
+    "Fort pouvoir purifiant",
+    "Affine le grain de peau",
+    "Couleur noire naturelle",
+    "Riche en minéraux"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:43.599Z",
+   "description": "L'argile noire, d'origine volcanique ou sédimentaire riche en matière organique, est très appréciée pour les masques détox. Elle absorbe le sébum et les impuretés, affine le grain de peau et apporte une couleur noire naturelle recherchée dans les soins « charbon » et les savons.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-noire.webp",
+     "alt": "Argile noire — photo d'illustration"
+    }
+   ],
+   "name": "Argile noire",
+   "order": 32,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile noire très purifiante, riche en minéraux, pour les masques détox des peaux grasses et urbaines.",
+    "keywords": [
+     "argile noire",
+     "argile noire Maroc",
+     "argile cosmétique",
+     "matière première cosmétique",
+     "argile noire détox"
+    ]
+   },
+   "shortDescription": "Argile noire très purifiante, riche en minéraux, pour les masques détox des peaux grasses et urbaines.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle. INCI selon l'origine (ex. Illite, Montmorillonite, Moroccan Lava Clay) — à confirmer avec le fournisseur. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur noire à gris anthracite"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:43.651Z"
+  },
+  {
+   "_id": "6ac405add4f4a95cc4e18ab6",
+   "slug": "argile-beige",
+   "applications": [
+    "Masques visage tous types de peaux",
+    "Soins et enveloppements corps",
+    "Savons et nettoyants",
+    "Soins capillaires"
+   ],
+   "benefits": [
+    "Douce et polyvalente",
+    "Absorbance modérée",
+    "Teinte neutre chaude",
+    "Ingrédient 100 % minéral"
+   ],
+   "category": {
+    "_id": "6ac405a7d4f4a95cc4e18aad",
+    "slug": "argiles-cosmetiques",
+    "name": "Argiles cosmétiques",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-05T20:16:43.716Z",
+   "description": "L'argile beige est une argile douce et polyvalente, au pouvoir absorbant modéré. Elle convient à tous les types de peaux et s'intègre facilement dans les masques, les soins corps et les produits d'hygiène, sans teinter fortement le produit fini.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/argile-beige.webp",
+     "alt": "Argile beige — photo d'illustration"
+    }
+   ],
+   "name": "Argile beige",
+   "order": 33,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Argile beige douce et polyvalente pour tous types de peaux, en masque, en soin corps ou en formulation.",
+    "keywords": [
+     "argile beige",
+     "argile beige Maroc",
+     "argile cosmétique",
+     "matière première cosmétique"
+    ]
+   },
+   "shortDescription": "Argile beige douce et polyvalente pour tous types de peaux, en masque, en soin corps ou en formulation.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Argile naturelle. INCI : Kaolin ou Illite selon le gisement — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur beige"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-05T20:16:43.789Z"
   }
  ],
- "generatedAt": "2026-10-05T13:31:01.554Z"
+ "generatedAt": "2026-10-05T20:17:30.274Z"
 }

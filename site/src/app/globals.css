@@ -161,6 +161,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .hero-text { max-width: 640px; }
 .hero h1 { color: #fff; font-size: clamp(2.1rem, 4.4vw, 3.3rem); margin-bottom: 20px; }
 .hero .lead { color: rgba(255, 255, 255, 0.86); margin-bottom: 30px; }
+.hero-about { margin-bottom: 30px; }
+.hero-about .lead { font-size: 1.05rem; margin-bottom: 12px; }
 .hero-kicker { font-size: 0.86rem; font-weight: 500; letter-spacing: 0.04em; color: rgba(255, 255, 255, 0.75); margin-bottom: 18px; }
 .hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; }
 @media (max-width: 760px) {

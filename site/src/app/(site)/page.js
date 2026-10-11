@@ -47,10 +47,21 @@ export default async function HomePage() {
           <div className="hero-text">
             <p className="hero-kicker">Importation · Négoce · Distribution de matières premières</p>
             <h1>Textile, détergence et cosmétique : colorants, auxiliaires et produits chimiques</h1>
-            <p className="lead">
-              ANJELAB approvisionne les laveries industrielles, blanchisseries, pressings et fabricants marocains, avec
-              un accompagnement technique pour choisir et régler chaque produit.
-            </p>
+            {/* Company definition, as supplied by the client. */}
+            <div className="hero-about">
+              <p className="lead">
+                ANJELAB est une société marocaine spécialisée dans l'importation et la distribution de matières
+                premières dédiées aux secteurs du textile, de la détergence et de la cosmétique.
+              </p>
+              <p className="lead">
+                Grâce à sa large gamme de produits et à son service technico-commercial, ANJELAB apporte à sa clientèle
+                les réponses les mieux adaptées à ses besoins.
+              </p>
+              <p className="lead">
+                ANJELAB s'inscrit dans une démarche de qualité en développant constamment des techniques innovantes,
+                dans le respect des normes en vigueur, de l'environnement et de votre budget.
+              </p>
+            </div>
             <div className="hero-ctas">
               <Link href="/produits/" className="btn btn-light">
                 Consulter le catalogue

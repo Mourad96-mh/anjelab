@@ -3,9 +3,14 @@
 // The snapshot is the site's safety net (docs/ARCHITECTURE.md, ADR-2): when the
 // API is asleep or down, pages render from it instead of failing. If the API
 // cannot be reached here, the previous snapshot is KEPT so the build never breaks.
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, rm } from "node:fs/promises";
 
 const out = new URL("../src/data/catalogue.snapshot.json", import.meta.url);
+
+// Pages fetch the catalogue with cache: "force-cache" (one request per build),
+// and Next keeps that response in .next/cache across builds: without this,
+// a rebuild would silently reuse the previous catalogue and miss /admin edits.
+await rm(new URL("../.next/cache/fetch-cache", import.meta.url), { recursive: true, force: true });
 
 // Same files Next.js reads: production ones when run as `prebuild`, dev ones
 // for `npm run sync`. Earlier files win, like Next's own precedence.

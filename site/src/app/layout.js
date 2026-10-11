@@ -11,7 +11,7 @@ export const metadata = {
     template: "%s | ANJELAB",
   },
   description:
-    "ANJELAB importe et distribue au Maroc des matières premières pour la cosmétique, la détergence et l'ennoblissement textile : enzymes, colorants, adoucissants, silicones, azurants, argiles cosmétiques, produits chimiques de base.",
+    "ANJELAB importe et distribue au Maroc des matières premières pour la cosmétique, la détergence et l'ennoblissement textile : enzymes, colorants, adoucissants, silicones, azurants, actifs et huiles cosmétiques, argiles, produits chimiques de base.",
   openGraph: { type: "website", locale: "fr_MA", siteName: "ANJELAB" },
   robots: { index: true, follow: true },
   // Google Search Console ownership (meta tag method)

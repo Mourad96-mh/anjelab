@@ -7,7 +7,7 @@ import { SECTORS } from "@/lib/sectors";
 export const metadata = {
   title: "Catalogue des matières premières",
   description:
-    "Catalogue ANJELAB : enzymes, colorants, auxiliaires de teinture, adoucissants, silicones, azurants optiques, argiles cosmétiques et produits chimiques de base pour le textile, la détergence et la cosmétique au Maroc.",
+    "Catalogue ANJELAB : enzymes, colorants, auxiliaires de teinture, adoucissants, silicones, azurants optiques, actifs cosmétiques, huiles végétales, argiles et produits chimiques de base pour le textile, la détergence et la cosmétique au Maroc.",
   alternates: { canonical: "/produits/" },
 };
 

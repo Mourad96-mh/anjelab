@@ -60,11 +60,11 @@ describe("seed", () => {
   test("is idempotent", async () => {
     const first = await seedCatalogue();
     const second = await seedCatalogue();
-    assert.equal(first.created, 34);
+    assert.equal(first.created, 135);
     assert.equal(second.created, 0);
     const res = await request(app).get("/api/catalogue");
-    assert.equal(res.body.products.length, 34);
-    assert.equal(res.body.categories.length, 9);
+    assert.equal(res.body.products.length, 135);
+    assert.equal(res.body.categories.length, 21);
   });
 
   test("base chemicals are listed in several sectors", async () => {
@@ -111,7 +111,7 @@ describe("products CRUD", () => {
     productId = res.body._id;
 
     assert.equal((await request(app).get("/api/products/lauryl-sulfate-de-sodium")).status, 404);
-    const adminView = await authed(request(app).get("/api/products?all=1&q=lauryl"));
+    const adminView = await authed(request(app).get("/api/products?all=1&q=lauryl%20sulfate"));
     assert.equal(adminView.body.total, 1);
   });
 
@@ -231,6 +231,6 @@ describe("quote requests (leads)", () => {
 test("stats summarise the dashboard", async () => {
   const res = await authed(request(app).get("/api/stats"));
   assert.equal(res.status, 200);
-  assert.equal(res.body.products, 34);
+  assert.equal(res.body.products, 135);
   assert.equal(res.body.leads, 1);
 });

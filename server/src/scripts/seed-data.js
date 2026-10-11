@@ -3,12 +3,14 @@ import Category from "../models/Category.js";
 import Product from "../models/Product.js";
 
 // Loads src/data/catalogue.json (the textile-line products researched from
-// the client's list, plus the cosmetic clays) into MongoDB. Idempotent: upserts by slug, so it can be
-// re-run without duplicating anything and without touching products the
-// client created in the dashboard.
+// the client's list, plus the cosmetics and detergents ranges) into
+// MongoDB. Idempotent: upserts by slug, so it can be re-run without
+// duplicating anything and without touching products the client created in
+// the dashboard.
 
 const ALL_THREE = ["ennoblissement-textile", "detergence", "cosmetique"];
 const TEXTILE_AND_DETERGENT = ["ennoblissement-textile", "detergence"];
+const COSMETIC_AND_DETERGENT = ["cosmetique", "detergence"];
 
 // Base chemicals serve several sectors (see docs/ARCHITECTURE.md, data model).
 const MULTI_SECTOR = {
@@ -18,6 +20,23 @@ const MULTI_SECTOR = {
   "carbonate-de-sodium": TEXTILE_AND_DETERGENT,
   "acide-acetique": TEXTILE_AND_DETERGENT,
   "metabisulfite-de-sodium": TEXTILE_AND_DETERGENT,
+  glycerine: COSMETIC_AND_DETERGENT,
+  "coco-glucoside": COSMETIC_AND_DETERGENT,
+  "gomme-xanthane": COSMETIC_AND_DETERGENT,
+  triethanolamine: COSMETIC_AND_DETERGENT,
+  "oxyde-de-titane": COSMETIC_AND_DETERGENT,
+  "sulfate-de-magnesium": COSMETIC_AND_DETERGENT,
+  "bicarbonate-de-sodium": COSMETIC_AND_DETERGENT,
+  "potasse-caustique": COSMETIC_AND_DETERGENT,
+  "sles-70": COSMETIC_AND_DETERGENT,
+  "cocamidopropyl-betaine": COSMETIC_AND_DETERGENT,
+  "cocamide-dea": COSMETIC_AND_DETERGENT,
+  "peg-40-huile-ricin-hydrogenee": COSMETIC_AND_DETERGENT,
+  "huile-de-silicone": COSMETIC_AND_DETERGENT,
+  nacrant: COSMETIC_AND_DETERGENT,
+  "ethanol-96": COSMETIC_AND_DETERGENT,
+  "propylene-glycol": COSMETIC_AND_DETERGENT,
+  methylparabene: COSMETIC_AND_DETERGENT,
 };
 
 const FEATURED = new Set([

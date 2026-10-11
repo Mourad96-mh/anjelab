@@ -46,7 +46,7 @@ export default async function HomePage() {
         <div className="hero-inner">
           <div className="hero-text">
             <p className="hero-kicker">Importation · Négoce · Distribution de matières premières</p>
-            <h1>Colorants, auxiliaires et produits chimiques pour le textile, la détergence et la cosmétique</h1>
+            <h1>Textile, détergence et cosmétique : colorants, auxiliaires et produits chimiques</h1>
             <p className="lead">
               ANJELAB approvisionne les laveries industrielles, blanchisseries, pressings et fabricants marocains, avec
               un accompagnement technique pour choisir et régler chaque produit.

@@ -5,7 +5,8 @@ import ProductCard from "@/components/ProductCard";
 import { getCatalogue, productsOfSector } from "@/lib/catalogue";
 import { SECTORS } from "@/lib/sectors";
 import { SECTOR_MEDIA } from "@/lib/media";
-import { whatsappHref } from "@/lib/company";
+import { COMPANY, whatsappHref } from "@/lib/company";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata = { alternates: { canonical: "/" } };
 
@@ -39,6 +40,20 @@ export default async function HomePage() {
 
   return (
     <>
+      {/* WebSite markup on the home page tells Google the site name ("ANJELAB")
+          shown above results and used for brand queries / sitelinks. */}
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": `${COMPANY.siteUrl}/#website`,
+          name: COMPANY.name,
+          alternateName: ["Anjelab", "anjelab.com"],
+          url: `${COMPANY.siteUrl}/`,
+          inLanguage: "fr-MA",
+          publisher: { "@id": `${COMPANY.siteUrl}/#organization` },
+        }}
+      />
       <section className="hero">
         <div className="hero-media">
           <Photo name="hero" eager sizes="100vw" />

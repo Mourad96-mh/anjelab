@@ -21,10 +21,13 @@ export default async function SiteLayout({ children }) {
         data={{
           "@context": "https://schema.org",
           "@type": "Organization",
+          "@id": `${COMPANY.siteUrl}/#organization`,
           name: COMPANY.name,
+          alternateName: "Anjelab",
           legalName: COMPANY.legalName,
-          url: COMPANY.siteUrl,
-          logo: `${COMPANY.siteUrl}/icon.svg`,
+          url: `${COMPANY.siteUrl}/`,
+          // Raster logo: Google's logo guidelines want ≥112px, and favour PNG over SVG.
+          logo: `${COMPANY.siteUrl}/logo.png`,
           description: COMPANY.description,
           email: COMPANY.email,
           telephone: COMPANY.phone,

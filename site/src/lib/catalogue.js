@@ -8,8 +8,12 @@ import snapshot from "@/data/catalogue.snapshot.json";
 export const API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/$/, "");
 
 // One request per build worker, even when the API is down (no 90 s wait per page).
+// In `next dev`, fetch on every request instead: memoizing for the life of the
+// server would hide products added in /admin until a restart.
+const DEV = process.env.NODE_ENV === "development";
 let pending;
 export function getCatalogue() {
+  if (DEV) return loadCatalogue();
   pending ??= loadCatalogue();
   return pending;
 }
@@ -17,7 +21,7 @@ export function getCatalogue() {
 async function loadCatalogue() {
   try {
     const res = await fetch(`${API_URL}/api/catalogue`, {
-      cache: "force-cache",
+      cache: DEV ? "no-store" : "force-cache",
       // Render's free plan can take ~50 s to wake up.
       signal: AbortSignal.timeout(90000),
     });

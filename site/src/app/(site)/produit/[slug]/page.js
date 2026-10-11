@@ -11,7 +11,7 @@ import { sectorBySlug } from "@/lib/sectors";
 import { COMPANY, telHref, whatsappHref } from "@/lib/company";
 
 // Static export: one page per product known at build time. A product added
-// in /admin gets its page at the next build + upload.
+// in src/data/catalogue.json gets its page at the next build + upload.
 export const dynamicParams = false;
 
 export async function generateStaticParams() {

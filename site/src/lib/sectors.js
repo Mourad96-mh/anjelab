@@ -1,5 +1,5 @@
-// Mirror of server/src/config/sectors.js (slugs MUST match), plus the
-// marketing copy shown on the site.
+// Sector slugs (they MUST match the "sectors" values in src/data/catalogue.json),
+// plus the marketing copy shown on the site.
 
 export const SECTORS = [
   {

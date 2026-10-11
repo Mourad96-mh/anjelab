@@ -3,20 +3,15 @@
 // un-clipped screenshots when SHOTS_DIR is set.
 //
 //   msedge --headless=new --remote-debugging-port=9333 --user-data-dir=<tmp> about:blank
-//   node scripts/check-responsive.mjs            (site on :3000, API on :4000)
-//
-// Admin pages are checked logged-in: the script logs in through the API and
-// stores the token in localStorage before visiting them.
+//   node scripts/check-responsive.mjs            (site on :3000)
 import { writeFile, mkdir } from "node:fs/promises";
 
 const CDP = `http://localhost:${process.env.CDP_PORT || 9333}`;
 const SITE = process.env.SITE || "http://localhost:3000";
-const API = process.env.API || "http://localhost:4000";
 const SHOTS = process.env.SHOTS_DIR;
 const WIDTHS = (process.env.WIDTHS || "320,375,414,768,1024,1280,1440").split(",").map(Number);
 
 const PUBLIC = ["/", "/produits/", "/produits/adoucissants-silicones/", "/secteurs/ennoblissement-textile/", "/secteurs/cosmetique/", "/produit/edta/", "/produit/microemulsion-silicone/", "/devis/", "/contact/", "/a-propos/", "/mentions-legales/", "/page-inexistante/"];
-const ADMIN = ["/admin/", "/admin/produits/", "/admin/produits/nouveau/", "/admin/categories/", "/admin/demandes/", "/admin/compte/"];
 
 const target = (await (await fetch(`${CDP}/json`)).json()).find((t) => t.type === "page");
 const ws = new WebSocket(target.webSocketDebuggerUrl);
@@ -48,7 +43,7 @@ async function visit(path, width) {
   const loaded = once("Page.loadEventFired");
   await send("Page.navigate", { url: `${SITE}${path}` });
   await loaded;
-  await new Promise((r) => setTimeout(r, path.startsWith("/admin") ? 900 : 250));
+  await new Promise((r) => setTimeout(r, 250));
 }
 
 const MEASURE = `(() => {
@@ -57,8 +52,8 @@ const MEASURE = `(() => {
   const offenders = [];
   for (const el of document.querySelectorAll('body *')) {
     const cs = getComputedStyle(el);
-    if (cs.position === 'fixed' || el.closest('.main-nav:not(.open), .admin-side:not(.open), .hp, .skip-link, .visually-hidden')) continue;
-    // Content of an intentional horizontal scroller (admin tables) is fine.
+    if (cs.position === 'fixed' || el.closest('.main-nav:not(.open), .skip-link, .visually-hidden')) continue;
+    // Content of an intentional horizontal scroller is fine.
     let p = el.parentElement, scrolled = false;
     while (p && p !== document.body) { const o = getComputedStyle(p).overflowX; if (o === 'auto' || o === 'scroll') { scrolled = true; break; } p = p.parentElement; }
     if (scrolled) continue;
@@ -100,11 +95,6 @@ async function shot(path, width, name, height = 900) {
 
 await sweep(PUBLIC);
 
-const { token } = await (await fetch(`${API}/api/auth/login`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: "admin@anjelab.ma", password: "anjelab-demo-2026" }) })).json();
-await visit("/admin/", 1280);
-await evaluate(`localStorage.setItem("anjelab:admin-token", ${JSON.stringify(token)})`);
-await sweep(ADMIN);
-
 if (SHOTS) {
   await mkdir(SHOTS, { recursive: true });
   await shot("/", 1440, "home-desktop", 3800);
@@ -113,11 +103,6 @@ if (SHOTS) {
   await shot("/produit/microemulsion-silicone/", 1280, "product-desktop", 1900);
   await shot("/produit/edta/", 375, "product-mobile", 2000);
   await shot("/devis/", 1280, "devis-desktop", 1100);
-  await shot("/admin/produits/", 1280, "admin-products", 1000);
-  await evaluate(`localStorage.setItem("anjelab:admin-token", ${JSON.stringify(token)})`);
-  const edtaId = (await (await fetch(`${API}/api/products/edta`)).json())._id;
-  await shot(`/admin/produits/${edtaId}/`, 1280, "admin-product-form", 2400);
-  await shot("/admin/", 375, "admin-mobile", 900);
 }
 
 console.log(problems ? `\n${problems} responsive problem(s)` : "\nNo horizontal overflow on any page × width");

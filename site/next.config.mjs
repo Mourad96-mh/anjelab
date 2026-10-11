@@ -6,9 +6,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Static export: `next build` writes plain HTML to out/, uploaded to
-  // Hostinger shared hosting (no Node.js there). The catalogue is read from
-  // the API at build time, so a change made in /admin goes online at the next
-  // build + upload. Headers (noindex on /admin, cache) live in public/.htaccess.
+  // Hostinger shared hosting (no Node.js there). The catalogue is the local
+  // file src/data/catalogue.json, so an edit goes online at the next build +
+  // upload. Headers (HTTPS, cache) live in public/.htaccess.
   output: "export",
   trailingSlash: true,
   images: { unoptimized: true },

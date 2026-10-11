@@ -1,12 +1,10 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Icon from "./Icon";
 import { useQuote } from "./QuoteProvider";
 import { COMPANY, whatsappHref } from "@/lib/company";
-
-const API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000").replace(/\/$/, "");
 
 const SECTOR_OPTIONS = [
   "Laverie industrielle / délavage",
@@ -20,23 +18,18 @@ const SECTOR_OPTIONS = [
 const FREQUENCY_OPTIONS = ["Achat ponctuel", "Mensuel", "Trimestriel", "À définir"];
 const PACKAGING_OPTIONS = ["", "Bidon 25 kg", "Fût 200 kg", "IBC 1000 L", "Sac 25 kg", "Échantillon"];
 
-const EMPTY = { name: "", company: "", email: "", phone: "", city: "", sector: "", frequency: "", message: "", wantsDatasheet: false, wantsSample: false, website: "" };
+const EMPTY = { name: "", company: "", email: "", phone: "", city: "", sector: "", frequency: "", message: "", wantsDatasheet: false, wantsSample: false };
 
 // One form for both the quote request (/devis, with the basket) and the plain
-// contact page. Server-side validation is authoritative (server/src/validation.js);
-// the checks here only spare the visitor a round trip.
+// contact page. The site is static (no backend): the request is written out as
+// a message and handed to WhatsApp or the visitor's e-mail app, pre-filled.
 export default function LeadForm({ type = "devis" }) {
   const quote = useQuote();
   const [form, setForm] = useState(EMPTY);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState({ state: "idle", message: "" });
-  const openedAt = useRef(Date.now());
   const isQuote = type === "devis";
   const items = isQuote ? quote.items : [];
-
-  useEffect(() => {
-    openedAt.current = Date.now();
-  }, []);
 
   const set = (field) => (e) => {
     const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
@@ -47,63 +40,57 @@ export default function LeadForm({ type = "devis" }) {
   function localErrors() {
     const er = {};
     if (!form.name.trim()) er.name = "Votre nom est obligatoire.";
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(form.email.trim())) er.email = "Adresse e-mail invalide.";
+    if (form.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(form.email.trim())) er.email = "Adresse e-mail invalide.";
     if (!/^[\d\s+().-]{6,30}$/.test(form.phone.trim())) er.phone = "Numéro de téléphone invalide.";
     if (isQuote && !items.length && !form.message.trim()) er.message = "Ajoutez au moins un produit ou décrivez votre besoin.";
     if (!isQuote && !form.message.trim()) er.message = "Votre message est vide.";
     return er;
   }
 
-  async function onSubmit(e) {
-    e.preventDefault();
+  function buildMessage() {
+    const line = (label, value) => (value ? `${label} : ${value}` : null);
+    const parts = [
+      isQuote ? "Demande de devis (site ANJELAB)" : "Message (site ANJELAB)",
+      "",
+      line("Nom", form.name.trim()),
+      line("Société", form.company.trim()),
+      line("Téléphone", form.phone.trim()),
+      line("E-mail", form.email.trim()),
+      line("Ville", form.city.trim()),
+      line("Activité", form.sector),
+      isQuote ? line("Fréquence d'achat", form.frequency) : null,
+    ];
+    if (items.length) {
+      parts.push("", "Produits :");
+      for (const i of items) parts.push(`- ${[i.name, i.quantity, i.packaging].filter(Boolean).join(" | ")}`);
+    }
+    if (form.message.trim()) parts.push("", isQuote ? "Précisions :" : "Message :", form.message.trim());
+    if (form.wantsDatasheet || form.wantsSample) parts.push("");
+    if (form.wantsDatasheet) parts.push("Je souhaite recevoir les fiches techniques / FDS.");
+    if (form.wantsSample) parts.push("Je souhaite un échantillon.");
+    return parts.filter((p) => p !== null).join("\n");
+  }
+
+  function send(channel) {
     const er = localErrors();
     setErrors(er);
     if (Object.keys(er).length) {
       setStatus({ state: "error", message: "Merci de corriger les champs signalés." });
       return;
     }
-    setStatus({ state: "sending", message: "" });
-    try {
-      const res = await fetch(`${API_URL}/api/leads`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...form,
-          type,
-          openedFor: Date.now() - openedAt.current,
-          items: items.map((i) => ({ product: i.id, name: i.name, slug: i.slug, quantity: i.quantity, packaging: i.packaging })),
-        }),
-      });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) {
-        setErrors(data.errors || {});
-        setStatus({ state: "error", message: data.message || "L'envoi a échoué. Réessayez ou contactez-nous par WhatsApp." });
-        return;
-      }
-      if (isQuote) quote.clear();
-      setForm(EMPTY);
-      setStatus({ state: "sent", message: "" });
-    } catch {
-      setStatus({ state: "error", message: "Serveur injoignable. Réessayez dans un instant ou écrivez-nous sur WhatsApp." });
+    const text = buildMessage();
+    if (channel === "whatsapp") {
+      window.open(whatsappHref(text), "_blank", "noopener");
+    } else {
+      const subject = isQuote ? `Demande de devis - ${form.company.trim() || form.name.trim()}` : `Contact - ${form.name.trim()}`;
+      window.location.href = `mailto:${COMPANY.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
     }
+    setStatus({ state: "opened", message: channel });
   }
 
-  if (status.state === "sent") {
-    return (
-      <div className="success-box" role="status">
-        <Icon name="check" />
-        <h2 style={{ fontSize: "1.5rem" }}>Demande envoyée, merci !</h2>
-        <p>Notre équipe vous recontacte rapidement. Pour une réponse immédiate, écrivez-nous sur WhatsApp.</p>
-        <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
-          <a href={whatsappHref()} className="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-            <Icon name="whatsapp" /> {COMPANY.phone}
-          </a>
-          <Link href="/produits/" className="btn btn-outline">
-            Retour au catalogue
-          </Link>
-        </div>
-      </div>
-    );
+  function onSubmit(e) {
+    e.preventDefault();
+    send("whatsapp");
   }
 
   const field = (name, label, props = {}) => (
@@ -182,7 +169,7 @@ export default function LeadForm({ type = "devis" }) {
         </div>
         <div className="form-row">
           {field("phone", "Téléphone / WhatsApp *", { type: "tel", autoComplete: "tel", maxLength: 30 })}
-          {field("email", "E-mail *", { type: "email", autoComplete: "email", maxLength: 160 })}
+          {field("email", "E-mail", { type: "email", autoComplete: "email", maxLength: 160 })}
         </div>
         <div className="form-row">
           {field("city", "Ville", { autoComplete: "address-level2", maxLength: 80 })}
@@ -229,18 +216,22 @@ export default function LeadForm({ type = "devis" }) {
             </label>
           </div>
         ) : null}
-        {/* Honeypot: invisible to people, filled by bots. */}
-        <div className="hp" aria-hidden="true">
-          <label htmlFor="f-website">Site web</label>
-          <input id="f-website" tabIndex={-1} autoComplete="off" value={form.website} onChange={set("website")} />
-        </div>
         {status.state === "error" ? (
           <p className="alert alert-error" role="alert">
             {status.message}
           </p>
         ) : null}
-        <button type="submit" className="btn btn-primary btn-block" disabled={status.state === "sending"}>
-          {status.state === "sending" ? "Envoi en cours…" : isQuote ? "Envoyer ma demande de devis" : "Envoyer le message"}
+        {status.state === "opened" ? (
+          <p className="alert alert-success" role="status">
+            {status.message === "whatsapp" ? "WhatsApp" : "Votre messagerie"} s&apos;est ouvert avec votre demande
+            pré-remplie : il ne vous reste qu&apos;à appuyer sur « Envoyer ».
+          </p>
+        ) : null}
+        <button type="submit" className="btn btn-whatsapp btn-block">
+          <Icon name="whatsapp" /> {isQuote ? "Envoyer ma demande par WhatsApp" : "Envoyer par WhatsApp"}
+        </button>
+        <button type="button" className="btn btn-outline btn-block" onClick={() => send("email")}>
+          <Icon name="mail" /> Envoyer par e-mail
         </button>
         <p className="muted" style={{ fontSize: "0.8rem", margin: 0 }}>
           Vos données servent uniquement à répondre à votre demande et ne sont jamais cédées à des tiers.

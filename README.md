@@ -11,7 +11,7 @@ site/     Next.js 15 static export (public site + /admin back-office)           
 ## Run locally (zero setup)
 
 ```bash
-cd server && npm install && npm run dev:memory     # API :4000, in-memory DB, 135 seeded products
+cd server && npm install && npm run dev:memory     # API :4000, in-memory DB, 137 seeded products
 cd site   && npm install && npm run dev            # site :3000
 ```
 Admin: http://localhost:3000/admin/ — `admin@anjelab.ma` / `anjelab-demo-2026` (demo only, data is lost on stop).
@@ -38,7 +38,7 @@ and (for the browser ones) `msedge --headless=new --remote-debugging-port=9333 a
 3. **API on Render** — New → Blueprint → this repo (`render.yaml`), or a Web Service with root `server`,
    build `npm ci`, start `npm start`. Set the env vars of `server/.env.example`.
    Then in the Render shell: `npm run create-admin -- client@anjelab.com '<strong password>' "ANJELAB"`
-   and `npm run seed` (adds the 135 researched products: textile line, cosmetics and detergents ranges; safe to re-run).
+   and `npm run seed` (adds the 137 researched products: textile line, cosmetics and detergents ranges; safe to re-run).
 4. **Site on Hostinger (shared hosting)** — production URLs are in the committed `site/.env.production`
    (API on Render, site on `https://anjelab.com`). Build and zip:
    ```bash

@@ -3249,6 +3249,52 @@
       "physicalForm": "Liquide parfumé",
       "packaging": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)",
       "seoKeywords": ["parfums gourmands", "parfum vanille", "parfum cosmétique", "parfum savon"]
+    },
+    {
+      "slug": "azurant-optique-lessive",
+      "name": "Azurant optique pour lessives",
+      "category": "additifs-formulation",
+      "shortDescription": "Azurant optique pour lessives en poudre et liquides, assouplissants et détergents : des blancs plus éclatants dès le premier lavage.",
+      "description": "L'azurant optique (agent de blanchiment optique) absorbe les UV et réémet une lumière bleue qui compense le jaunissement du linge : les blancs paraissent plus éclatants et les couleurs plus vives. Les dérivés stilbéniques sont les références des lessives en poudre, et les grades distyrylbiphényle se prêtent aux lessives liquides grâce à leur bonne solubilité. Dosage habituel : 0,05 à 0,3 % selon le produit.",
+      "applications": [
+        "Lessives en poudre",
+        "Lessives liquides",
+        "Détachants et assouplissants",
+        "Produits de blanchisserie"
+      ],
+      "benefits": [
+        "Blancs plus éclatants",
+        "Efficace à très faible dose",
+        "Grades poudre et liquide (à confirmer)",
+        "Bonne stabilité en formule"
+      ],
+      "chemicalNature": "Dérivé stilbénique (type DMS, CAS 16090-02-1) ou distyrylbiphényle (type CBS-X, CAS 27344-41-8) — grade à confirmer",
+      "physicalForm": "Poudre ou granulés jaune pâle à vert-jaune",
+      "packaging": "Cartons ou sacs de 25 kg (à confirmer)",
+      "seoKeywords": ["azurant optique lessive", "agent de blanchiment optique", "azurant optique détergent", "CBS-X"]
+    },
+    {
+      "slug": "parfums-detergents",
+      "name": "Parfums pour détergents et produits d'entretien",
+      "category": "additifs-formulation",
+      "shortDescription": "Parfums pour lessives, adoucissants, liquides vaisselle, nettoyants sols et eau de Javel : citron, lavande, pin-lavande, fraîcheur lessive…",
+      "description": "Compositions parfumées conçues pour les détergents et produits d'entretien : stables dans les bases tensioactives, alcalines ou acides selon la référence, et rémanentes sur le linge et les surfaces. Notes disponibles (à confirmer) : citron, lavande, pin-lavande, fraîcheur lessive, marine, savon de Marseille, pomme verte, fleurs blanches. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
+      "applications": [
+        "Lessives et adoucissants",
+        "Liquides vaisselle",
+        "Nettoyants sols et multi-usages",
+        "Eau de Javel parfumée et désinfectants"
+      ],
+      "benefits": [
+        "Stables dans les bases détergentes",
+        "Rémanence sur le linge et les surfaces",
+        "Large choix de notes",
+        "Échantillon sur demande (à confirmer)"
+      ],
+      "chemicalNature": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence",
+      "physicalForm": "Liquide parfumé",
+      "packaging": "Bidons de 5 kg et 25 kg ; fûts sur demande (à confirmer)",
+      "seoKeywords": ["parfum lessive", "parfum détergent", "parfum liquide vaisselle", "parfum javel"]
     }
   ]
 }

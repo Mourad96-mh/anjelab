@@ -428,12 +428,13 @@
    "source": "flickr"
   },
   "polysorbate-20": {
-   "title": "Bath oil one",
-   "url": "https://live.staticflickr.com/48/127962083_3570438047_b.jpg",
-   "page": "https://www.flickr.com/photos/87285907@N00/127962083",
-   "license": "BY-SA 2.0",
-   "artist": "ju5ti",
-   "source": "flickr"
+   "title": "Polysorbate 80 Food additive E433",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Radiotrefoil",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "polysorbate-60": {
    "title": "Homemade Hand Cream",
@@ -486,11 +487,11 @@
    "position": "bottom"
   },
   "polyquaternium-7": {
-   "title": "Mask, liquid soap and paper tissue",
-   "url": "https://live.staticflickr.com/3657/3511231869_058276fc6d_b.jpg",
-   "page": "https://www.flickr.com/photos/61368956@N00/3511231869",
-   "license": "BY 2.0",
-   "artist": "bfishadow",
+   "title": "chemistry bottles with liquid inside",
+   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
+   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
+   "license": "BY-SA 2.0",
+   "artist": "zhouxuan12345678",
    "source": "flickr"
   },
   "triethanolamine": {
@@ -886,20 +887,22 @@
    "source": "flickr"
   },
   "cocamidopropyl-betaine": {
-   "title": "Mask, liquid soap and paper tissue",
-   "url": "https://live.staticflickr.com/3657/3511231869_058276fc6d_b.jpg",
-   "page": "https://www.flickr.com/photos/61368956@N00/3511231869",
-   "license": "BY 2.0",
-   "artist": "bfishadow",
-   "source": "flickr"
+   "title": "Polysorbate 80 Food additive E433",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Radiotrefoil",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "cocamide-dea": {
-   "title": "Mask, liquid soap and paper tissue",
-   "url": "https://live.staticflickr.com/3657/3511231869_058276fc6d_b.jpg",
-   "page": "https://www.flickr.com/photos/61368956@N00/3511231869",
-   "license": "BY 2.0",
-   "artist": "bfishadow",
-   "source": "flickr"
+   "title": "Polysorbate 80 Food additive E433",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Radiotrefoil",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "lauramine-oxide": {
    "title": "Tesco and Sainsburys own dishwashing liquid",
@@ -966,12 +969,13 @@
    "source": "rawpixel"
   },
   "opacifiant": {
-   "title": "Mask, liquid soap and paper tissue",
-   "url": "https://live.staticflickr.com/3657/3511231869_058276fc6d_b.jpg",
-   "page": "https://www.flickr.com/photos/61368956@N00/3511231869",
-   "license": "BY 2.0",
-   "artist": "bfishadow",
-   "source": "flickr"
+   "title": "Liquid Soap (48008067931)",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Liquid_Soap_%2848008067931%29.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Liquid_Soap_(48008067931).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Brett Jordan",
+   "source": "wikimedia",
+   "position": "top"
   },
   "colorants-detergents": {
    "title": "Food Coloring Bottles (1043753940)",

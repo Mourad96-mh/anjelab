@@ -67,28 +67,31 @@
  },
  "products": {
   "antipilling": {
-   "title": "Cashmere Cable Knit",
-   "url": "https://live.staticflickr.com/4121/4743135028_16a9c74d3a_b.jpg",
-   "page": "https://www.flickr.com/photos/8420299@N07/4743135028",
-   "license": "BY 2.0",
-   "artist": "stolte-sawa",
-   "source": "flickr"
+   "title": "File:Liquid paraffin in beaker.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Chemik10 (pl.wikipedia)",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "enzyme-acide": {
-   "title": "Denim Texture 20",
-   "url": "https://live.staticflickr.com/3514/3319700585_bcd53c366f_b.jpg",
-   "page": "https://www.flickr.com/photos/31288116@N02/3319700585",
-   "license": "BY 2.0",
-   "artist": "SixRevisions",
-   "source": "flickr"
+   "title": "File:Beaker contains solution.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beaker%20contains%20solution.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Beaker_contains_solution.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Akshaya govindasamy",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "enzyme-neutre-stone-wash": {
-   "title": "Short Denim",
-   "url": "https://cdn.stocksnap.io/img-thumbs/960w/OTB7CWM64K.jpg",
-   "page": "https://stocksnap.io/photo/short-denim-OTB7CWM64K",
-   "license": "CC0 1.0",
-   "artist": "Bruno Nascimento",
-   "source": "stocksnap"
+   "title": "File:Beaker contains solution.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beaker%20contains%20solution.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Beaker_contains_solution.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Akshaya govindasamy",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "colorants-noirs": {
    "title": "Nigrosin W - Museo di Chimica Unige",
@@ -132,20 +135,22 @@
    "position": "centre"
   },
   "fixateur-colorants": {
-   "title": "File:Rolls of fabric of multiple colors (181099191).jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Rolls_of_fabric_of_multiple_colors_%28181099191%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Rolls_of_fabric_of_multiple_colors_(181099191).jpg",
-   "license": "CC BY 3.0",
-   "artist": "Daniel Aufgang",
-   "source": "wikimedia"
+   "title": "File:Liquid paraffin in beaker.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Chemik10 (pl.wikipedia)",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "adoucissant-cationique": {
-   "title": "File:Guest Room Towel (2283704709).jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Guest_Room_Towel_%282283704709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Guest_Room_Towel_(2283704709).jpg",
-   "license": "CC BY-SA 2.0",
-   "artist": "Marcus Quigmire from Florida, USA",
-   "source": "wikimedia"
+   "title": "File:Rubber liquid in cans.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubber%20liquid%20in%20cans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rubber_liquid_in_cans.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Nkansahrexford",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "microemulsion-silicone": {
    "title": "chemistry bottles with liquid inside",
@@ -156,28 +161,31 @@
    "source": "flickr"
   },
   "azurant-optique-jaune": {
-   "title": "File:Stacks-of-gym-towels-on-wood-bench.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Stacks-of-gym-towels-on-wood-bench.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Stacks-of-gym-towels-on-wood-bench.jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "Brandon.wiggins",
-   "source": "wikimedia"
+   "title": "File:AgCO3-powder-C-white-background.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AgCO3-powder-C-white-background.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:AgCO3-powder-C-white-background.jpg",
+   "license": "Public domain",
+   "artist": "Ben Mills",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "azurant-optique-bleu": {
-   "title": "white shirts",
-   "url": "https://live.staticflickr.com/2264/2460566811_a9dd0f0b90_b.jpg",
-   "page": "https://www.flickr.com/photos/27902937@N00/2460566811",
-   "license": "BY 2.0",
-   "artist": "ichigonotsukikage",
-   "source": "flickr"
+   "title": "File:White solid example.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20solid%20example.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:White_solid_example.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Leiem",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "adoucissant-hydrophile": {
-   "title": "File:Colorful Towels (Closeup).jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Colorful_Towels_%28Closeup%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Colorful_Towels_(Closeup).jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "Dmitri Popov",
-   "source": "wikimedia"
+   "title": "File:Liquid paraffin in beaker.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Chemik10 (pl.wikipedia)",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "edta": {
    "title": "Sample of Ethylenediaminetetraacetic acid disodium salt",
@@ -212,20 +220,22 @@
    "source": "flickr"
   },
   "fixateur-serigraphie-impression": {
-   "title": "File:Screen Printing machine.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Screen_Printing_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Screen_Printing_machine.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Romain Salomon",
-   "source": "wikimedia"
+   "title": "File:Liquid paraffin in beaker.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Chemik10 (pl.wikipedia)",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "liant-serigraphie-impression": {
-   "title": "File:Fabric printing, Bikaner.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Fabric_printing%2C_Bikaner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Fabric_printing,_Bikaner.jpg",
-   "license": "CC BY 2.0",
-   "artist": "Rick Bradley from Nashville, USA",
-   "source": "wikimedia"
+   "title": "File:Rubber liquid in cans.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubber%20liquid%20in%20cans.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Rubber_liquid_in_cans.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Nkansahrexford",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "emulsion-apprets-textile": {
    "title": "File:Water drop on fabric.jpg",
@@ -1082,12 +1092,13 @@
    "source": "flickr"
   },
   "azurant-optique-lessive": {
-   "title": "white shirts",
-   "url": "https://live.staticflickr.com/2264/2460566811_a9dd0f0b90_b.jpg",
-   "page": "https://www.flickr.com/photos/27902937@N00/2460566811",
-   "license": "BY 2.0",
-   "artist": "ichigonotsukikage",
-   "source": "flickr"
+   "title": "File:Pentadecylic or pentadecanoic acid powder in weighboat.jpg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pentadecylic%20or%20pentadecanoic%20acid%20powder%20in%20weighboat.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pentadecylic_or_pentadecanoic_acid_powder_in_weighboat.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Awkwafaba",
+   "source": "wikimedia",
+   "position": "centre"
   },
   "parfums-detergents": {
    "title": "Citrus Fruit",

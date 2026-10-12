@@ -4,7 +4,6 @@
 //   node scripts/import-images.mjs            (reads scripts/images.manifest.json)
 //
 // Manifest: { site: { <key>: entry }, products: { <product-slug>: entry } }
-// (products is empty: product visuals come from render-product-packs.mjs)
 // entry = { title, url, page, license, artist, source, position? }
 // Outputs public/images/site/<key>.webp, public/images/products/<slug>.webp
 // and src/data/image-credits.json. Re-running skips files already present

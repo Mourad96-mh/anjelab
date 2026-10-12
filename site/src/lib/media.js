@@ -20,7 +20,7 @@ const ALT = {
 export function media(key) {
   const c = credits.site?.[key];
   if (!c) return null;
-  return { src: `/images/site/${key}.webp`, alt: ALT[key] || "", ...c };
+  return { ...c, src: `/images/site/${key}.webp?v=${c.version}`, alt: ALT[key] || "" };
 }
 
 export const SECTOR_MEDIA = {

@@ -8,7 +8,12 @@
 // Outputs public/images/site/<key>.webp, public/images/products/<slug>.webp
 // and src/data/image-credits.json. Re-running skips files already present
 // (FORCE=1 to redo).
+//
+// Each file also gets a short content hash, appended to its URL as ?v=…
+// (credits + catalogue.json). Images are cached 30 days by .htaccess, so a
+// replaced photo under the same name would otherwise stay stale in browsers.
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import sharp from "sharp";
 
 const root = new URL("..", import.meta.url);
@@ -57,7 +62,9 @@ for (const family of ["site", "products"]) {
       console.log(`✓ ${family}/${key}`);
       await sleep(1200);
     }
+    const version = createHash("sha1").update(await readFile(out)).digest("hex").slice(0, 8);
     credits[family][key] = {
+      version,
       title: entry.title.replace(/^File:/, "").replace(/\.(jpe?g|png)$/i, ""),
       artist: entry.artist || "",
       license: entry.license,
@@ -70,4 +77,16 @@ for (const family of ["site", "products"]) {
 }
 
 await writeFile(new URL("src/data/image-credits.json", root), `${JSON.stringify(credits, null, 1)}\n`);
+
+// Stamp product image URLs in the catalogue with their version.
+const catalogueUrl = new URL("src/data/catalogue.json", root);
+const catalogue = JSON.parse(await readFile(catalogueUrl, "utf8"));
+for (const p of catalogue.products) {
+  for (const img of p.images || []) {
+    const m = img.url.match(/^\/images\/products\/([^/?]+)\.webp/);
+    const v = m && credits.products[m[1]]?.version;
+    if (v) img.url = `/images/products/${m[1]}.webp?v=${v}`;
+  }
+}
+await writeFile(catalogueUrl, `${JSON.stringify(catalogue, null, 1)}\n`);
 console.log(`credits: ${Object.keys(credits.site).length} site, ${Object.keys(credits.products).length} products`);

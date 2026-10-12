@@ -11,8 +11,8 @@ export const metadata = {
 // licence and source for every illustration used on the site.
 export default function CreditsPage() {
   const rows = [
-    ...Object.entries(credits.site || {}).map(([k, c]) => ({ ...c, src: `/images/site/${k}.webp` })),
-    ...Object.entries(credits.products || {}).map(([k, c]) => ({ ...c, src: `/images/products/${k}.webp` })),
+    ...Object.entries(credits.site || {}).map(([k, c]) => ({ ...c, src: `/images/site/${k}.webp?v=${c.version}` })),
+    ...Object.entries(credits.products || {}).map(([k, c]) => ({ ...c, src: `/images/products/${k}.webp?v=${c.version}` })),
   ];
   return (
     <>

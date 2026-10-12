@@ -16,6 +16,10 @@ const nextConfig = {
   // pin the tracing root to this project.
   outputFileTracingRoot: __dirname,
   poweredByHeader: false,
+  // `next dev` and `next build` both write to .next; NEXT_DIST_DIR lets a
+  // production build run while the dev server is up without breaking it.
+  // With a custom distDir the static export lands in that folder, not out/.
+  distDir: process.env.NEXT_DIST_DIR || ".next",
 };
 
 export default nextConfig;

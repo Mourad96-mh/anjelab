@@ -95,16 +95,6 @@
    "updatedAt": "2026-10-11T12:27:41.488Z"
   },
   {
-   "_id": "6acb80c3b1ffcd466ef963da",
-   "slug": "parfums-cosmetiques",
-   "createdAt": "2026-10-11T12:27:41.562Z",
-   "description": "Compositions parfumées pour cosmétiques, savons et produits d'entretien, par famille olfactive : florale, fruitée, hespéridée, aromatique, boisée.",
-   "name": "Parfums cosmétiques",
-   "order": 16,
-   "sector": "cosmetique",
-   "updatedAt": "2026-10-11T12:27:41.562Z"
-  },
-  {
    "_id": "6ac2edb9d4f4a95cc4e1896b",
    "slug": "produits-chimiques-base",
    "createdAt": "2026-10-05T00:22:17.626Z",
@@ -253,11 +243,11 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/antipilling.webp?v=1843647d",
-     "alt": "Agent anti-boulochage (antipilling) — photo d'illustration"
+     "url": "/images/products/antipilling.webp?v=88a5d15e",
+     "alt": "Antipilling — conditionnement ANJELAB"
     }
    ],
-   "name": "Agent anti-boulochage (antipilling)",
+   "name": "Antipilling",
    "order": 0,
    "published": true,
    "sectors": [
@@ -316,11 +306,11 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/enzyme-acide.webp?v=f8cd1f34",
-     "alt": "Enzyme cellulase acide — photo d'illustration"
+     "url": "/images/products/enzyme-acide.webp?v=7a54726b",
+     "alt": "Enzyme acide — conditionnement ANJELAB"
     }
    ],
-   "name": "Enzyme cellulase acide",
+   "name": "Enzyme acide",
    "order": 1,
    "published": true,
    "sectors": [
@@ -379,11 +369,11 @@
    "featured": true,
    "images": [
     {
-     "url": "/images/products/enzyme-neutre-stone-wash.webp?v=f8cd1f34",
-     "alt": "Enzyme cellulase neutre pour stone wash — photo d'illustration"
+     "url": "/images/products/enzyme-neutre-stone-wash.webp?v=6bf44267",
+     "alt": "Enzyme neutre — conditionnement ANJELAB"
     }
    ],
-   "name": "Enzyme cellulase neutre pour stone wash",
+   "name": "Enzyme neutre",
    "order": 2,
    "published": true,
    "sectors": [
@@ -442,8 +432,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/colorants-noirs.webp?v=f9576075",
-     "alt": "Colorants noirs — photo d'illustration"
+     "url": "/images/products/colorants-noirs.webp?v=8144c277",
+     "alt": "Colorants noirs — conditionnement ANJELAB"
     }
    ],
    "name": "Colorants noirs",
@@ -505,8 +495,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/colorants-marron.webp?v=130afa0e",
-     "alt": "Colorants marron — photo d'illustration"
+     "url": "/images/products/colorants-marron.webp?v=6a174db2",
+     "alt": "Colorants marron — conditionnement ANJELAB"
     }
    ],
    "name": "Colorants marron",
@@ -568,8 +558,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/colorants-bleus.webp?v=2e1dadc8",
-     "alt": "Colorants bleus — photo d'illustration"
+     "url": "/images/products/colorants-bleus.webp?v=b00295e2",
+     "alt": "Colorants bleus — conditionnement ANJELAB"
     }
    ],
    "name": "Colorants bleus",
@@ -631,11 +621,11 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/mouillant-non-ionique.webp?v=5241c123",
-     "alt": "Mouillant non ionique — photo d'illustration"
+     "url": "/images/products/mouillant-non-ionique.webp?v=32d90ead",
+     "alt": "Mouillant — conditionnement ANJELAB"
     }
    ],
-   "name": "Mouillant non ionique",
+   "name": "Mouillant",
    "order": 6,
    "published": true,
    "sectors": [
@@ -694,8 +684,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/agent-unisson.webp?v=4be1fa69",
-     "alt": "Agent d'unisson (égalisant) — photo d'illustration"
+     "url": "/images/products/agent-unisson.webp?v=df1ed255",
+     "alt": "Agent d'unisson (égalisant) — conditionnement ANJELAB"
     }
    ],
    "name": "Agent d'unisson (égalisant)",
@@ -757,8 +747,8 @@
    "featured": true,
    "images": [
     {
-     "url": "/images/products/fixateur-colorants.webp?v=1843647d",
-     "alt": "Fixateur de colorants — photo d'illustration"
+     "url": "/images/products/fixateur-colorants.webp?v=0c8df705",
+     "alt": "Fixateur de colorants — conditionnement ANJELAB"
     }
    ],
    "name": "Fixateur de colorants",
@@ -820,8 +810,8 @@
    "featured": true,
    "images": [
     {
-     "url": "/images/products/adoucissant-cationique.webp?v=00164431",
-     "alt": "Adoucissant cationique — photo d'illustration"
+     "url": "/images/products/adoucissant-cationique.webp?v=26e952f3",
+     "alt": "Adoucissant cationique — conditionnement ANJELAB"
     }
    ],
    "name": "Adoucissant cationique",
@@ -883,8 +873,8 @@
    "featured": true,
    "images": [
     {
-     "url": "/images/products/microemulsion-silicone.webp?v=5241c123",
-     "alt": "Microémulsion de silicone — photo d'illustration"
+     "url": "/images/products/microemulsion-silicone.webp?v=be21c863",
+     "alt": "Microémulsion de silicone — conditionnement ANJELAB"
     }
    ],
    "name": "Microémulsion de silicone",
@@ -946,8 +936,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/emulsion-silicone.webp?v=c5c1551d",
-     "alt": "Émulsion de silicone — photo d'illustration"
+     "url": "/images/products/emulsion-silicone.webp?v=06c9179b",
+     "alt": "Émulsion de silicone — conditionnement ANJELAB"
     }
    ],
    "name": "Émulsion de silicone",
@@ -1009,11 +999,11 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/azurant-optique-jaune.webp?v=890b6e12",
-     "alt": "Azurant optique (nuance jaune) — photo d'illustration"
+     "url": "/images/products/azurant-optique-jaune.webp?v=f54ade6c",
+     "alt": "Azurant optique (jaune) — conditionnement ANJELAB"
     }
    ],
-   "name": "Azurant optique (nuance jaune)",
+   "name": "Azurant optique (jaune)",
    "order": 12,
    "published": true,
    "sectors": [
@@ -1072,11 +1062,11 @@
    "featured": true,
    "images": [
     {
-     "url": "/images/products/azurant-optique-bleu.webp?v=8d6e4d6f",
-     "alt": "Azurant optique (nuance bleue) — photo d'illustration"
+     "url": "/images/products/azurant-optique-bleu.webp?v=549d0918",
+     "alt": "Azurant optique (bleu) — conditionnement ANJELAB"
     }
    ],
-   "name": "Azurant optique (nuance bleue)",
+   "name": "Azurant optique (bleu)",
    "order": 13,
    "published": true,
    "sectors": [
@@ -1135,11 +1125,11 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/adoucissant-hydrophile.webp?v=1843647d",
-     "alt": "Adoucissant hydrophile — photo d'illustration"
+     "url": "/images/products/adoucissant-hydrophile.webp?v=153ec080",
+     "alt": "Adoucissant hydrophil — conditionnement ANJELAB"
     }
    ],
-   "name": "Adoucissant hydrophile",
+   "name": "Adoucissant hydrophil",
    "order": 14,
    "published": true,
    "sectors": [
@@ -1198,8 +1188,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/edta.webp?v=ed086e08",
-     "alt": "EDTA (agent séquestrant) — photo d'illustration"
+     "url": "/images/products/edta.webp?v=d6240f69",
+     "alt": "EDTA (agent séquestrant) — conditionnement ANJELAB"
     }
    ],
    "name": "EDTA (agent séquestrant)",
@@ -1263,8 +1253,8 @@
    "featured": true,
    "images": [
     {
-     "url": "/images/products/percarbonate-de-sodium.webp?v=7abdc754",
-     "alt": "Percarbonate de sodium — photo d'illustration"
+     "url": "/images/products/percarbonate-de-sodium.webp?v=4fb3a115",
+     "alt": "Percarbonate de sodium — conditionnement ANJELAB"
     }
    ],
    "name": "Percarbonate de sodium",
@@ -1327,8 +1317,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/carbonate-de-sodium.webp?v=1c95a7c6",
-     "alt": "Carbonate de sodium — photo d'illustration"
+     "url": "/images/products/carbonate-de-sodium.webp?v=05c6409d",
+     "alt": "Carbonate de sodium — conditionnement ANJELAB"
     }
    ],
    "name": "Carbonate de sodium",
@@ -1391,8 +1381,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/acide-citrique.webp?v=62ab950c",
-     "alt": "Acide citrique — photo d'illustration"
+     "url": "/images/products/acide-citrique.webp?v=73d40f23",
+     "alt": "Acide citrique — conditionnement ANJELAB"
     }
    ],
    "name": "Acide citrique",
@@ -1456,8 +1446,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/acide-acetique.webp?v=5241c123",
-     "alt": "Acide acétique — photo d'illustration"
+     "url": "/images/products/acide-acetique.webp?v=fc3da5ea",
+     "alt": "Acide acétique — conditionnement ANJELAB"
     }
    ],
    "name": "Acide acétique",
@@ -1520,8 +1510,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/metabisulfite-de-sodium.webp?v=ba167f55",
-     "alt": "Métabisulfite de sodium — photo d'illustration"
+     "url": "/images/products/metabisulfite-de-sodium.webp?v=1d4f04a1",
+     "alt": "Métabisulfite de sodium — conditionnement ANJELAB"
     }
    ],
    "name": "Métabisulfite de sodium",
@@ -1584,8 +1574,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/fixateur-serigraphie-impression.webp?v=1843647d",
-     "alt": "Fixateur pour sérigraphie et impression — photo d'illustration"
+     "url": "/images/products/fixateur-serigraphie-impression.webp?v=2d8a30b1",
+     "alt": "Fixateur pour sérigraphie et impression — conditionnement ANJELAB"
     }
    ],
    "name": "Fixateur pour sérigraphie et impression",
@@ -1647,8 +1637,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/liant-serigraphie-impression.webp?v=00164431",
-     "alt": "Liant pour sérigraphie et impression — photo d'illustration"
+     "url": "/images/products/liant-serigraphie-impression.webp?v=995db822",
+     "alt": "Liant pour sérigraphie et impression — conditionnement ANJELAB"
     }
    ],
    "name": "Liant pour sérigraphie et impression",
@@ -1710,8 +1700,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/emulsion-apprets-textile.webp?v=060df952",
-     "alt": "Émulsion d'apprêt textile — photo d'illustration"
+     "url": "/images/products/emulsion-apprets-textile.webp?v=8b753c2d",
+     "alt": "Émulsion d'apprêt textile — conditionnement ANJELAB"
     }
    ],
    "name": "Émulsion d'apprêt textile",
@@ -1773,8 +1763,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/inhibiteur-de-corrosion.webp?v=5241c123",
-     "alt": "Inhibiteur de corrosion — photo d'illustration"
+     "url": "/images/products/inhibiteur-de-corrosion.webp?v=4f47c2e2",
+     "alt": "Inhibiteur de corrosion — conditionnement ANJELAB"
     }
    ],
    "name": "Inhibiteur de corrosion",
@@ -1875,70 +1865,6 @@
    "updatedAt": "2026-10-11T12:27:45.957Z"
   },
   {
-   "_id": "6ac405acd4f4a95cc4e18aaf",
-   "slug": "argile-blanche",
-   "applications": [
-    "Masques doux pour peaux sèches et sensibles",
-    "Soins bébé et peaux réactives",
-    "Poudres et talcs corporels",
-    "Gommages et nettoyants doux"
-   ],
-   "benefits": [
-    "Nettoie en douceur sans dessécher",
-    "Apaise et adoucit la peau",
-    "Teinte neutre, facile à formuler",
-    "Convient aux peaux sensibles"
-   ],
-   "category": {
-    "_id": "6ac405a7d4f4a95cc4e18aad",
-    "slug": "argiles-cosmetiques",
-    "name": "Argiles cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-05T20:16:42.518Z",
-   "description": "L'argile blanche, à dominante de kaolinite, est la plus douce des argiles cosmétiques. Moins absorbante que l'argile verte, elle nettoie et adoucit sans dessécher, ce qui la destine aux peaux sèches, sensibles et matures. Sa couleur neutre permet de l'intégrer dans des masques, des poudres et des soins corps sans modifier la teinte du produit fini.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/argile-blanche.webp",
-     "alt": "Argile blanche — photo d'illustration"
-    }
-   ],
-   "name": "Argile blanche",
-   "order": 26,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Argile blanche douce et peu desséchante, adaptée aux peaux sèches, sensibles et réactives.",
-    "keywords": [
-     "argile blanche",
-     "argile blanche Maroc",
-     "argile cosmétique",
-     "matière première cosmétique",
-     "argile blanche peau sensible"
-    ]
-   },
-   "shortDescription": "Argile blanche douce et peu desséchante, adaptée aux peaux sèches, sensibles et réactives.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Argile naturelle à dominante de kaolinite. INCI : Kaolin (CAS 1332-58-7) — à confirmer. Lot accompagné de son certificat d'analyse (microbiologie, métaux lourds) — à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Poudre fine, tamisée et séchée (granulométrie à confirmer), couleur blanche"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sacs kraft de 25 kg ; petits conditionnements sur demande (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:46.104Z"
-  },
-  {
    "_id": "6ac405acd4f4a95cc4e18ab0",
    "slug": "kaolin-cosmetique",
    "applications": [
@@ -1966,10 +1892,10 @@
    "images": [
     {
      "url": "/images/products/kaolin-cosmetique.webp",
-     "alt": "Argile blanche kaolin (grade formulation) — photo d'illustration"
+     "alt": "Argile blanche kaolin — photo d'illustration"
     }
    ],
-   "name": "Argile blanche kaolin (grade formulation)",
+   "name": "Argile blanche kaolin",
    "order": 27,
    "published": true,
    "sectors": [
@@ -2413,8 +2339,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/acide-glycolique.webp?v=0c3b805e",
-     "alt": "Acide glycolique — photo d'illustration"
+     "url": "/images/products/acide-glycolique.webp?v=8228cb7c",
+     "alt": "Acide glycolique — conditionnement ANJELAB"
     }
    ],
    "name": "Acide glycolique",
@@ -2476,8 +2402,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/acide-hyaluronique-haut-poids-moleculaire.webp?v=b775bce9",
-     "alt": "Acide hyaluronique (haut poids moléculaire) — photo d'illustration"
+     "url": "/images/products/acide-hyaluronique-haut-poids-moleculaire.webp?v=b98ffa15",
+     "alt": "Acide hyaluronique (haut poids moléculaire) — poudre"
     }
    ],
    "name": "Acide hyaluronique (haut poids moléculaire)",
@@ -2513,69 +2439,6 @@
    "updatedAt": "2026-10-11T12:27:47.502Z"
   },
   {
-   "_id": "6acb80c9b1ffcd466ef963e1",
-   "slug": "acide-hyaluronique-bas-poids-moleculaire",
-   "applications": [
-    "Sérums anti-âge et repulpants",
-    "Crèmes de jour et de nuit",
-    "Soins contour des yeux",
-    "Formules multi-poids moléculaires"
-   ],
-   "benefits": [
-    "Hydratation plus profonde et durable",
-    "Atténue les ridules de déshydratation",
-    "Très soluble, ne gélifie pas",
-    "Complément idéal de la grande molécule"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d3",
-    "slug": "actifs-cosmetiques",
-    "name": "Actifs cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:47.590Z",
-   "description": "La forme de bas poids moléculaire (petite molécule) de l'acide hyaluronique pénètre plus facilement dans les couches superficielles de l'épiderme. Elle prolonge l'hydratation dans le temps et contribue à atténuer l'apparence des ridules de déshydratation. Associée à la forme de haut poids moléculaire, elle permet de formuler des sérums « multi-poids » très demandés.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/acide-hyaluronique-bas-poids-moleculaire.webp?v=742e9a2c",
-     "alt": "Acide hyaluronique (bas poids moléculaire) — photo d'illustration"
-    }
-   ],
-   "name": "Acide hyaluronique (bas poids moléculaire)",
-   "order": 36,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Hyaluronate de sodium bas poids moléculaire : petite molécule qui hydrate plus en profondeur les couches supérieures de l'épiderme.",
-    "keywords": [
-     "acide hyaluronique petite molécule",
-     "acide hyaluronique bas poids moléculaire",
-     "hyaluronate de sodium",
-     "sérum acide hyaluronique"
-    ]
-   },
-   "shortDescription": "Hyaluronate de sodium bas poids moléculaire : petite molécule qui hydrate plus en profondeur les couches supérieures de l'épiderme.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Hyaluronate de sodium, CAS 9067-32-7. INCI : Sodium Hyaluronate (ou Hydrolyzed Sodium Hyaluronate). Poids moléculaire à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Poudre blanche hydrosoluble"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 50 g, 100 g, 1 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:47.663Z"
-  },
-  {
    "_id": "6acb80c9b1ffcd466ef963e2",
    "slug": "acide-kojique",
    "applications": [
@@ -2602,8 +2465,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/acide-kojique.webp?v=ba167f55",
-     "alt": "Acide kojique — photo d'illustration"
+     "url": "/images/products/acide-kojique.webp?v=d70adcc4",
+     "alt": "Acide kojique — poudre"
     }
    ],
    "name": "Acide kojique",
@@ -2665,8 +2528,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/acide-salicylique.webp?v=0c3b805e",
-     "alt": "Acide salicylique — photo d'illustration"
+     "url": "/images/products/acide-salicylique.webp?v=25ec98a9",
+     "alt": "Acide salicylique — conditionnement ANJELAB"
     }
    ],
    "name": "Acide salicylique",
@@ -2700,69 +2563,6 @@
     }
    ],
    "updatedAt": "2026-10-11T12:27:47.963Z"
-  },
-  {
-   "_id": "6acb80c9b1ffcd466ef963e4",
-   "slug": "acni-bio",
-   "applications": [
-    "Gels et sérums anti-imperfections",
-    "Lotions purifiantes",
-    "Crèmes matifiantes",
-    "Masques purifiants"
-   ],
-   "benefits": [
-    "Purifie les peaux à tendance acnéique",
-    "Aide à matifier",
-    "Facile à intégrer",
-    "Origine naturelle (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d3",
-    "slug": "actifs-cosmetiques",
-    "name": "Actifs cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:48.030Z",
-   "description": "Acni Bio est un complexe actif destiné aux soins des peaux grasses et à imperfections. Il s'intègre dans les gels, lotions, sérums et crèmes matifiantes pour aider à purifier la peau, réguler l'aspect brillant et apaiser les rougeurs. La composition exacte (INCI), le dosage recommandé et la fiche technique sont communiqués sur demande.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/acni-bio.webp?v=b775bce9",
-     "alt": "Acni Bio — actif anti-imperfections — photo d'illustration"
-    }
-   ],
-   "name": "Acni Bio — actif anti-imperfections",
-   "order": 39,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Complexe actif d'origine naturelle pour les soins des peaux grasses à imperfections : gels, lotions et crèmes matifiantes.",
-    "keywords": [
-     "acni bio",
-     "actif anti acné",
-     "actif anti-imperfections",
-     "matière première cosmétique acné"
-    ]
-   },
-   "shortDescription": "Complexe actif d'origine naturelle pour les soins des peaux grasses à imperfections : gels, lotions et crèmes matifiantes.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Complexe actif — composition INCI et dosage à confirmer (fiche technique sur demande)"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide — à confirmer"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg et bidons de 5 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:48.109Z"
   },
   {
    "_id": "6acb80c9b1ffcd466ef963e5",
@@ -2891,19 +2691,19 @@
    "updatedAt": "2026-10-11T12:27:48.411Z"
   },
   {
-   "_id": "6acb80cab1ffcd466ef963e7",
-   "slug": "retinol-liquide",
+   "_id": "6ace916d158285f8d17b5b27",
+   "slug": "zinc-pca",
    "applications": [
-    "Sérums anti-âge",
-    "Crèmes de nuit",
-    "Soins anti-rides",
-    "Soins texture et éclat"
+    "Soins des peaux grasses et à imperfections",
+    "Shampooings pour cuir chevelu gras",
+    "Toniques et lotions purifiantes",
+    "Déodorants"
    ],
    "benefits": [
-    "Actif anti-âge de référence",
-    "Lisse et affine le grain de peau",
-    "Facile à incorporer en phase huileuse",
-    "Stabilisé (antioxydant) — à confirmer"
+    "Régule l'excès de sébum",
+    "Aide à limiter les imperfections",
+    "Hydratant (PCA)",
+    "Soluble dans l'eau"
    ],
    "category": {
     "_id": "6acb80c2b1ffcd466ef963d3",
@@ -2911,47 +2711,47 @@
     "name": "Actifs cosmétiques",
     "sector": "cosmetique"
    },
-   "createdAt": "2026-10-11T12:27:48.521Z",
-   "description": "Le rétinol est la forme alcool de la vitamine A, actif anti-âge de référence : il stimule le renouvellement cellulaire, lisse les rides et ridules et améliore la texture de la peau. La forme liquide (rétinol dilué dans une huile, en général avec un antioxydant) s'incorpore dans la phase grasse des sérums et crèmes de nuit. Il est sensible à la lumière et à l'air ; sa concentration est encadrée par la réglementation.",
+   "createdAt": "2026-10-13T20:15:41.518Z",
+   "description": "Le Zn-PCA (zinc PCA) associe le zinc à l'acide pyrrolidone carboxylique, un composant naturel de l'hydratation de la peau. Il aide à réguler la production de sébum et à limiter les imperfections, tout en contribuant à l'hydratation. Soluble dans l'eau, il s'intègre facilement aux gels, toniques, crèmes matifiantes, shampooings pour cuir chevelu gras et déodorants.",
    "documents": [],
    "featured": false,
    "images": [
     {
-     "url": "/images/products/retinol-liquide.webp?v=6a84e152",
-     "alt": "Rétinol liquide — photo d'illustration"
+     "url": "/images/products/zinc-pca.webp?v=32d12d8c",
+     "alt": "Zn-PCA (zinc PCA) — poudre"
     }
    ],
-   "name": "Rétinol liquide",
+   "name": "Zn-PCA (zinc PCA)",
    "order": 42,
    "published": true,
    "sectors": [
     "cosmetique"
    ],
    "seo": {
-    "description": "Rétinol (vitamine A) liquide pour les soins anti-âge : sérums et crèmes de nuit qui lissent rides et ridules.",
+    "description": "Zn-PCA (zinc PCA), actif séborégulateur pour soins des peaux grasses, shampooings pour cuir chevelu gras et déodorants.",
     "keywords": [
-     "rétinol",
-     "retinol liquide",
-     "vitamine A cosmétique",
-     "rétinol Maroc"
+     "zinc PCA",
+     "Zn-PCA",
+     "actif séborégulateur",
+     "zinc PCA Maroc"
     ]
    },
-   "shortDescription": "Rétinol (vitamine A) liquide pour les soins anti-âge : sérums et crèmes de nuit qui lissent rides et ridules.",
+   "shortDescription": "Actif séborégulateur et hydratant pour les soins des peaux grasses, les shampooings et les déodorants.",
    "specs": [
     {
      "label": "Nature chimique",
-     "value": "Rétinol, CAS 68-26-8, en solution huileuse (titre et support à confirmer). INCI : Retinol"
+     "value": "Sel de zinc de l'acide pyrrolidone carboxylique, CAS 15454-75-8. INCI : Zinc PCA"
     },
     {
      "label": "Forme physique",
-     "value": "Liquide huileux jaune"
+     "value": "Poudre blanche"
     },
     {
      "label": "Conditionnement",
-     "value": "Flacons de 100 g et 1 kg (à confirmer)"
+     "value": "Sacs de 25 kg ; petits conditionnements sur demande (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-11T12:27:48.595Z"
+   "updatedAt": "2026-10-13T20:15:41.518Z"
   },
   {
    "_id": "6acb80cab1ffcd466ef963e8",
@@ -2980,8 +2780,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/retinol-poudre.webp?v=ba167f55",
-     "alt": "Rétinol poudre — photo d'illustration"
+     "url": "/images/products/retinol-poudre.webp?v=9816cbb2",
+     "alt": "Rétinol poudre — poudre"
     }
    ],
    "name": "Rétinol poudre",
@@ -3043,8 +2843,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/vitamine-c.webp?v=b775bce9",
-     "alt": "Vitamine C — photo d'illustration"
+     "url": "/images/products/vitamine-c.webp?v=35f0d69b",
+     "alt": "Vitamine C — poudre"
     }
    ],
    "name": "Vitamine C",
@@ -3106,8 +2906,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/vitamine-e.webp?v=59c75696",
-     "alt": "Vitamine E (tocophérol) — photo d'illustration"
+     "url": "/images/products/vitamine-e.webp?v=13280ee7",
+     "alt": "Vitamine E (tocophérol) — huile"
     }
    ],
    "name": "Vitamine E (tocophérol)",
@@ -3169,8 +2969,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/provitamine-b5.webp?v=0a10069d",
-     "alt": "Provitamine B5 (D-panthénol) — photo d'illustration"
+     "url": "/images/products/provitamine-b5.webp?v=62e3a3e4",
+     "alt": "Provitamine B5 (D-panthénol) — liquide"
     }
    ],
    "name": "Provitamine B5 (D-panthénol)",
@@ -3232,8 +3032,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/glycerine.webp?v=4605e934",
-     "alt": "Glycérine végétale — photo d'illustration"
+     "url": "/images/products/glycerine.webp?v=a3b41131",
+     "alt": "Glycérine végétale — liquide"
     }
    ],
    "name": "Glycérine végétale",
@@ -3296,8 +3096,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/sorbitol.webp?v=4605e934",
-     "alt": "Sorbitol — photo d'illustration"
+     "url": "/images/products/sorbitol.webp?v=a2aa62e4",
+     "alt": "Sorbitol — liquide"
     }
    ],
    "name": "Sorbitol",
@@ -3333,19 +3133,19 @@
    "updatedAt": "2026-10-11T12:27:49.646Z"
   },
   {
-   "_id": "6acb80cbb1ffcd466ef963ee",
-   "slug": "betaine",
+   "_id": "6ace91a8c76108c9a984f59f",
+   "slug": "sodium-pca",
    "applications": [
     "Crèmes et lotions hydratantes",
-    "Gels douche et shampooings doux",
-    "Soins capillaires",
-    "Dentifrices et bains de bouche"
+    "Sérums et gels",
+    "Shampooings et après-shampooings",
+    "Toniques et brumes"
    ],
    "benefits": [
-    "Hydrate et adoucit",
-    "Réduit l'irritation des tensioactifs",
-    "Origine naturelle (betterave)",
-    "Hydrosoluble"
+    "Hydratation intense",
+    "Constituant naturel de la peau (NMF)",
+    "Toucher non collant",
+    "Soluble dans l'eau"
    ],
    "category": {
     "_id": "6acb80c2b1ffcd466ef963d4",
@@ -3353,47 +3153,47 @@
     "name": "Humectants & hydratants",
     "sector": "cosmetique"
    },
-   "createdAt": "2026-10-11T12:27:49.720Z",
-   "description": "La bétaïne (triméthylglycine), issue de la betterave sucrière, est un osmoprotecteur : elle aide les cellules de la peau à maintenir leur équilibre hydrique. Elle hydrate, adoucit et réduit le potentiel irritant des tensioactifs dans les gels douche et shampooings. Elle s'emploie aussi dans les crèmes et soins capillaires. Ne pas confondre avec la cocamidopropyl bétaïne (tensioactif) — référence exacte à confirmer.",
+   "createdAt": "2026-10-13T20:16:40.722Z",
+   "description": "Le sodium PCA est le sel de sodium de l'acide pyrrolidone carboxylique, l'un des principaux constituants du facteur naturel d'hydratation (NMF) de la peau. Très hygroscopique, il capte l'humidité et la retient dans la peau et les cheveux, sans effet collant. Il s'utilise dans les crèmes, lotions, sérums, gels, shampooings et après-shampooings, seul ou en complément de la glycérine.",
    "documents": [],
    "featured": false,
    "images": [
     {
-     "url": "/images/products/betaine.webp?v=ba167f55",
-     "alt": "Bétaïne — photo d'illustration"
+     "url": "/images/products/sodium-pca.webp?v=6a859814",
+     "alt": "Sodium PCA — liquide"
     }
    ],
-   "name": "Bétaïne",
+   "name": "Sodium PCA",
    "order": 49,
    "published": true,
    "sectors": [
     "cosmetique"
    ],
    "seo": {
-    "description": "Bétaïne naturelle (triméthylglycine), hydratant et agent adoucissant qui améliore la douceur des nettoyants et des soins.",
+    "description": "Sodium PCA, humectant constituant du NMF de la peau, pour crèmes, sérums, gels et soins capillaires hydratants.",
     "keywords": [
-     "bétaïne",
-     "betaine",
-     "triméthylglycine",
-     "bétaïne cosmétique"
+     "sodium PCA",
+     "PCA de sodium",
+     "humectant cosmétique",
+     "sodium PCA Maroc"
     ]
    },
-   "shortDescription": "Bétaïne naturelle (triméthylglycine), hydratant et agent adoucissant qui améliore la douceur des nettoyants et des soins.",
+   "shortDescription": "Humectant constituant du NMF de la peau, pour crèmes, sérums, gels et soins capillaires hydratants.",
    "specs": [
     {
      "label": "Nature chimique",
-     "value": "Triméthylglycine, CAS 107-43-7. INCI : Betaine — à confirmer (bétaïne naturelle ou cocamidopropyl bétaïne)"
+     "value": "Sel de sodium de l'acide pyrrolidone carboxylique, CAS 28874-51-3. INCI : Sodium PCA"
     },
     {
      "label": "Forme physique",
-     "value": "Poudre cristalline blanche"
+     "value": "Solution aqueuse à environ 50 %, limpide, incolore à jaune pâle (à confirmer)"
     },
     {
      "label": "Conditionnement",
-     "value": "Sacs de 25 kg ; petits conditionnements sur demande (à confirmer)"
+     "value": "Bidons de 25 kg ; petits conditionnements sur demande (à confirmer)"
     }
    ],
-   "updatedAt": "2026-10-11T12:27:49.802Z"
+   "updatedAt": "2026-10-13T20:16:40.722Z"
   },
   {
    "_id": "6acb80cbb1ffcd466ef963ef",
@@ -3485,8 +3285,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/alcool-cetylique.webp?v=b80f7561",
-     "alt": "Alcool cétylique — photo d'illustration"
+     "url": "/images/products/alcool-cetylique.webp?v=99ac77f2",
+     "alt": "Alcool cétylique — pastilles"
     }
    ],
    "name": "Alcool cétylique",
@@ -3548,8 +3348,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/alcool-cetearylique.webp?v=797c84e5",
-     "alt": "Alcool cétéarylique (Cetearyl Alcohol) — photo d'illustration"
+     "url": "/images/products/alcool-cetearylique.webp?v=06dd96db",
+     "alt": "Alcool cétéarylique (Cetearyl Alcohol) — pastilles"
     }
    ],
    "name": "Alcool cétéarylique (Cetearyl Alcohol)",
@@ -3585,132 +3385,6 @@
    "updatedAt": "2026-10-11T12:27:50.361Z"
   },
   {
-   "_id": "6acb80cbb1ffcd466ef963f2",
-   "slug": "stearate-de-glyceryle",
-   "applications": [
-    "Crèmes et laits (émulsions H/E)",
-    "Lotions corporelles",
-    "Après-shampooings",
-    "Crèmes solaires"
-   ],
-   "benefits": [
-    "Émulsifiant et épaississant",
-    "Origine végétale",
-    "Aspect blanc, nacré",
-    "Version auto-émulsionnable (SE) — à confirmer"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d5",
-    "slug": "emulsifiants-epaississants",
-    "name": "Émulsifiants, tensioactifs & épaississants",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:50.446Z",
-   "description": "Le stéarate de glycéryle (monostéarate de glycérol, GMS) est un émulsifiant non ionique d'origine végétale. Il épaissit et stabilise les émulsions huile-dans-eau et leur donne un aspect blanc et nacré ; la version auto-émulsionnable (SE) permet de réaliser seule des crèmes et laits. Il est utilisé dans les crèmes, laits, lotions et produits capillaires.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/stearate-de-glyceryle.webp?v=e0975399",
-     "alt": "Stéarate de glycéryle (GMS) — photo d'illustration"
-    }
-   ],
-   "name": "Stéarate de glycéryle (GMS)",
-   "order": 53,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Monostéarate de glycéryle (GMS), émulsifiant et agent de consistance pour crèmes et laits, version auto-émulsionnable disponible.",
-    "keywords": [
-     "cutina gms",
-     "stéarate de glycéryle",
-     "glyceryl stearate",
-     "GMS cosmétique"
-    ]
-   },
-   "shortDescription": "Monostéarate de glycéryle (GMS), émulsifiant et agent de consistance pour crèmes et laits, version auto-émulsionnable disponible.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Glyceryl Stearate (SE), CAS 31566-31-1. INCI : Glyceryl Stearate"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Paillettes ou poudre blanche à crème"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sacs de 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:50.554Z"
-  },
-  {
-   "_id": "6acb80ccb1ffcd466ef963f3",
-   "slug": "ceteareth-20",
-   "applications": [
-    "Crèmes et laits H/E",
-    "Lotions corporelles",
-    "Crèmes capillaires et colorations",
-    "Solubilisation de parfums"
-   ],
-   "benefits": [
-    "Émulsions stables",
-    "Associe bien les alcools gras",
-    "Solubilisant",
-    "Usage facile à chaud"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d5",
-    "slug": "emulsifiants-epaississants",
-    "name": "Émulsifiants, tensioactifs & épaississants",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:50.645Z",
-   "description": "Le Ceteareth-20 est un alcool gras éthoxylé (20 OE). Émulsifiant hydrophile (HLB élevé), il s'associe à un émulsifiant lipophile ou à un alcool gras (alcool cétéarylique, GMS) pour obtenir des crèmes et laits huile-dans-eau très stables. Il sert aussi de solubilisant pour les parfums et huiles essentielles.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/ceteareth-20.webp?v=6253963c",
-     "alt": "Ceteareth-20 (émulsifiant B2) — photo d'illustration"
-    }
-   ],
-   "name": "Ceteareth-20 (émulsifiant B2)",
-   "order": 54,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Ceteareth-20, émulsifiant non ionique hydrophile pour les émulsions huile-dans-eau, crèmes et laits stables.",
-    "keywords": [
-     "emulgine b2",
-     "ceteareth-20",
-     "émulsifiant cosmétique",
-     "émulsifiant crème"
-    ]
-   },
-   "shortDescription": "Ceteareth-20, émulsifiant non ionique hydrophile pour les émulsions huile-dans-eau, crèmes et laits stables.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Alcool cétéarylique éthoxylé 20 OE, CAS 68439-49-6. INCI : Ceteareth-20"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Pastilles ou paillettes blanches"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sacs de 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:50.725Z"
-  },
-  {
    "_id": "6acb80ccb1ffcd466ef963f4",
    "slug": "polysorbate-20",
    "applications": [
@@ -3737,8 +3411,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/polysorbate-20.webp?v=4be1fa69",
-     "alt": "Polysorbate 20 (Tween 20) — photo d'illustration"
+     "url": "/images/products/polysorbate-20.webp?v=416999e8",
+     "alt": "Polysorbate 20 (Tween 20) — photo du produit"
     }
    ],
    "name": "Polysorbate 20 (Tween 20)",
@@ -3800,8 +3474,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/polysorbate-60.webp?v=af733557",
-     "alt": "Polysorbate 60 (Tween 60) — photo d'illustration"
+     "url": "/images/products/polysorbate-60.webp?v=4e113a97",
+     "alt": "Polysorbate 60 (Tween 60) — photo du produit"
     }
    ],
    "name": "Polysorbate 60 (Tween 60)",
@@ -3863,8 +3537,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/polysorbate-80.webp?v=c822a3f3",
-     "alt": "Polysorbate 80 (Tween 80) — photo d'illustration"
+     "url": "/images/products/polysorbate-80.webp?v=28e42aff",
+     "alt": "Polysorbate 80 (Tween 80) — photo du produit"
     }
    ],
    "name": "Polysorbate 80 (Tween 80)",
@@ -3926,8 +3600,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/coco-glucoside.webp?v=869bf5b7",
-     "alt": "Coco glucoside — photo d'illustration"
+     "url": "/images/products/coco-glucoside.webp?v=677881b2",
+     "alt": "Coco glucoside — photo du produit"
     }
    ],
    "name": "Coco glucoside",
@@ -3990,8 +3664,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/carbomer-980.webp?v=ba167f55",
-     "alt": "Carbomer 980 — photo d'illustration"
+     "url": "/images/products/carbomer-980.webp?v=a1760410",
+     "alt": "Carbomer 980 — photo du produit"
     }
    ],
    "name": "Carbomer 980",
@@ -4180,8 +3854,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/polyquaternium-7.webp?v=5241c123",
-     "alt": "Polyquaternium-7 (PQ7) — photo d'illustration"
+     "url": "/images/products/polyquaternium-7.webp?v=674447a4",
+     "alt": "Polyquaternium-7 (PQ7) — photo du produit"
     }
    ],
    "name": "Polyquaternium-7 (PQ7)",
@@ -4243,8 +3917,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/triethanolamine.webp?v=5241c123",
-     "alt": "Triéthanolamine (TEA) — photo d'illustration"
+     "url": "/images/products/triethanolamine.webp?v=71e04bed",
+     "alt": "Triéthanolamine (TEA) — photo du produit"
     }
    ],
    "name": "Triéthanolamine (TEA)",
@@ -4307,8 +3981,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/phenoxyethanol.webp?v=5241c123",
-     "alt": "Phénoxyéthanol — photo d'illustration"
+     "url": "/images/products/phenoxyethanol.webp?v=e011ed2f",
+     "alt": "Phénoxyéthanol — photo du produit"
     }
    ],
    "name": "Phénoxyéthanol",
@@ -4433,8 +4107,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/sorbate-de-potassium.webp?v=ba167f55",
-     "alt": "Sorbate de potassium — photo d'illustration"
+     "url": "/images/products/sorbate-de-potassium.webp?v=0d9e5350",
+     "alt": "Sorbate de potassium — photo du produit"
     }
    ],
    "name": "Sorbate de potassium",
@@ -4470,69 +4144,6 @@
    "updatedAt": "2026-10-11T12:27:52.699Z"
   },
   {
-   "_id": "6acb80ceb1ffcd466ef96400",
-   "slug": "beurre-de-cacao",
-   "applications": [
-    "Baumes et sticks à lèvres",
-    "Beurres et crèmes corps",
-    "Soins anti-vergetures",
-    "Savons"
-   ],
-   "benefits": [
-    "Nourrit et protège",
-    "Fond au contact de la peau",
-    "Donne de la tenue aux sticks",
-    "Désodorisé"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d7",
-    "slug": "huiles-beurres-cires",
-    "name": "Huiles végétales, beurres & cires",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:52.773Z",
-   "description": "Le beurre de cacao est extrait des fèves de cacao. Solide à température ambiante et fondant au contact de la peau, il nourrit, protège et assouplit. La version raffinée, désodorisée, n'impose pas d'odeur de chocolat aux formules. Il entre dans les baumes à lèvres, sticks, crèmes et beurres corporels, soins des vergetures et savons.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/beurre-de-cacao.webp?v=df6fedf7",
-     "alt": "Beurre de cacao raffiné — photo d'illustration"
-    }
-   ],
-   "name": "Beurre de cacao raffiné",
-   "order": 67,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Beurre de cacao raffiné, désodorisé : nourrit et protège la peau dans les baumes à lèvres, crèmes corps et savons.",
-    "keywords": [
-     "beurre de cacao",
-     "beurre de cacao raffiné",
-     "beurre de cacao cosmétique",
-     "beurre de cacao Maroc"
-    ]
-   },
-   "shortDescription": "Beurre de cacao raffiné, désodorisé : nourrit et protège la peau dans les baumes à lèvres, crèmes corps et savons.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Theobroma Cacao Seed Butter, CAS 8002-31-1"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Solide blanc-jaune pâle, en pastilles ou blocs"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Cartons de 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:52.843Z"
-  },
-  {
    "_id": "6acb80ceb1ffcd466ef96401",
    "slug": "beurre-de-karite",
    "applications": [
@@ -4559,8 +4170,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/beurre-de-karite.webp?v=1cf82207",
-     "alt": "Beurre de karité raffiné — photo d'illustration"
+     "url": "/images/products/beurre-de-karite.webp?v=2f2fda3e",
+     "alt": "Beurre de karité raffiné — photo du produit"
     }
    ],
    "name": "Beurre de karité raffiné",
@@ -4659,132 +4270,6 @@
    "updatedAt": "2026-10-11T12:27:53.135Z"
   },
   {
-   "_id": "6acb80ceb1ffcd466ef96403",
-   "slug": "huile-de-coco",
-   "applications": [
-    "Savons (saponification)",
-    "Soins et bains d'huile capillaires",
-    "Baumes et beurres corps",
-    "Huiles de massage"
-   ],
-   "benefits": [
-    "Nourrit les cheveux",
-    "Mousse abondante en savonnerie",
-    "Protège la peau",
-    "Raffinée ou vierge — à confirmer"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d7",
-    "slug": "huiles-beurres-cires",
-    "name": "Huiles végétales, beurres & cires",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:53.215Z",
-   "description": "L'huile de coco est riche en acide laurique. Solide en dessous de 24 °C, elle fond sur la peau. Elle nourrit les cheveux en profondeur, protège la peau et donne aux savons une mousse abondante. Raffinée, elle est quasi inodore ; vierge, elle garde son parfum de coco (qualité à confirmer).",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/huile-de-coco.webp?v=3b189dab",
-     "alt": "Huile de coco — photo d'illustration"
-    }
-   ],
-   "name": "Huile de coco",
-   "order": 70,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Huile de coco raffinée, pour les savons, soins capillaires, baumes et crèmes : nourrit et protège.",
-    "keywords": [
-     "huile de coco",
-     "huile de coco Maroc",
-     "huile de coco cosmétique",
-     "huile de coco savon"
-    ]
-   },
-   "shortDescription": "Huile de coco raffinée, pour les savons, soins capillaires, baumes et crèmes : nourrit et protège.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Cocos Nucifera (Coconut) Oil, CAS 8001-31-8"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Solide blanc sous 24 °C, liquide limpide au-dessus"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 5 kg et 25 kg ; fûts de 190 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:53.311Z"
-  },
-  {
-   "_id": "6acb80ceb1ffcd466ef96404",
-   "slug": "huile-avocat",
-   "applications": [
-    "Crèmes peaux sèches et matures",
-    "Huiles et sérums nourrissants",
-    "Masques capillaires",
-    "Baumes et savons"
-   ],
-   "benefits": [
-    "Très nourrissante",
-    "Riche en insaponifiables",
-    "Bonne pénétration",
-    "Idéale pour les peaux matures"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d7",
-    "slug": "huiles-beurres-cires",
-    "name": "Huiles végétales, beurres & cires",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:53.382Z",
-   "description": "L'huile d'avocat est extraite de la pulpe du fruit. Riche en acides gras, en vitamines A et E et en insaponifiables, elle nourrit en profondeur, restructure les peaux sèches et matures et redonne souplesse aux cheveux secs ou abîmés.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/huile-avocat.webp?v=bd48abcd",
-     "alt": "Huile d'avocat — photo d'illustration"
-    }
-   ],
-   "name": "Huile d'avocat",
-   "order": 71,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Huile d'avocat, riche et pénétrante, pour les soins des peaux sèches et matures et les soins capillaires nourrissants.",
-    "keywords": [
-     "huile d'avocat",
-     "huile avocat cosmétique",
-     "huile végétale",
-     "huile avocat cheveux"
-    ]
-   },
-   "shortDescription": "Huile d'avocat, riche et pénétrante, pour les soins des peaux sèches et matures et les soins capillaires nourrissants.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Persea Gratissima (Avocado) Oil, CAS 8024-32-6"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide huileux jaune-vert (raffinée : jaune clair)"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:53.452Z"
-  },
-  {
    "_id": "6acb80cfb1ffcd466ef96405",
    "slug": "huile-de-jojoba",
    "applications": [
@@ -4811,8 +4296,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/huile-de-jojoba.webp?v=44aae106",
-     "alt": "Huile de jojoba — photo d'illustration"
+     "url": "/images/products/huile-de-jojoba.webp?v=c9239b3e",
+     "alt": "Huile de jojoba — photo du produit"
     }
    ],
    "name": "Huile de jojoba",
@@ -4911,69 +4396,6 @@
    "updatedAt": "2026-10-11T12:27:53.740Z"
   },
   {
-   "_id": "6acb80cfb1ffcd466ef96407",
-   "slug": "huile-pepins-de-raisin",
-   "applications": [
-    "Huiles de massage",
-    "Sérums et huiles légères",
-    "Crèmes peaux mixtes",
-    "Démaquillants"
-   ],
-   "benefits": [
-    "Très légère, toucher sec",
-    "Riche en acide linoléique",
-    "Antioxydante",
-    "Pénètre rapidement"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d7",
-    "slug": "huiles-beurres-cires",
-    "name": "Huiles végétales, beurres & cires",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:53.820Z",
-   "description": "L'huile de pépins de raisin est riche en acide linoléique et en polyphénols antioxydants. Très fluide et non grasse, elle pénètre rapidement sans laisser de film : c'est une huile idéale pour les peaux mixtes à grasses, les huiles de massage et les sérums légers.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/huile-pepins-de-raisin.webp?v=41c2040b",
-     "alt": "Huile de pépins de raisin — photo d'illustration"
-    }
-   ],
-   "name": "Huile de pépins de raisin",
-   "order": 74,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Huile de pépins de raisin, légère et non grasse, pour les huiles de massage, sérums, crèmes et peaux mixtes.",
-    "keywords": [
-     "huile de pépins de raisin",
-     "huile pépins raisin",
-     "huile de massage",
-     "huile végétale légère"
-    ]
-   },
-   "shortDescription": "Huile de pépins de raisin, légère et non grasse, pour les huiles de massage, sérums, crèmes et peaux mixtes.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Vitis Vinifera (Grape) Seed Oil, CAS 8024-22-4 — type de pépins à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide huileux jaune-vert clair"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:53.894Z"
-  },
-  {
    "_id": "6acb80cfb1ffcd466ef96408",
    "slug": "huile-de-ricin",
    "applications": [
@@ -5000,8 +4422,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/huile-de-ricin.webp?v=b42113e0",
-     "alt": "Huile de ricin — photo d'illustration"
+     "url": "/images/products/huile-de-ricin.webp?v=59fc3e43",
+     "alt": "Huile de ricin — photo du produit"
     }
    ],
    "name": "Huile de ricin",
@@ -5063,8 +4485,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/huile-de-paraffine.webp?v=eb92ba3f",
-     "alt": "Huile de paraffine — photo d'illustration"
+     "url": "/images/products/huile-de-paraffine.webp?v=11d46785",
+     "alt": "Huile de paraffine — photo du produit"
     }
    ],
    "name": "Huile de paraffine",
@@ -5126,8 +4548,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/myristate-isopropyle.webp?v=eea43426",
-     "alt": "Myristate d'isopropyle (IPM) — photo d'illustration"
+     "url": "/images/products/myristate-isopropyle.webp?v=f7919387",
+     "alt": "Myristate d'isopropyle (IPM) — photo du produit"
     }
    ],
    "name": "Myristate d'isopropyle (IPM)",
@@ -5163,6 +4585,69 @@
    "updatedAt": "2026-10-11T12:27:54.368Z"
   },
   {
+   "_id": "6ace911f69a023c9f592338d",
+   "slug": "cyclopentasiloxane",
+   "applications": [
+    "Sérums et huiles capillaires",
+    "Anti-transpirants et déodorants",
+    "Maquillage et fonds de teint",
+    "Crèmes et soins au toucher sec"
+   ],
+   "benefits": [
+    "Toucher sec et soyeux",
+    "Volatil : s'évapore sans laisser de film gras",
+    "Facilite l'étalement",
+    "Incolore et inodore"
+   ],
+   "category": {
+    "_id": "6acb80c2b1ffcd466ef963d7",
+    "slug": "huiles-beurres-cires",
+    "name": "Huiles végétales, beurres & cires",
+    "sector": "cosmetique"
+   },
+   "createdAt": "2026-10-13T20:14:23.780Z",
+   "description": "Le cyclopentasiloxane (D5) est une silicone cyclique volatile, limpide et inodore. Il facilite l'étalement des formules puis s'évapore en laissant un toucher sec et soyeux, sans film gras. On l'utilise dans les sérums et huiles capillaires pour la brillance et le démêlage, dans les anti-transpirants, le maquillage et les soins légers.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/cyclopentasiloxane.webp?v=eb671bdf",
+     "alt": "Cyclopentasiloxane (D5) — liquide"
+    }
+   ],
+   "name": "Cyclopentasiloxane (D5)",
+   "order": 77.5,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Cyclopentasiloxane (D5), silicone volatile au toucher sec et soyeux pour sérums capillaires, anti-transpirants et maquillage.",
+    "keywords": [
+     "cyclopentasiloxane",
+     "D5",
+     "silicone volatile",
+     "cyclopentasiloxane Maroc"
+    ]
+   },
+   "shortDescription": "Silicone volatile au toucher sec et soyeux pour sérums capillaires, anti-transpirants et maquillage.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Décaméthylcyclopentasiloxane, CAS 541-02-6. INCI : Cyclopentasiloxane"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide limpide incolore"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons de 25 kg ; fûts de 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-13T20:14:23.780Z"
+  },
+  {
    "_id": "6acb80cfb1ffcd466ef9640b",
    "slug": "cire-abeille-blanche",
    "applications": [
@@ -5189,8 +4674,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/cire-abeille-blanche.webp?v=4991dd09",
-     "alt": "Cire d'abeille blanche — photo d'illustration"
+     "url": "/images/products/cire-abeille-blanche.webp?v=a49951ca",
+     "alt": "Cire d'abeille blanche — photo du produit"
     }
    ],
    "name": "Cire d'abeille blanche",
@@ -5252,8 +4737,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/cire-abeille-jaune.webp?v=2f08d674",
-     "alt": "Cire d'abeille jaune — photo d'illustration"
+     "url": "/images/products/cire-abeille-jaune.webp?v=502b63c3",
+     "alt": "Cire d'abeille jaune — photo du produit"
     }
    ],
    "name": "Cire d'abeille jaune",
@@ -5289,69 +4774,6 @@
    "updatedAt": "2026-10-11T12:27:54.656Z"
   },
   {
-   "_id": "6acb80d0b1ffcd466ef9640d",
-   "slug": "cire-de-paraffine",
-   "applications": [
-    "Soins paraffine mains et pieds",
-    "Cires d'épilation",
-    "Bougies",
-    "Sticks et cosmétiques solides"
-   ],
-   "benefits": [
-    "Blanche et inodore",
-    "Point de fusion adapté à l'usage (à confirmer)",
-    "Très stable",
-    "Polyvalente"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d7",
-    "slug": "huiles-beurres-cires",
-    "name": "Huiles végétales, beurres & cires",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:54.723Z",
-   "description": "La cire de paraffine est une cire minérale raffinée, blanche et inodore. Elle sert aux bains et soins à la paraffine (mains, pieds), aux cires d'épilation, à la fabrication de bougies et de cosmétiques solides. Point de fusion à préciser selon l'usage (à confirmer).",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/cire-de-paraffine.webp?v=797c84e5",
-     "alt": "Cire de paraffine — photo d'illustration"
-    }
-   ],
-   "name": "Cire de paraffine",
-   "order": 80,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Cire de paraffine raffinée pour les soins paraffine des mains et pieds, épilation, bougies et cosmétiques solides.",
-    "keywords": [
-     "cire de paraffine",
-     "paraffine",
-     "paraffine bougie",
-     "bain de paraffine"
-    ]
-   },
-   "shortDescription": "Cire de paraffine raffinée pour les soins paraffine des mains et pieds, épilation, bougies et cosmétiques solides.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Paraffine (cire), CAS 8002-74-2. INCI : Paraffin"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Pastilles ou plaques blanches"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sacs ou cartons de 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:54.794Z"
-  },
-  {
    "_id": "6acb80d0b1ffcd466ef9640e",
    "slug": "vaseline",
    "applications": [
@@ -5378,8 +4800,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/vaseline.webp?v=0a6a5f9e",
-     "alt": "Vaseline (pâte de vaseline) — photo d'illustration"
+     "url": "/images/products/vaseline.webp?v=9262f797",
+     "alt": "Vaseline (pâte de vaseline) — photo du produit"
     }
    ],
    "name": "Vaseline (pâte de vaseline)",
@@ -5441,8 +4863,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/extrait-aloe-vera.webp?v=23c1a76b",
-     "alt": "Extrait d'aloe vera — photo d'illustration"
+     "url": "/images/products/extrait-aloe-vera.webp?v=5a7320d7",
+     "alt": "Extrait d'aloe vera — photo du produit"
     }
    ],
    "name": "Extrait d'aloe vera",
@@ -5478,195 +4900,6 @@
    "updatedAt": "2026-10-11T12:27:55.098Z"
   },
   {
-   "_id": "6acb80d0b1ffcd466ef96410",
-   "slug": "extrait-de-calendula",
-   "applications": [
-    "Soins pour bébés",
-    "Crèmes peaux sensibles",
-    "Baumes réparateurs",
-    "Soins après-soleil"
-   ],
-   "benefits": [
-    "Apaisant",
-    "Aide à réparer la peau",
-    "Doux",
-    "Origine végétale"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d8",
-    "slug": "extraits-proteines",
-    "name": "Extraits végétaux & protéines",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:55.175Z",
-   "description": "Le calendula (souci officinal) est une fleur traditionnellement utilisée pour apaiser et réparer la peau. Son extrait s'emploie dans les soins pour bébés, crèmes pour peaux sensibles ou irritées, baumes réparateurs et soins après-soleil.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/extrait-de-calendula.webp?v=9f7ddc95",
-     "alt": "Extrait de calendula — photo d'illustration"
-    }
-   ],
-   "name": "Extrait de calendula",
-   "order": 83,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Extrait de calendula (souci), apaisant et réparateur pour soins bébé, peaux sensibles et crèmes réparatrices.",
-    "keywords": [
-     "extrait de calendula",
-     "calendula cosmétique",
-     "souci officinal",
-     "extrait apaisant"
-    ]
-   },
-   "shortDescription": "Extrait de calendula (souci), apaisant et réparateur pour soins bébé, peaux sensibles et crèmes réparatrices.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Calendula Officinalis Flower Extract, CAS 84776-23-8 — solvant (glycérine, huile) à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide — à confirmer"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 1 kg et 5 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:55.248Z"
-  },
-  {
-   "_id": "6acb80d0b1ffcd466ef96411",
-   "slug": "extrait-de-camomille",
-   "applications": [
-    "Crèmes et lotions apaisantes",
-    "Soins pour bébés",
-    "Démaquillants yeux",
-    "Shampooings cheveux clairs"
-   ],
-   "benefits": [
-    "Apaise et adoucit",
-    "Réduit les rougeurs",
-    "Doux pour les peaux sensibles",
-    "Origine végétale"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d8",
-    "slug": "extraits-proteines",
-    "name": "Extraits végétaux & protéines",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:55.326Z",
-   "description": "L'extrait de camomille, riche en bisabolol et en flavonoïdes, apaise et adoucit les peaux sensibles et réduit les rougeurs. Il est utilisé dans les soins pour bébés, crèmes et lotions apaisantes, démaquillants pour les yeux et shampooings pour cheveux blonds.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/extrait-de-camomille.webp?v=040f9f44",
-     "alt": "Extrait de camomille — photo d'illustration"
-    }
-   ],
-   "name": "Extrait de camomille",
-   "order": 84,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Extrait de camomille, apaisant et adoucissant pour peaux sensibles, soins bébé et shampooings éclaircissants.",
-    "keywords": [
-     "extrait de camomille",
-     "camomille cosmétique",
-     "extrait apaisant",
-     "camomille shampooing"
-    ]
-   },
-   "shortDescription": "Extrait de camomille, apaisant et adoucissant pour peaux sensibles, soins bébé et shampooings éclaircissants.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Chamomilla Recutita (Matricaria) Flower Extract, CAS 84082-60-0 — solvant à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide — à confirmer"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 1 kg et 5 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:55.405Z"
-  },
-  {
-   "_id": "6acb80d0b1ffcd466ef96412",
-   "slug": "extrait-de-reglisse",
-   "applications": [
-    "Sérums et crèmes anti-taches",
-    "Soins éclat",
-    "Soins peaux sensibles",
-    "Soins après-soleil"
-   ],
-   "benefits": [
-    "Unifie le teint",
-    "Apaisant",
-    "Origine végétale",
-    "Se combine avec les autres éclaircissants"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d8",
-    "slug": "extraits-proteines",
-    "name": "Extraits végétaux & protéines",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:55.474Z",
-   "description": "L'extrait de racine de réglisse contient de la glabridine et de l'acide glycyrrhizique. Il aide à unifier le teint en atténuant les taches et apaise les rougeurs. Il s'emploie dans les sérums et crèmes anti-taches, soins éclat et soins pour peaux sensibles.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/extrait-de-reglisse.webp?v=e6ee0678",
-     "alt": "Extrait de réglisse — photo d'illustration"
-    }
-   ],
-   "name": "Extrait de réglisse",
-   "order": 85,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Extrait de racine de réglisse, actif éclaircissant et apaisant pour les soins anti-taches et peaux sensibles.",
-    "keywords": [
-     "extrait de réglisse",
-     "réglisse cosmétique",
-     "glabridine",
-     "actif anti-taches naturel"
-    ]
-   },
-   "shortDescription": "Extrait de racine de réglisse, actif éclaircissant et apaisant pour les soins anti-taches et peaux sensibles.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Glycyrrhiza Glabra (Licorice) Root Extract, CAS 84775-66-6 — titre et forme à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide ou poudre — à confirmer"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:55.546Z"
-  },
-  {
    "_id": "6acb80d1b1ffcd466ef96413",
    "slug": "eau-de-rose",
    "applications": [
@@ -5693,8 +4926,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/eau-de-rose.webp?v=42fe3004",
-     "alt": "Eau de rose — photo d'illustration"
+     "url": "/images/products/eau-de-rose.webp?v=4ef2f549",
+     "alt": "Eau de rose — photo du produit"
     }
    ],
    "name": "Eau de rose",
@@ -5730,195 +4963,6 @@
    "updatedAt": "2026-10-11T12:27:55.699Z"
   },
   {
-   "_id": "6acb80d1b1ffcd466ef96414",
-   "slug": "proteine-de-ble",
-   "applications": [
-    "Shampooings et après-shampooings",
-    "Masques capillaires",
-    "Soins volume",
-    "Crèmes et lotions"
-   ],
-   "benefits": [
-    "Renforce et répare le cheveu",
-    "Volume et brillance",
-    "Hydratant filmogène",
-    "Hydrosoluble"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d8",
-    "slug": "extraits-proteines",
-    "name": "Extraits végétaux & protéines",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:55.766Z",
-   "description": "Les protéines de blé hydrolysées forment un film léger sur le cheveu et la peau : elles renforcent la fibre capillaire, apportent volume, douceur et brillance et retiennent l'humidité. Elles sont utilisées dans les shampooings, après-shampooings, masques et crèmes.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/proteine-de-ble.webp?v=5241c123",
-     "alt": "Protéine de blé hydrolysée — photo d'illustration"
-    }
-   ],
-   "name": "Protéine de blé hydrolysée",
-   "order": 87,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Protéine de blé hydrolysée, agent filmogène et réparateur pour shampooings, après-shampooings et soins de la peau.",
-    "keywords": [
-     "protéine de blé",
-     "protéine de blé hydrolysée",
-     "hydrolyzed wheat protein",
-     "soin cheveux protéine"
-    ]
-   },
-   "shortDescription": "Protéine de blé hydrolysée, agent filmogène et réparateur pour shampooings, après-shampooings et soins de la peau.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Hydrolyzed Wheat Protein, CAS 70084-87-6 — matière active à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide ambré (ou poudre — à confirmer)"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 1 kg, 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:55.846Z"
-  },
-  {
-   "_id": "6acb80d1b1ffcd466ef96415",
-   "slug": "proteine-de-soie",
-   "applications": [
-    "Shampooings et après-shampooings",
-    "Sérums et soins sans rinçage",
-    "Crèmes et lotions",
-    "Maquillage"
-   ],
-   "benefits": [
-    "Toucher soyeux",
-    "Brillance des cheveux",
-    "Hydrate la peau",
-    "Hydrosoluble"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d8",
-    "slug": "extraits-proteines",
-    "name": "Extraits végétaux & protéines",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:55.945Z",
-   "description": "Les protéines de soie hydrolysées apportent un toucher soyeux incomparable. Sur les cheveux, elles lissent, font briller et facilitent le coiffage ; sur la peau, elles hydratent et laissent un fini doux et velouté. Elles s'emploient dans les shampooings, après-shampooings, sérums capillaires, crèmes et maquillage.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/proteine-de-soie.webp?v=5241c123",
-     "alt": "Protéine de soie hydrolysée — photo d'illustration"
-    }
-   ],
-   "name": "Protéine de soie hydrolysée",
-   "order": 88,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Protéine de soie hydrolysée : douceur, brillance et toucher soyeux pour les soins capillaires et les crèmes.",
-    "keywords": [
-     "protéine de soie",
-     "protéine de soie hydrolysée",
-     "hydrolyzed silk",
-     "soie cosmétique"
-    ]
-   },
-   "shortDescription": "Protéine de soie hydrolysée : douceur, brillance et toucher soyeux pour les soins capillaires et les crèmes.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Hydrolyzed Silk, CAS 96690-41-4 — forme et matière active à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide ou poudre — à confirmer"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:56.015Z"
-  },
-  {
-   "_id": "6acb80d1b1ffcd466ef96416",
-   "slug": "proteine-de-soja",
-   "applications": [
-    "Shampooings",
-    "Masques et soins capillaires",
-    "Crèmes et lotions",
-    "Soins cheveux fins"
-   ],
-   "benefits": [
-    "Fortifie les cheveux",
-    "Hydratante",
-    "Origine végétale",
-    "Hydrosoluble"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d8",
-    "slug": "extraits-proteines",
-    "name": "Extraits végétaux & protéines",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:56.092Z",
-   "description": "Les protéines de soja hydrolysées hydratent, fortifient les cheveux fins ou fragilisés et donnent du corps à la fibre. Sur la peau, elles apportent un effet hydratant et lissant. Elles s'intègrent dans les shampooings, après-shampooings, masques et crèmes.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/proteine-de-soja.webp?v=5241c123",
-     "alt": "Protéine de soja hydrolysée — photo d'illustration"
-    }
-   ],
-   "name": "Protéine de soja hydrolysée",
-   "order": 89,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Protéine de soja hydrolysée, hydratante et fortifiante pour shampooings, soins capillaires et crèmes.",
-    "keywords": [
-     "protéine de soja",
-     "protéine de soja hydrolysée",
-     "hydrolyzed soy protein",
-     "protéine cheveux"
-    ]
-   },
-   "shortDescription": "Protéine de soja hydrolysée, hydratante et fortifiante pour shampooings, soins capillaires et crèmes.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Hydrolyzed Soy Protein, CAS 68607-88-5 — matière active à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide ou poudre — à confirmer"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Bidons de 1 kg et 5 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:56.169Z"
-  },
-  {
    "_id": "6acb80d1b1ffcd466ef96417",
    "slug": "oxyde-de-titane",
    "applications": [
@@ -5945,8 +4989,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/oxyde-de-titane.webp?v=ba167f55",
-     "alt": "Dioxyde de titane — photo d'illustration"
+     "url": "/images/products/oxyde-de-titane.webp?v=c127a297",
+     "alt": "Dioxyde de titane — photo du produit"
     }
    ],
    "name": "Dioxyde de titane",
@@ -6009,8 +5053,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/oxyde-de-zinc.webp?v=047ece99",
-     "alt": "Oxyde de zinc — photo d'illustration"
+     "url": "/images/products/oxyde-de-zinc.webp?v=26421b42",
+     "alt": "Oxyde de zinc — photo du produit"
     }
    ],
    "name": "Oxyde de zinc",
@@ -6046,69 +5090,6 @@
    "updatedAt": "2026-10-11T12:27:56.469Z"
   },
   {
-   "_id": "6acb80d2b1ffcd466ef96419",
-   "slug": "charbon-actif",
-   "applications": [
-    "Masques purifiants",
-    "Savons et nettoyants détox",
-    "Gommages",
-    "Dentifrices"
-   ],
-   "benefits": [
-    "Adsorbe les impuretés",
-    "Effet purifiant",
-    "Coloration noire naturelle",
-    "Origine végétale"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d9",
-    "slug": "mineraux-pigments",
-    "name": "Minéraux & pigments",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:56.540Z",
-   "description": "Le charbon actif végétal est un carbone très poreux, à grande surface spécifique, qui adsorbe les impuretés et l'excès de sébum. Il est utilisé dans les masques purifiants, savons et nettoyants « détox », gommages et dentifrices blanchissants. Il colore les formules en noir.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/charbon-actif.webp?v=70e3256f",
-     "alt": "Charbon actif — photo d'illustration"
-    }
-   ],
-   "name": "Charbon actif",
-   "order": 92,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Charbon actif végétal en poudre pour masques purifiants, savons détox, dentifrices et gommages.",
-    "keywords": [
-     "charbon actif",
-     "charbon actif cosmétique",
-     "charbon végétal",
-     "masque charbon"
-    ]
-   },
-   "shortDescription": "Charbon actif végétal en poudre pour masques purifiants, savons détox, dentifrices et gommages.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Carbone activé végétal, CAS 7440-44-0. INCI : Charcoal Powder"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Poudre noire très fine"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sacs de 10 à 25 kg ; petits conditionnements sur demande (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:56.614Z"
-  },
-  {
    "_id": "6acb80d2b1ffcd466ef9641a",
    "slug": "sulfate-de-magnesium",
    "applications": [
@@ -6135,8 +5116,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/sulfate-de-magnesium.webp?v=0c3b805e",
-     "alt": "Sel d'Epsom (sulfate de magnésium) — photo d'illustration"
+     "url": "/images/products/sulfate-de-magnesium.webp?v=aa7cf803",
+     "alt": "Sel d'Epsom (sulfate de magnésium) — photo du produit"
     }
    ],
    "name": "Sel d'Epsom (sulfate de magnésium)",
@@ -6171,384 +5152,6 @@
     }
    ],
    "updatedAt": "2026-10-11T12:27:56.764Z"
-  },
-  {
-   "_id": "6acb80d2b1ffcd466ef9641b",
-   "slug": "colorants-mica",
-   "applications": [
-    "Maquillage (fards, rouges à lèvres)",
-    "Savons et bombes de bain",
-    "Gels et lotions scintillantes",
-    "Vernis et produits brillants"
-   ],
-   "benefits": [
-    "Large palette de teintes",
-    "Effets nacrés et irisés",
-    "Pigments minéraux",
-    "Faciles à disperser"
-   ],
-   "category": {
-    "_id": "6acb80c2b1ffcd466ef963d9",
-    "slug": "mineraux-pigments",
-    "name": "Minéraux & pigments",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:56.836Z",
-   "description": "Les micas cosmétiques sont des pigments nacrés à base de mica enrobé d'oxydes (titane, fer). Ils apportent couleur, éclat et effets irisés aux fards, rouges à lèvres, vernis, savons, bombes de bain, gels douche et lotions scintillantes. Palette de teintes à demander.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/colorants-mica.webp?v=df4285a8",
-     "alt": "Colorants mica (pigments nacrés) — photo d'illustration"
-    }
-   ],
-   "name": "Colorants mica (pigments nacrés)",
-   "order": 94,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Micas colorés et nacrés pour maquillage, savons, bombes de bain, gels et produits brillants.",
-    "keywords": [
-     "mica cosmétique",
-     "colorant mica",
-     "pigment nacré",
-     "mica savon"
-    ]
-   },
-   "shortDescription": "Micas colorés et nacrés pour maquillage, savons, bombes de bain, gels et produits brillants.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Mica (CAS 12001-26-2) enrobé de dioxyde de titane (CI 77891) et/ou d'oxydes de fer (CI 77491/77492/77499)"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Poudres colorées nacrées"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sachets de 100 g et 1 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:56.913Z"
-  },
-  {
-   "_id": "6acb80d2b1ffcd466ef9641c",
-   "slug": "parfums-floraux",
-   "applications": [
-    "Crèmes et laits corps",
-    "Gels douche et shampooings",
-    "Savons",
-    "Parfums d'ambiance et entretien"
-   ],
-   "benefits": [
-    "Large choix de notes",
-    "Adaptés à plusieurs supports",
-    "Fiche de sécurité et allergènes fournis",
-    "Échantillon sur demande (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c3b1ffcd466ef963da",
-    "slug": "parfums-cosmetiques",
-    "name": "Parfums cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:56.988Z",
-   "description": "Compositions parfumées de la famille floraux, conçues pour la cosmétique (crèmes, gels douche, shampooings, savons), la parfumerie fine et les produits d'entretien. Notes disponibles (à confirmer) : rose (rose de Damas / M'Gouna), jasmin, jasmin de Damas, fleur d'oranger, gardénia, orchidée, ylang-ylang, monoï. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/parfums-floraux.webp?v=e574b295",
-     "alt": "Parfums floraux — photo d'illustration"
-    }
-   ],
-   "name": "Parfums floraux",
-   "order": 95,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Parfums floraux pour cosmétiques, savons et produits d'entretien : rose, jasmin, fleur d'oranger, gardénia, ylang-ylang…",
-    "keywords": [
-     "parfums floraux",
-     "parfum cosmétique",
-     "parfum savon",
-     "parfum Maroc"
-    ]
-   },
-   "shortDescription": "Parfums floraux pour cosmétiques, savons et produits d'entretien : rose, jasmin, fleur d'oranger, gardénia, ylang-ylang…",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide parfumé"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:57.069Z"
-  },
-  {
-   "_id": "6acb80d2b1ffcd466ef9641d",
-   "slug": "parfums-fruites",
-   "applications": [
-    "Gels douche et bains moussants",
-    "Shampooings",
-    "Savons et lotions",
-    "Produits d'entretien"
-   ],
-   "benefits": [
-    "Large choix de notes",
-    "Adaptés à plusieurs supports",
-    "Fiche de sécurité et allergènes fournis",
-    "Échantillon sur demande (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c3b1ffcd466ef963da",
-    "slug": "parfums-cosmetiques",
-    "name": "Parfums cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:57.146Z",
-   "description": "Compositions parfumées de la famille fruités, conçues pour la cosmétique (crèmes, gels douche, shampooings, savons), la parfumerie fine et les produits d'entretien. Notes disponibles (à confirmer) : fraise, framboise, fruits rouges, cerise, pêche, pomme, melon, mangue, ananas, banane, coco, avocat, tropical, tutti frutti. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/parfums-fruites.webp?v=ddde638f",
-     "alt": "Parfums fruités — photo d'illustration"
-    }
-   ],
-   "name": "Parfums fruités",
-   "order": 96,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Parfums fruités pour gels douche, shampooings, savons et produits d'entretien : fraise, pêche, mangue, coco, fruits rouges…",
-    "keywords": [
-     "parfums fruites",
-     "parfum cosmétique",
-     "parfum savon",
-     "parfum Maroc"
-    ]
-   },
-   "shortDescription": "Parfums fruités pour gels douche, shampooings, savons et produits d'entretien : fraise, pêche, mangue, coco, fruits rouges…",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide parfumé"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:57.222Z"
-  },
-  {
-   "_id": "6acb80d2b1ffcd466ef9641e",
-   "slug": "parfums-hesperides",
-   "applications": [
-    "Gels douche et déodorants",
-    "Savons",
-    "Liquides vaisselle et nettoyants",
-    "Eaux de Cologne"
-   ],
-   "benefits": [
-    "Large choix de notes",
-    "Adaptés à plusieurs supports",
-    "Fiche de sécurité et allergènes fournis",
-    "Échantillon sur demande (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c3b1ffcd466ef963da",
-    "slug": "parfums-cosmetiques",
-    "name": "Parfums cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:57.289Z",
-   "description": "Compositions parfumées de la famille hespéridés, conçues pour la cosmétique (crèmes, gels douche, shampooings, savons), la parfumerie fine et les produits d'entretien. Notes disponibles (à confirmer) : citron, orange, bergamote. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/parfums-hesperides.webp?v=4e5b39e0",
-     "alt": "Parfums hespéridés — photo d'illustration"
-    }
-   ],
-   "name": "Parfums hespéridés",
-   "order": 97,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Parfums hespéridés (agrumes) frais et pétillants : citron, orange, bergamote — cosmétiques, savons, vaisselle et entretien.",
-    "keywords": [
-     "parfums hesperides",
-     "parfum cosmétique",
-     "parfum savon",
-     "parfum Maroc"
-    ]
-   },
-   "shortDescription": "Parfums hespéridés (agrumes) frais et pétillants : citron, orange, bergamote — cosmétiques, savons, vaisselle et entretien.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide parfumé"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:57.388Z"
-  },
-  {
-   "_id": "6acb80d2b1ffcd466ef9641f",
-   "slug": "parfums-aromatiques",
-   "applications": [
-    "Gels douche et shampooings",
-    "Savons",
-    "Produits d'entretien et désinfectants",
-    "Huiles de massage"
-   ],
-   "benefits": [
-    "Large choix de notes",
-    "Adaptés à plusieurs supports",
-    "Fiche de sécurité et allergènes fournis",
-    "Échantillon sur demande (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c3b1ffcd466ef963da",
-    "slug": "parfums-cosmetiques",
-    "name": "Parfums cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:57.464Z",
-   "description": "Compositions parfumées de la famille aromatiques, conçues pour la cosmétique (crèmes, gels douche, shampooings, savons), la parfumerie fine et les produits d'entretien. Notes disponibles (à confirmer) : lavande, pin-lavande, menthe, eucalyptus, romarin, verveine, anis, camomille, thé vert. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/parfums-aromatiques.webp?v=beb4f0e7",
-     "alt": "Parfums aromatiques — photo d'illustration"
-    }
-   ],
-   "name": "Parfums aromatiques",
-   "order": 98,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Parfums aromatiques et herbacés : lavande, menthe, eucalyptus, romarin, verveine, thé vert — cosmétiques et entretien.",
-    "keywords": [
-     "parfums aromatiques",
-     "parfum cosmétique",
-     "parfum savon",
-     "parfum Maroc"
-    ]
-   },
-   "shortDescription": "Parfums aromatiques et herbacés : lavande, menthe, eucalyptus, romarin, verveine, thé vert — cosmétiques et entretien.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide parfumé"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:57.552Z"
-  },
-  {
-   "_id": "6acb80d3b1ffcd466ef96420",
-   "slug": "parfums-boises",
-   "applications": [
-    "Parfumerie et huiles parfumées",
-    "Crèmes et laits corps",
-    "Savons",
-    "Parfums d'ambiance et encens"
-   ],
-   "benefits": [
-    "Large choix de notes",
-    "Adaptés à plusieurs supports",
-    "Fiche de sécurité et allergènes fournis",
-    "Échantillon sur demande (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c3b1ffcd466ef963da",
-    "slug": "parfums-cosmetiques",
-    "name": "Parfums cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:27:57.622Z",
-   "description": "Compositions parfumées de la famille boisés et orientaux, conçues pour la cosmétique (crèmes, gels douche, shampooings, savons), la parfumerie fine et les produits d'entretien. Notes disponibles (à confirmer) : oud, oud bois, oliban, bakhour d'Arabie, ambre, musc, musc blanc, safran. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/parfums-boises.webp?v=eea43426",
-     "alt": "Parfums boisés et orientaux — photo d'illustration"
-    }
-   ],
-   "name": "Parfums boisés et orientaux",
-   "order": 99,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Parfums boisés et orientaux : oud, bois, oliban, bakhour, ambre, musc — parfumerie, cosmétiques et parfums d'ambiance.",
-    "keywords": [
-     "parfums boises",
-     "parfum cosmétique",
-     "parfum savon",
-     "parfum Maroc"
-    ]
-   },
-   "shortDescription": "Parfums boisés et orientaux : oud, bois, oliban, bakhour, ambre, musc — parfumerie, cosmétiques et parfums d'ambiance.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide parfumé"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:57.694Z"
   },
   {
    "_id": "6acb80d3b1ffcd466ef96421",
@@ -6866,70 +5469,6 @@
    "updatedAt": "2026-10-11T12:27:58.470Z"
   },
   {
-   "_id": "6acb80d4b1ffcd466ef96426",
-   "slug": "potasse-caustique",
-   "applications": [
-    "Savons liquides et savon noir",
-    "Dégraissants industriels",
-    "Détergents liquides",
-    "Ajustement du pH"
-   ],
-   "benefits": [
-    "Savons solubles et mous",
-    "Alcali puissant",
-    "Très soluble",
-    "Écailles ou paillettes (à confirmer)"
-   ],
-   "category": {
-    "_id": "6ac2edb9d4f4a95cc4e1896b",
-    "slug": "produits-chimiques-base",
-    "name": "Produits chimiques de base",
-    "sector": "detergence"
-   },
-   "createdAt": "2026-10-11T12:27:58.551Z",
-   "description": "La potasse caustique est un alcali fort, comme la soude, mais elle forme des savons mous et solubles : c'est elle qui sert à fabriquer les savons liquides, le savon noir et les pâtes de nettoyage. On l'utilise aussi dans les dégraissants, décapants et détergents liquides concentrés. Produit à manipuler avec les équipements de protection indiqués sur la fiche de données de sécurité (FDS), fournie avec chaque livraison.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/potasse-caustique.webp?v=ba167f55",
-     "alt": "Potasse caustique (KOH) — photo d'illustration"
-    }
-   ],
-   "name": "Potasse caustique (KOH)",
-   "order": 105,
-   "published": true,
-   "sectors": [
-    "cosmetique",
-    "detergence"
-   ],
-   "seo": {
-    "description": "Hydroxyde de potassium (KOH) pour savons liquides et noirs, dégraissants et détergents liquides.",
-    "keywords": [
-     "potasse caustique",
-     "KOH",
-     "hydroxyde de potassium",
-     "savon noir potasse"
-    ]
-   },
-   "shortDescription": "Hydroxyde de potassium (KOH) pour savons liquides et noirs, dégraissants et détergents liquides.",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Hydroxyde de potassium, KOH, CAS 1310-58-3. Pureté ~90 % — à confirmer"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Écailles ou paillettes blanches"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Sacs de 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:27:58.632Z"
-  },
-  {
    "_id": "6acb80d4b1ffcd466ef96427",
    "slug": "bicarbonate-de-sodium",
    "applications": [
@@ -6956,8 +5495,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/bicarbonate-de-sodium.webp?v=321613ca",
-     "alt": "Bicarbonate de sodium — photo d'illustration"
+     "url": "/images/products/bicarbonate-de-sodium.webp?v=131ab636",
+     "alt": "Bicarbonate de sodium — photo du produit"
     }
    ],
    "name": "Bicarbonate de sodium",
@@ -7272,8 +5811,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/sles-70.webp?v=614a5732",
-     "alt": "Lauryl éther sulfate de sodium 70 % (SLES) — photo d'illustration"
+     "url": "/images/products/sles-70.webp?v=603f5941",
+     "alt": "Lauryl éther sulfate de sodium 70 % (SLES) — photo du produit"
     }
    ],
    "name": "Lauryl éther sulfate de sodium 70 % (SLES)",
@@ -7336,8 +5875,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/cocamidopropyl-betaine.webp?v=4be1fa69",
-     "alt": "Cocamidopropyl bétaïne 35 % — photo d'illustration"
+     "url": "/images/products/cocamidopropyl-betaine.webp?v=594a7d3d",
+     "alt": "Cocamidopropyl bétaïne 35 % — liquide"
     }
    ],
    "name": "Cocamidopropyl bétaïne 35 %",
@@ -7590,8 +6129,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/peg-40-huile-ricin-hydrogenee.webp?v=9c5ec48d",
-     "alt": "PEG-40 huile de ricin hydrogénée — photo d'illustration"
+     "url": "/images/products/peg-40-huile-ricin-hydrogenee.webp?v=bbdfab59",
+     "alt": "PEG-40 huile de ricin hydrogénée — photo du produit"
     }
    ],
    "name": "PEG-40 huile de ricin hydrogénée",
@@ -7843,11 +6382,11 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/huile-de-silicone.webp?v=9c5ec48d",
-     "alt": "Huile de silicone — photo d'illustration"
+     "url": "/images/products/huile-de-silicone.webp?v=d72ead3f",
+     "alt": "Diméthicone 350 — photo du produit"
     }
    ],
-   "name": "Huile de silicone",
+   "name": "Diméthicone 350",
    "order": 120,
    "published": true,
    "sectors": [
@@ -7907,8 +6446,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/nacrant.webp?v=c5c1551d",
-     "alt": "Nacrant — photo d'illustration"
+     "url": "/images/products/nacrant.webp?v=be139f77",
+     "alt": "Nacrant — photo du produit"
     }
    ],
    "name": "Nacrant",
@@ -7943,6 +6482,69 @@
     }
    ],
    "updatedAt": "2026-10-11T12:28:01.419Z"
+  },
+  {
+   "_id": "6ace94e727210311a630a060",
+   "slug": "opacifiant-cosmetique",
+   "applications": [
+    "Shampooings et après-shampooings",
+    "Gels douche et bains moussants",
+    "Savons liquides pour les mains",
+    "Crèmes lavantes"
+   ],
+   "benefits": [
+    "Aspect blanc, crémeux et opaque",
+    "Masque les légères différences de teinte",
+    "Facile à incorporer à froid",
+    "Stable dans les bases tensioactives"
+   ],
+   "category": {
+    "_id": "6acb80c3b1ffcd466ef963dc",
+    "slug": "additifs-formulation",
+    "name": "Additifs de formulation",
+    "sector": "detergence"
+   },
+   "createdAt": "2026-10-13T20:30:31.661Z",
+   "description": "L'opacifiant de grade cosmétique est une émulsion blanche laiteuse qui donne aux produits lavants un aspect opaque, blanc et crémeux. Il s'incorpore facilement, généralement à froid et en fin de fabrication, dans les shampooings, gels douche, bains moussants et savons liquides. Il uniformise l'apparence des formules et met en valeur leur couleur.",
+   "documents": [],
+   "featured": false,
+   "images": [
+    {
+     "url": "/images/products/opacifiant-cosmetique.webp?v=4d3eaede",
+     "alt": "Opacifiant (grade cosmétique) — liquide"
+    }
+   ],
+   "name": "Opacifiant (grade cosmétique)",
+   "order": 121.5,
+   "published": true,
+   "sectors": [
+    "cosmetique"
+   ],
+   "seo": {
+    "description": "Opacifiant de grade cosmétique pour donner un aspect blanc, opaque et crémeux aux shampooings, gels douche et savons liquides.",
+    "keywords": [
+     "opacifiant cosmétique",
+     "opacifiant shampooing",
+     "agent opacifiant",
+     "opacifiant Maroc"
+    ]
+   },
+   "shortDescription": "Émulsion opacifiante pour donner un aspect blanc, opaque et crémeux aux shampooings, gels douche et savons liquides.",
+   "specs": [
+    {
+     "label": "Nature chimique",
+     "value": "Émulsion de copolymère acrylique (type styrène/acrylates) — composition à confirmer"
+    },
+    {
+     "label": "Forme physique",
+     "value": "Liquide blanc laiteux"
+    },
+    {
+     "label": "Conditionnement",
+     "value": "Bidons de 25 kg ; fûts de 200 kg (à confirmer)"
+    }
+   ],
+   "updatedAt": "2026-10-13T20:30:31.661Z"
   },
   {
    "_id": "6acb80d7b1ffcd466ef96437",
@@ -8160,8 +6762,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/ethanol-96.webp?v=5241c123",
-     "alt": "Alcool éthylique 96° — photo d'illustration"
+     "url": "/images/products/ethanol-96.webp?v=c6e7f3ca",
+     "alt": "Alcool éthylique 96° — photo du produit"
     }
    ],
    "name": "Alcool éthylique 96°",
@@ -8350,8 +6952,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/propylene-glycol.webp?v=5241c123",
-     "alt": "Propylène glycol — photo d'illustration"
+     "url": "/images/products/propylene-glycol.webp?v=a70c8188",
+     "alt": "Propylène glycol — photo du produit"
     }
    ],
    "name": "Propylène glycol",
@@ -8603,8 +7205,8 @@
    "featured": false,
    "images": [
     {
-     "url": "/images/products/methylparabene.webp?v=ba167f55",
-     "alt": "Méthylparabène — photo d'illustration"
+     "url": "/images/products/methylparabene.webp?v=a31b7760",
+     "alt": "Méthylparabène — photo du produit"
     }
    ],
    "name": "Méthylparabène",
@@ -8702,69 +7304,6 @@
     }
    ],
    "updatedAt": "2026-10-11T12:28:03.402Z"
-  },
-  {
-   "_id": "6acb80d8b1ffcd466ef96443",
-   "slug": "parfums-gourmands",
-   "applications": [
-    "Gels douche et laits corps",
-    "Savons et baumes à lèvres",
-    "Bougies et parfums d'ambiance",
-    "Produits d'entretien"
-   ],
-   "benefits": [
-    "Large choix de notes",
-    "Adaptés à plusieurs supports",
-    "Fiche de sécurité et allergènes fournis",
-    "Échantillon sur demande (à confirmer)"
-   ],
-   "category": {
-    "_id": "6acb80c3b1ffcd466ef963da",
-    "slug": "parfums-cosmetiques",
-    "name": "Parfums cosmétiques",
-    "sector": "cosmetique"
-   },
-   "createdAt": "2026-10-11T12:28:03.475Z",
-   "description": "Compositions parfumées de la famille gourmande, conçues pour la cosmétique (crèmes, gels douche, baumes à lèvres, savons), les bougies et parfums d'ambiance et les produits d'entretien. Notes disponibles (à confirmer) : vanille, caramel, chocolat, café, miel, nougat, noisette, pistache, amande, cola, cannelle. Chaque parfum est livré avec sa fiche de sécurité et ses informations allergènes ; dosage conseillé selon le support.",
-   "documents": [],
-   "featured": false,
-   "images": [
-    {
-     "url": "/images/products/parfums-gourmands.webp?v=1b7fb789",
-     "alt": "Parfums gourmands — photo d'illustration"
-    }
-   ],
-   "name": "Parfums gourmands",
-   "order": 134,
-   "published": true,
-   "sectors": [
-    "cosmetique"
-   ],
-   "seo": {
-    "description": "Parfums gourmands pour cosmétiques, savons et parfums d'ambiance : vanille, caramel, chocolat, café, miel, pistache…",
-    "keywords": [
-     "parfums gourmands",
-     "parfum vanille",
-     "parfum cosmétique",
-     "parfum savon"
-    ]
-   },
-   "shortDescription": "Parfums gourmands pour cosmétiques, savons et parfums d'ambiance : vanille, caramel, chocolat, café, miel, pistache…",
-   "specs": [
-    {
-     "label": "Nature chimique",
-     "value": "Composition parfumée (mélange de substances aromatiques) — IFRA et allergènes selon la référence"
-    },
-    {
-     "label": "Forme physique",
-     "value": "Liquide parfumé"
-    },
-    {
-     "label": "Conditionnement",
-     "value": "Flacons de 1 kg ; bidons de 5 kg et 25 kg (à confirmer)"
-    }
-   ],
-   "updatedAt": "2026-10-11T12:28:03.554Z"
   },
   {
    "_id": "6acb80d9b1ffcd466ef96444",

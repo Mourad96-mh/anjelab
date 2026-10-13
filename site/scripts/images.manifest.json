@@ -66,265 +66,6 @@
   }
  },
  "products": {
-  "antipilling": {
-   "title": "File:Liquid paraffin in beaker.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
-   "license": "CC BY-SA 2.5",
-   "artist": "Chemik10 (pl.wikipedia)",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "enzyme-acide": {
-   "title": "File:Beaker contains solution.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beaker%20contains%20solution.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Beaker_contains_solution.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Akshaya govindasamy",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "enzyme-neutre-stone-wash": {
-   "title": "File:Beaker contains solution.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beaker%20contains%20solution.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Beaker_contains_solution.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Akshaya govindasamy",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "colorants-noirs": {
-   "title": "Nigrosin W - Museo di Chimica Unige",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nigrosin_W_-_Museo_di_Chimica_Unige.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Nigrosin_W_-_Museo_di_Chimica_Unige.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "7Nene",
-   "source": "wikimedia"
-  },
-  "colorants-marron": {
-   "title": "Textile Dyes - Museo de Artes Populares - Patzcuaro - Michoacan - Mexico",
-   "url": "https://live.staticflickr.com/5672/19931659333_065e2d7cdc_b.jpg",
-   "page": "https://www.flickr.com/photos/41000732@N04/19931659333",
-   "license": "BY 2.0",
-   "artist": "Adam Jones, Ph.D. - Global Photo Archive",
-   "source": "flickr"
-  },
-  "colorants-bleus": {
-   "title": "File:Pigment Berliner Blau.JPG",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pigment_Berliner_Blau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Pigment_Berliner_Blau.JPG",
-   "license": "CC0",
-   "artist": "Saalebaer",
-   "source": "wikimedia"
-  },
-  "mouillant-non-ionique": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "agent-unisson": {
-   "title": "Polysorbate 80 Food additive E433",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Radiotrefoil",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "fixateur-colorants": {
-   "title": "File:Liquid paraffin in beaker.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
-   "license": "CC BY-SA 2.5",
-   "artist": "Chemik10 (pl.wikipedia)",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "adoucissant-cationique": {
-   "title": "File:Rubber liquid in cans.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubber%20liquid%20in%20cans.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Rubber_liquid_in_cans.jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "Nkansahrexford",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "microemulsion-silicone": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "azurant-optique-jaune": {
-   "title": "File:AgCO3-powder-C-white-background.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AgCO3-powder-C-white-background.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:AgCO3-powder-C-white-background.jpg",
-   "license": "Public domain",
-   "artist": "Ben Mills",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "azurant-optique-bleu": {
-   "title": "File:White solid example.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20solid%20example.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:White_solid_example.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Leiem",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "adoucissant-hydrophile": {
-   "title": "File:Liquid paraffin in beaker.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
-   "license": "CC BY-SA 2.5",
-   "artist": "Chemik10 (pl.wikipedia)",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "edta": {
-   "title": "Sample of Ethylenediaminetetraacetic acid disodium salt",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sample_of_Ethylenediaminetetraacetic_acid_disodium_salt.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Sample_of_Ethylenediaminetetraacetic_acid_disodium_salt.jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "percarbonate-de-sodium": {
-   "title": "File:BeO sample.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/BeO_sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:BeO_sample.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Leiem",
-   "source": "wikimedia"
-  },
-  "acide-citrique": {
-   "title": "File:Citronensäure.JPG",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Citronens%C3%A4ure.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Citronens%C3%A4ure.JPG",
-   "license": "CC BY-SA 3.0",
-   "artist": "Renate90",
-   "source": "wikimedia"
-  },
-  "acide-acetique": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "fixateur-serigraphie-impression": {
-   "title": "File:Liquid paraffin in beaker.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liquid%20paraffin%20in%20beaker.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Liquid_paraffin_in_beaker.jpg",
-   "license": "CC BY-SA 2.5",
-   "artist": "Chemik10 (pl.wikipedia)",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "liant-serigraphie-impression": {
-   "title": "File:Rubber liquid in cans.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubber%20liquid%20in%20cans.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Rubber_liquid_in_cans.jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "Nkansahrexford",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "emulsion-apprets-textile": {
-   "title": "File:Water drop on fabric.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Water_drop_on_fabric.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Water_drop_on_fabric.jpg",
-   "license": "CC BY 4.0",
-   "artist": "Juan Francisco Jiménez Ortega",
-   "source": "wikimedia"
-  },
-  "inhibiteur-de-corrosion": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "emulsion-silicone": {
-   "title": "Cream texture background",
-   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzMzMTQxLWltYWdlLWt3dndreGphLmpwZw.jpg",
-   "page": "https://www.rawpixel.com/image/5915411/image-background-texture-public-domain",
-   "license": "CC0 1.0",
-   "artist": "",
-   "source": "rawpixel"
-  },
-  "carbonate-de-sodium": {
-   "title": "File:Siřičitan sodný vzorek.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Si%C5%99i%C4%8Ditan_sodn%C3%BD_vzorek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-   "page": "https://commons.wikimedia.org/wiki/File:Si%C5%99i%C4%8Ditan_sodn%C3%BD_vzorek.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Milda 444",
-   "source": "wikimedia"
-  },
-  "metabisulfite-de-sodium": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "acide-glycolique": {
-   "title": "Salicylic acid crystals (1)",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Salicylic_acid_crystals_%281%29.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=11915153",
-   "license": "BY-SA 3.0",
-   "artist": "Secretservgy at English Wikipedia",
-   "source": "wikimedia"
-  },
-  "acide-hyaluronique-haut-poids-moleculaire": {
-   "title": "Dropper bottle, blank retro label",
-   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2JzMjMzLWltYWdlLmpwZw.jpg",
-   "page": "https://www.rawpixel.com/image/11515770/dropper-bottle-blank-retro-label",
-   "license": "CC0 1.0",
-   "artist": "",
-   "source": "rawpixel"
-  },
-  "acide-hyaluronique-bas-poids-moleculaire": {
-   "title": "Serum Bottle - Anti Rh Sensitizing, 1960s",
-   "url": "https://collections.museumsvictoria.com.au/content/media/24/347374-large.jpg",
-   "page": "https://collections.museumsvictoria.com.au/items/717558",
-   "license": "BY 4.0",
-   "artist": "",
-   "source": "museumsvictoria"
-  },
-  "acide-kojique": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "acide-salicylique": {
-   "title": "Salicylic acid crystals (1)",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Salicylic_acid_crystals_%281%29.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=11915153",
-   "license": "BY-SA 3.0",
-   "artist": "Secretservgy at English Wikipedia",
-   "source": "wikimedia"
-  },
-  "acni-bio": {
-   "title": "Dropper bottle, blank retro label",
-   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2JzMjMzLWltYWdlLmpwZw.jpg",
-   "page": "https://www.rawpixel.com/image/11515770/dropper-bottle-blank-retro-label",
-   "license": "CC0 1.0",
-   "artist": "",
-   "source": "rawpixel"
-  },
   "alpha-arbutine": {
    "title": "Sample of sulfamic acid",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
@@ -342,139 +83,7 @@
    "source": "wikimedia",
    "position": "centre"
   },
-  "retinol-liquide": {
-   "title": "File:Retinol-2023-03-24.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Retinol-2023-03-24.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Retinol-2023-03-24.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Vauia Rex",
-   "source": "wikimedia",
-   "position": "north"
-  },
-  "retinol-poudre": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "vitamine-c": {
-   "title": "Dropper bottle, blank retro label",
-   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2JzMjMzLWltYWdlLmpwZw.jpg",
-   "page": "https://www.rawpixel.com/image/11515770/dropper-bottle-blank-retro-label",
-   "license": "CC0 1.0",
-   "artist": "",
-   "source": "rawpixel"
-  },
-  "vitamine-e": {
-   "title": "Vitamin E lotion",
-   "url": "https://live.staticflickr.com/110/283470811_0fed663493_b.jpg",
-   "page": "https://www.flickr.com/photos/95142644@N00/283470811",
-   "license": "BY 2.0",
-   "artist": "Ruth and Dave",
-   "source": "flickr"
-  },
-  "provitamine-b5": {
-   "title": "Panthenol Spray auf der Haut",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Panthenol_Spray_auf_der_Haut.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=139397616",
-   "license": "BY-SA 4.0",
-   "artist": "Robbespairs",
-   "source": "wikimedia"
-  },
-  "glycerine": {
-   "title": "Glycerin",
-   "url": "https://live.staticflickr.com/1099/4600628855_c17c609191_b.jpg",
-   "page": "https://www.flickr.com/photos/58836902@N00/4600628855",
-   "license": "BY 2.0",
-   "artist": "Markus Reinhardt",
-   "source": "flickr"
-  },
-  "sorbitol": {
-   "title": "Glycerin",
-   "url": "https://live.staticflickr.com/1099/4600628855_c17c609191_b.jpg",
-   "page": "https://www.flickr.com/photos/58836902@N00/4600628855",
-   "license": "BY 2.0",
-   "artist": "Markus Reinhardt",
-   "source": "flickr"
-  },
-  "betaine": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
   "uree": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "alcool-cetylique": {
-   "title": "Cetyl alcohol",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Cetyl_alcohol.png",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=883318",
-   "license": "BY-SA 3.0",
-   "artist": "Jesse",
-   "source": "wikimedia"
-  },
-  "alcool-cetearylique": {
-   "title": "Paraffin wax",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Paraffin_wax.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=17447063",
-   "license": "BY-SA 3.0",
-   "artist": "Cjp24",
-   "source": "wikimedia"
-  },
-  "stearate-de-glyceryle": {
-   "title": "File:Stearinsäure auf Uhrglas.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stearinsäure%20auf%20Uhrglas.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Stearinsäure_auf_Uhrglas.jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "Gmhofmann",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "polysorbate-20": {
-   "title": "Polysorbate 80 Food additive E433",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Radiotrefoil",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "polysorbate-60": {
-   "title": "File:Cubic phase gel.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cubic%20phase%20gel.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Cubic_phase_gel.jpg",
-   "license": "CC0",
-   "artist": "Olli Niemitalo",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "polysorbate-80": {
-   "title": "Polysorbate 80 Food additive E433",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Radiotrefoil",
-   "source": "wikimedia"
-  },
-  "coco-glucoside": {
-   "title": "Coconut (halved)",
-   "url": "https://live.staticflickr.com/3563/3330701660_519ed53c46_b.jpg",
-   "page": "https://www.flickr.com/photos/35832540@N03/3330701660",
-   "license": "BY 2.0",
-   "artist": "SingChan",
-   "source": "flickr"
-  },
-  "carbomer-980": {
    "title": "Sample of sulfamic acid",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
    "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
@@ -500,30 +109,6 @@
    "source": "wikimedia",
    "position": "bottom"
   },
-  "polyquaternium-7": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "triethanolamine": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "phenoxyethanol": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
   "benzoate-de-sodium": {
    "title": "Sample of sulfamic acid",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
@@ -531,30 +116,6 @@
    "license": "BY-SA 3.0",
    "artist": "LHcheM",
    "source": "wikimedia"
-  },
-  "sorbate-de-potassium": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "beurre-de-cacao": {
-   "title": "Cocoa butter p1410148",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cocoa_butter_p1410148.JPG",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=3139704",
-   "license": "BY-SA 3.0",
-   "artist": "David Monniaux",
-   "source": "wikimedia"
-  },
-  "beurre-de-karite": {
-   "title": "100% Natural African Shea Butter",
-   "url": "https://live.staticflickr.com/2564/3760127384_9eee5a4e89_b.jpg",
-   "page": "https://www.flickr.com/photos/44124370018@N01/3760127384",
-   "license": "BY 2.0",
-   "artist": "daveynin",
-   "source": "flickr"
   },
   "huile-amande-douce": {
    "title": "File:SweetAlmondOil.png",
@@ -565,30 +126,6 @@
    "source": "wikimedia",
    "position": "centre"
   },
-  "huile-de-coco": {
-   "title": "Coconut Oil",
-   "url": "https://live.staticflickr.com/2756/4404443713_af1af58731_b.jpg",
-   "page": "https://www.flickr.com/photos/31104779@N02/4404443713",
-   "license": "BY-SA 2.0",
-   "artist": "Veganbaking.net",
-   "source": "flickr"
-  },
-  "huile-avocat": {
-   "title": "Avocado oil freshly extracted in a mill in Mexico",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Avocado_oil_freshly_extracted_in_a_mill_in_Mexico.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Avocado_oil_freshly_extracted_in_a_mill_in_Mexico.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Amenduni",
-   "source": "wikimedia"
-  },
-  "huile-de-jojoba": {
-   "title": "Jojoba-oil",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Jojoba-oil.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Jojoba-oil.jpg",
-   "license": "CC BY-SA 2.0",
-   "artist": "Adam Engelhart (Flickr user: tellumo) ( https://www.flickr.com/photos/tellumo/ )",
-   "source": "wikimedia"
-  },
   "huile-de-nigelle": {
    "title": "Black Cumin Oil - Nigella Sativa",
    "url": "https://live.staticflickr.com/8197/28811910552_45e4f81c65_b.jpg",
@@ -597,215 +134,6 @@
    "artist": "philipp.alexander.ernst",
    "source": "flickr",
    "position": "centre"
-  },
-  "huile-pepins-de-raisin": {
-   "title": "grape seed oil",
-   "url": "https://live.staticflickr.com/1232/4594565623_684f60162a_b.jpg",
-   "page": "https://www.flickr.com/photos/37176760@N06/4594565623",
-   "license": "BY 2.0",
-   "artist": "jronaldlee",
-   "source": "flickr"
-  },
-  "huile-de-ricin": {
-   "title": "Castor bean plant",
-   "url": "https://live.staticflickr.com/129/371550056_95f1de031c_b.jpg",
-   "page": "https://www.flickr.com/photos/91314344@N00/371550056",
-   "license": "BY-SA 2.0",
-   "artist": "Dinesh Valke",
-   "source": "flickr"
-  },
-  "huile-de-paraffine": {
-   "title": "Mineral oil bottle, front",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Mineral_oil_bottle%2C_front.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Mineral_oil_bottle,_front.jpg",
-   "license": "CC BY-SA 2.0",
-   "artist": "Angela Mabray",
-   "source": "wikimedia"
-  },
-  "myristate-isopropyle": {
-   "title": "File:Optical caustic Cosmetic oil bottle in the sun mj.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Optical_caustic_Cosmetic_oil_bottle_in_the_sun_mj.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=64704361",
-   "license": "BY 4.0",
-   "artist": "Mariojan photo",
-   "source": "wikimedia"
-  },
-  "cire-abeille-blanche": {
-   "title": "honeycomb",
-   "url": "https://live.staticflickr.com/3563/3686853553_9b095faf50_b.jpg",
-   "page": "https://www.flickr.com/photos/12376942@N08/3686853553",
-   "license": "BY 2.0",
-   "artist": "Scrap Pile",
-   "source": "flickr"
-  },
-  "cire-abeille-jaune": {
-   "title": "Beeswax Candles",
-   "url": "https://live.staticflickr.com/3029/3048487229_7104785780_b.jpg",
-   "page": "https://www.flickr.com/photos/72139255@N00/3048487229",
-   "license": "BY 2.0",
-   "artist": "veggiefrog",
-   "source": "flickr"
-  },
-  "cire-de-paraffine": {
-   "title": "Paraffin wax",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Paraffin_wax.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=17447063",
-   "license": "BY-SA 3.0",
-   "artist": "Cjp24",
-   "source": "wikimedia"
-  },
-  "vaseline": {
-   "title": "File:White Petrolatum1.jpg",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Petrolatum1.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:White_Petrolatum1.jpg",
-   "license": "CC BY-SA 3.0",
-   "artist": "Kiyok",
-   "source": "wikimedia",
-   "position": "centre"
-  },
-  "extrait-aloe-vera": {
-   "title": "Aloe Vera",
-   "url": "https://live.staticflickr.com/7180/6832551818_acc92636d4_b.jpg",
-   "page": "https://www.flickr.com/photos/99717632@N00/6832551818",
-   "license": "BY 2.0",
-   "artist": "WILLPOWER STUDIOS",
-   "source": "flickr"
-  },
-  "extrait-de-calendula": {
-   "title": "Calendula officinalis",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Calendula_officinalis.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=3037031",
-   "license": "BY-SA 3.0",
-   "artist": "Tocekas",
-   "source": "wikimedia"
-  },
-  "extrait-de-camomille": {
-   "title": "Chamomile Flowers",
-   "url": "https://live.staticflickr.com/305/19303821812_075e710866_b.jpg",
-   "page": "https://www.flickr.com/photos/97123293@N07/19303821812",
-   "license": "BY 2.0",
-   "artist": "Swallowtail Garden Seeds",
-   "source": "flickr"
-  },
-  "extrait-de-reglisse": {
-   "title": "Sections of liquorice root",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sections_of_liquorice_root.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=128552213",
-   "license": "BY-SA 4.0",
-   "artist": "Salil Kumar Mukherjee",
-   "source": "wikimedia"
-  },
-  "eau-de-rose": {
-   "title": "Damask Rose 'Omar Khayyam'",
-   "url": "https://live.staticflickr.com/3164/2552869923_969a44ea3f_b.jpg",
-   "page": "https://www.flickr.com/photos/15181848@N02/2552869923",
-   "license": "BY-SA 2.0",
-   "artist": "amandabhslater",
-   "source": "flickr"
-  },
-  "proteine-de-ble": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "proteine-de-soie": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "proteine-de-soja": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "oxyde-de-titane": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "oxyde-de-zinc": {
-   "title": "Zinc oxide powder",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Zinc_oxide_powder.JPG",
-   "page": "https://commons.wikimedia.org/wiki/File:Zinc_oxide_powder.JPG",
-   "license": "Public domain",
-   "artist": "Chemicalinterest",
-   "source": "wikimedia"
-  },
-  "charbon-actif": {
-   "title": "Activated Carbon",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Activated_Carbon.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=1038326",
-   "license": "BY 2.5",
-   "artist": "Ravedave (talk)",
-   "source": "wikimedia"
-  },
-  "sulfate-de-magnesium": {
-   "title": "Salicylic acid crystals (1)",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Salicylic_acid_crystals_%281%29.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=11915153",
-   "license": "BY-SA 3.0",
-   "artist": "Secretservgy at English Wikipedia",
-   "source": "wikimedia"
-  },
-  "colorants-mica": {
-   "title": "Aluminium pigment powder",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aluminium_pigment_powder.JPG",
-   "page": "https://commons.wikimedia.org/wiki/File:Aluminium_pigment_powder.JPG",
-   "license": "Public domain",
-   "artist": "FK1954",
-   "source": "wikimedia"
-  },
-  "parfums-floraux": {
-   "title": "Jasmine flower",
-   "url": "https://live.staticflickr.com/24/55899534_7b9bf0605f_b.jpg",
-   "page": "https://www.flickr.com/photos/78563636@N00/55899534",
-   "license": "BY-SA 2.0",
-   "artist": "snopek",
-   "source": "flickr"
-  },
-  "parfums-fruites": {
-   "title": "Fresh Fruit served daily at Punta Ballena",
-   "url": "https://live.staticflickr.com/5046/5318347675_61db0609bb_b.jpg",
-   "page": "https://www.flickr.com/photos/53532723@N00/5318347675",
-   "license": "BY-SA 2.0",
-   "artist": "leyla.a",
-   "source": "flickr"
-  },
-  "parfums-hesperides": {
-   "title": "Citrus Fruit",
-   "url": "https://live.staticflickr.com/5600/15445225125_466a65d8f0_b.jpg",
-   "page": "https://www.flickr.com/photos/89165847@N00/15445225125",
-   "license": "BY-SA 2.0",
-   "artist": "mikecogh",
-   "source": "flickr"
-  },
-  "parfums-aromatiques": {
-   "title": "Lavender Field - Clairmont Farms",
-   "url": "https://live.staticflickr.com/4118/4802806954_cf2b8018fc_b.jpg",
-   "page": "https://www.flickr.com/photos/11418908@N07/4802806954",
-   "license": "BY 2.0",
-   "artist": "puliarf",
-   "source": "flickr"
-  },
-  "parfums-boises": {
-   "title": "File:Optical caustic Cosmetic oil bottle in the sun mj.jpg",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Optical_caustic_Cosmetic_oil_bottle_in_the_sun_mj.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=64704361",
-   "license": "BY 4.0",
-   "artist": "Mariojan photo",
-   "source": "wikimedia"
   },
   "acide-phosphorique": {
    "title": "chemistry bottles with liquid inside",
@@ -847,22 +175,6 @@
    "artist": "LHcheM",
    "source": "wikimedia"
   },
-  "potasse-caustique": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
-  "bicarbonate-de-sodium": {
-   "title": "Sodium Bicarbonate (1)",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sodium_Bicarbonate_%281%29.JPG",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=9964101",
-   "license": "BY 3.0",
-   "artist": "Intropin",
-   "source": "wikimedia"
-  },
   "borax": {
    "title": "Sample of sulfamic acid",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
@@ -895,23 +207,6 @@
    "artist": "Kai Hendry",
    "source": "flickr"
   },
-  "sles-70": {
-   "title": "Shaving Foam Bubbles. 3.",
-   "url": "https://live.staticflickr.com/8629/15996194323_a7930874d1_b.jpg",
-   "page": "https://www.flickr.com/photos/125216703@N02/15996194323",
-   "license": "BY 2.0",
-   "artist": "Adaptalux",
-   "source": "flickr"
-  },
-  "cocamidopropyl-betaine": {
-   "title": "Polysorbate 80 Food additive E433",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
-   "page": "https://commons.wikimedia.org/wiki/File:Polysorbate_80_Food_additive_E433.jpg",
-   "license": "CC BY-SA 4.0",
-   "artist": "Radiotrefoil",
-   "source": "wikimedia",
-   "position": "centre"
-  },
   "cocamide-dea": {
    "title": "Polysorbate 80 Food additive E433",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Polysorbate_80_Food_additive_E433.jpg",
@@ -937,14 +232,6 @@
    "artist": "Hammelmann Oelde",
    "source": "wikimedia"
   },
-  "peg-40-huile-ricin-hydrogenee": {
-   "title": "Rated-viscosity silicone oils - силиконовые масла нормрованной вязкости",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Rated-viscosity_silicone_oils_-_%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BC%D0%B0%D1%81%D0%BB%D0%B0_%D0%BD%D0%BE%D1%80%D0%BC%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9_%D0%B2%D1%8F%D0%B7%D0%BA%D0%BE%D1%81%D1%82%D0%B8.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=125365693",
-   "license": "CC0 1.0",
-   "artist": "Retired electrician",
-   "source": "wikimedia"
-  },
   "cmc": {
    "title": "Sample of sulfamic acid",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
@@ -962,22 +249,6 @@
    "source": "wikimedia"
   },
   "anti-mousse": {
-   "title": "Cream texture background",
-   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzMzMTQxLWltYWdlLWt3dndreGphLmpwZw.jpg",
-   "page": "https://www.rawpixel.com/image/5915411/image-background-texture-public-domain",
-   "license": "CC0 1.0",
-   "artist": "",
-   "source": "rawpixel"
-  },
-  "huile-de-silicone": {
-   "title": "Rated-viscosity silicone oils - силиконовые масла нормрованной вязкости",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Rated-viscosity_silicone_oils_-_%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BC%D0%B0%D1%81%D0%BB%D0%B0_%D0%BD%D0%BE%D1%80%D0%BC%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B9_%D0%B2%D1%8F%D0%B7%D0%BA%D0%BE%D1%81%D1%82%D0%B8.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=125365693",
-   "license": "CC0 1.0",
-   "artist": "Retired electrician",
-   "source": "wikimedia"
-  },
-  "nacrant": {
    "title": "Cream texture background",
    "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzMzMTQxLWltYWdlLWt3dndreGphLmpwZw.jpg",
    "page": "https://www.rawpixel.com/image/5915411/image-background-texture-public-domain",
@@ -1010,14 +281,6 @@
    "artist": "zhouxuan12345678",
    "source": "flickr"
   },
-  "ethanol-96": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
   "isopropanol": {
    "title": "chemistry bottles with liquid inside",
    "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
@@ -1027,14 +290,6 @@
    "source": "flickr"
   },
   "monoethylene-glycol": {
-   "title": "chemistry bottles with liquid inside",
-   "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
-   "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
-   "license": "BY-SA 2.0",
-   "artist": "zhouxuan12345678",
-   "source": "flickr"
-  },
-  "propylene-glycol": {
    "title": "chemistry bottles with liquid inside",
    "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
    "page": "https://www.flickr.com/photos/53921113@N02/5645102295",
@@ -1066,14 +321,6 @@
    "artist": "zhouxuan12345678",
    "source": "flickr"
   },
-  "methylparabene": {
-   "title": "Sample of sulfamic acid",
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sample_of_sulfamic_acid.jpg",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=19390787",
-   "license": "BY-SA 3.0",
-   "artist": "LHcheM",
-   "source": "wikimedia"
-  },
   "biocide-detergents": {
    "title": "chemistry bottles with liquid inside",
    "url": "https://live.staticflickr.com/5183/5645102295_e4a6279691_b.jpg",
@@ -1081,23 +328,6 @@
    "license": "BY-SA 2.0",
    "artist": "zhouxuan12345678",
    "source": "flickr"
-  },
-  "parfums-gourmands": {
-   "title": "Vanilla pods on the spice farm tour",
-   "url": "https://live.staticflickr.com/3117/3109471403_fa18a0211b_b.jpg",
-   "page": "https://www.flickr.com/photos/35034362215@N01/3109471403",
-   "license": "BY-SA 2.0",
-   "artist": "sociate",
-   "source": "flickr"
-  },
-  "ceteareth-20": {
-   "title": "File:Stearic acid black background.JPG",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stearic%20acid%20black%20background.JPG",
-   "page": "https://commons.wikimedia.org/wiki/File:Stearic_acid_black_background.JPG",
-   "license": "CC BY-SA 3.0",
-   "artist": "Jan Jabłoński",
-   "source": "wikimedia",
-   "position": "centre"
   },
   "azurant-optique-lessive": {
    "title": "File:Pentadecylic or pentadecanoic acid powder in weighboat.jpg",

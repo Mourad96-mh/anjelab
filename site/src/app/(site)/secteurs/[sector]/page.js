@@ -29,7 +29,9 @@ export default async function SectorPage({ params }) {
   if (!sector) notFound();
   const catalogue = await getCatalogue();
   const products = productsOfSector(catalogue, slug);
-  const categories = catalogue.categories.filter((c) => c.sector === slug || products.some((p) => String(p.category?._id) === String(c._id)));
+  // Textile and cosmetics list their products without the filter sidebar.
+  const filters = !["ennoblissement-textile", "cosmetique"].includes(slug);
+  const categories = !filters ? [] : catalogue.categories.filter((c) => c.sector === slug || products.some((p) => String(p.category?._id) === String(c._id)));
 
   return (
     <>
@@ -37,7 +39,7 @@ export default async function SectorPage({ params }) {
       <section className="section" style={{ paddingTop: 44 }}>
         <div className="container">
           {products.length ? (
-            <CatalogueBrowser products={products} categories={categories} sectors={[]} />
+            <CatalogueBrowser products={products} categories={categories} sectors={[]} filters={filters} />
           ) : (
             <div className="empty">
               <p>

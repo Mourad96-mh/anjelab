@@ -8,7 +8,7 @@ export const SECTORS = [
     short: "Laverie industrielle, délavage denim, blanchisserie et pressing.",
     icon: "textile",
     intro:
-      "Pour les laveries industrielles, les ateliers de délavage denim, les blanchisseries et les pressings, ANJELAB fournit les matières premières qui accompagnent chaque étape du traitement : enzymes de délavage et de biopolissage, colorants et auxiliaires de teinture, adoucissants et silicones, azurants optiques, produits d'impression et produits chimiques de base. Notre objectif : des bains maîtrisés, un rendu régulier d'un lot à l'autre et un toucher qui valorise le vêtement fini.",
+      "Pour les laveries industrielles, les ateliers de délavage denim, les blanchisseries et les pressings, ANJELAB fournit les matières premières qui accompagnent chaque étape du traitement : enzymes de délavage et de biopolissage, colorants et auxiliaires de teinture, adoucissants et silicones, azurants optiques, produits d'impression et produits chimiques de base. Vente en gros et en détail.",
     seoTitle: "Produits chimiques pour laverie, blanchisserie et pressing au Maroc",
   },
   {

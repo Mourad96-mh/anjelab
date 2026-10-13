@@ -16,7 +16,8 @@ const VIEW_KEY = "anjelab:catalogue-view";
 
 // Search + sector + category filters, grid or technical-list view. The server
 // renders every product link first (crawlable); filtering only hides cards.
-export default function CatalogueBrowser({ products, categories, sectors, initialSector = "" }) {
+// `filters` = false drops the sidebar.
+export default function CatalogueBrowser({ products, categories, sectors, initialSector = "", filters = true }) {
   const [q, setQ] = useState("");
   const [sector, setSector] = useState(initialSector);
   const [category, setCategory] = useState("");
@@ -58,59 +59,63 @@ export default function CatalogueBrowser({ products, categories, sectors, initia
   const spec = (p, label) => p.specs?.find((s) => s.label === label)?.value?.replace(/\s*\(.*?\)\s*/g, " ").trim();
 
   return (
-    <div className="catalogue">
-      <aside className="filters" aria-label="Filtres">
-        <div className="search-box">
-          <label htmlFor="q" className="visually-hidden">
-            Rechercher un produit
-          </label>
-          <Icon name="search" />
-          <input id="q" type="search" placeholder="Nom, usage, mot-clé…" value={q} onChange={(e) => setQ(e.target.value)} />
-        </div>
-        {sectors.length ? (
-          <div>
-            <h2>Marché</h2>
-            <ul className="filter-list">
-              <li>
-                <button type="button" aria-pressed={!sector} onClick={() => setSector("")}>
-                  Tous <span className="n">{products.length}</span>
-                </button>
-              </li>
-              {sectors.map((s) => (
-                <li key={s.slug}>
-                  <button
-                    type="button"
-                    aria-pressed={sector === s.slug}
-                    onClick={() => {
-                      setSector(s.slug);
-                      setCategory("");
-                    }}
-                  >
-                    {s.name} <span className="n">{count((p) => p.sectors.includes(s.slug))}</span>
+    <div className={filters ? "catalogue" : "catalogue catalogue-full"}>
+      {filters ? (
+        <aside className="filters" aria-label="Filtres">
+          <div className="search-box">
+            <label htmlFor="q" className="visually-hidden">
+              Rechercher un produit
+            </label>
+            <Icon name="search" />
+            <input id="q" type="search" placeholder="Nom, usage, mot-clé…" value={q} onChange={(e) => setQ(e.target.value)} />
+          </div>
+          {sectors.length ? (
+            <div>
+              <h2>Marché</h2>
+              <ul className="filter-list">
+                <li>
+                  <button type="button" aria-pressed={!sector} onClick={() => setSector("")}>
+                    Tous <span className="n">{products.length}</span>
                   </button>
                 </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-        <div>
-          <h2>Gamme</h2>
-          <ul className="filter-list">
-            <li>
-              <button type="button" aria-pressed={!category} onClick={() => setCategory("")}>
-                Toutes
-              </button>
-            </li>
-            {visibleCategories.map((c) => (
-              <li key={c._id}>
-                <button type="button" aria-pressed={category === c.slug} onClick={() => setCategory(c.slug)}>
-                  {c.name} <span className="n">{count((p) => p.category?.slug === c.slug)}</span>
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </aside>
+                {sectors.map((s) => (
+                  <li key={s.slug}>
+                    <button
+                      type="button"
+                      aria-pressed={sector === s.slug}
+                      onClick={() => {
+                        setSector(s.slug);
+                        setCategory("");
+                      }}
+                    >
+                      {s.name} <span className="n">{count((p) => p.sectors.includes(s.slug))}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {categories.length ? (
+            <div>
+              <h2>Gamme</h2>
+              <ul className="filter-list">
+                <li>
+                  <button type="button" aria-pressed={!category} onClick={() => setCategory("")}>
+                    Toutes
+                  </button>
+                </li>
+                {visibleCategories.map((c) => (
+                  <li key={c._id}>
+                    <button type="button" aria-pressed={category === c.slug} onClick={() => setCategory(c.slug)}>
+                      {c.name} <span className="n">{count((p) => p.category?.slug === c.slug)}</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+        </aside>
+      ) : null}
 
       <div>
         <div className="results-bar">
@@ -161,7 +166,7 @@ export default function CatalogueBrowser({ products, categories, sectors, initia
               <thead>
                 <tr>
                   <th>Produit</th>
-                  <th>Gamme</th>
+                  {categories.length ? <th>Gamme</th> : null}
                   <th>Forme</th>
                   <th>Marchés</th>
                   <th aria-label="Devis" />
@@ -172,9 +177,8 @@ export default function CatalogueBrowser({ products, categories, sectors, initia
                   <tr key={p._id}>
                     <td>
                       <Link href={`/produit/${p.slug}/`}>{p.name}</Link>
-                      <div className="desc">{p.shortDescription}</div>
                     </td>
-                    <td>{p.category?.name}</td>
+                    {categories.length ? <td>{p.category?.name}</td> : null}
                     <td>{spec(p, "Forme physique") || "—"}</td>
                     <td>{p.sectors.map(sectorName).join(", ")}</td>
                     <td>

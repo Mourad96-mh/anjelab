@@ -11,7 +11,7 @@ import { SECTORS } from "@/lib/sectors";
 
 const NAV = [
   { href: "/produits/", label: "Produits", mega: true },
-  { href: "/secteurs/ennoblissement-textile/", label: "Textile & laverie" },
+  { href: "/secteurs/ennoblissement-textile/", label: "Ennoblissement textile" },
   { href: "/secteurs/detergence/", label: "Détergence" },
   { href: "/secteurs/cosmetique/", label: "Cosmétique" },
   { href: "/a-propos/", label: "Société" },

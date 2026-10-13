@@ -11,11 +11,9 @@ export default function ProductCard({ product }) {
         <ProductVisual product={product} />
       </Link>
       <div className="body">
-        {product.category?.name ? <span className="cat">{product.category.name}</span> : null}
         <h3>
           <Link href={href}>{product.name}</Link>
         </h3>
-        {product.shortDescription ? <p>{product.shortDescription}</p> : null}
         <div className="actions">
           <Link href={href} className="link-arrow" style={{ fontSize: "0.88rem" }}>
             Fiche produit <Icon name="arrow" />
